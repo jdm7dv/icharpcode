@@ -1,0 +1,7 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\Misc\SharpDevelopReports\Irony.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\Misc\SharpDevelopReports\Irony.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\Irony\obj\Debug\Irony.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\Irony\obj\Debug\Irony.Microsoft.MathResources.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\Irony\obj\Debug\Irony.csproj.GenerateResource.Cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\Irony\obj\Debug\Irony.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\Irony\obj\Debug\Irony.pdb

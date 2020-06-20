@@ -1,0 +1,51 @@
+<TEMPLATES VERSION="1">
+  <TEMPLATE SHORTCUT="classp" DESCRIPTION="class declaration (public)">public class |
+{
+	
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="forb" DESCRIPTION="for block">for (|; ; ) {
+
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="fors" DESCRIPTION="for (no braces)">for (|; ; )</TEMPLATE>
+  <TEMPLATE SHORTCUT="ifb" DESCRIPTION="if statement">if (|) {
+	
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="ife" DESCRIPTION="if else">if (|) {
+	
+} else {
+	
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="ifs" DESCRIPTION="if statement (no braces)">if (|)</TEMPLATE>
+  <TEMPLATE SHORTCUT="switchd" DESCRIPTION="switch statement (with default)">switch (|) {
+case:
+case:
+default:
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="switchs" DESCRIPTION="switch statement">switch (|) {
+case :
+case :
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="tryc" DESCRIPTION="try / catch">try {
+|
+} catch (Exception) {
+	
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="trycf" DESCRIPTION="try / catch / finally">try {
+|
+} catch (Exception) {
+
+} finally {
+
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="tryf" DESCRIPTION="try / finally">try {
+|
+} finally {
+
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="whileb" DESCRIPTION="while">while (|) {
+
+}</TEMPLATE>
+  <TEMPLATE SHORTCUT="whiles" DESCRIPTION="while (no braces)">while (|)</TEMPLATE>
+  <TEMPLATE SHORTCUT="scwl" DESCRIPTION="System.Console.WriteLine">System.Console.WriteLine(|);</TEMPLATE>
+  <TEMPLATE SHORTCUT="scw" DESCRIPTION="System.Console.Write">System.Console.Write(|);</TEMPLATE>
+</TEMPLATES>

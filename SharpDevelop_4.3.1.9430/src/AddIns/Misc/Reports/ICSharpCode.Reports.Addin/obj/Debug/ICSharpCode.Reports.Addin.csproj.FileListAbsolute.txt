@@ -1,0 +1,8 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Addin\obj\Debug\ICSharpCode.Reports.Addin.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Addin\obj\Debug\ICSharpCode.Reports.Addin.ExpressionEditor.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Addin\obj\Debug\ICSharpCode.Reports.Addin.AbstractItem.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Addin\obj\Debug\ICSharpCode.Reports.Addin.ReportWizard.LayoutPanelControl.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Addin\obj\Debug\ICSharpCode.Reports.Addin.ReportWizard.PullModelPanel.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Addin\obj\Debug\ICSharpCode.Reports.Addin.ReportWizard.PushModelPanel.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Addin\obj\Debug\ICSharpCode.Reports.Addin.ReportWizard.ResultPanel.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Addin\obj\Debug\ICSharpCode.Reports.Addin.csproj.GenerateResource.Cache

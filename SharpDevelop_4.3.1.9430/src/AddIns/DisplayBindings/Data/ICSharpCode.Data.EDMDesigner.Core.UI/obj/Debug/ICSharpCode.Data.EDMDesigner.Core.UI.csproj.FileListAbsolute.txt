@@ -1,0 +1,17 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\SelectionRectangleResourceDictionary.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\Mapping\AssociationMapping.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\Mapping\Mapping.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\Mapping\PropertiesMapping.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\PropertyGrid.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\Relations\Association.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\Relations\ComplexPropertyRelation.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\Relations\InheritanceRelation.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\UserControls\Relations\RelationContener.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\Windows\AddAssociationEnd.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\Windows\AddAssociationWindow.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\Windows\AddComplexPropertyWindow.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\Windows\AddComplexTypeWindow.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\Windows\AddScalarPropertyWindow.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\ICSharpCode.Data.EDMDesigner.Core.UI_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core.UI\obj\Debug\ICSharpCode.Data.EDMDesigner.Core.UI_MarkupCompile.lref

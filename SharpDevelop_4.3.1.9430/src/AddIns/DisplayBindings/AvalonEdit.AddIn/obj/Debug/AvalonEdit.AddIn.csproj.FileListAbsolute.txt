@@ -1,0 +1,15 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\AvalonEdit.AddIn.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\DiffControl.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\ChooseEncodingDialog.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\Snippets\SnippetOptionPanel.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\QuickClassBrowser.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\DiffControl.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\HiddenDefinition\HiddenDefinitionControl.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\SharpDevelopCompletionWindow.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\ChooseEncodingDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\Commands\SortOptionsDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\Snippets\SnippetOptionPanel.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\Src\QuickClassBrowser.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\ICSharpCode.AvalonEdit.AddIn_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\AvalonEdit.AddIn\obj\Debug\ICSharpCode.AvalonEdit.AddIn_MarkupCompile.lref

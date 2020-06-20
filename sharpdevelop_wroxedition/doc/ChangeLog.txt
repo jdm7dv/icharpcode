@@ -1,0 +1,1206 @@
+<changelog project="SharpDevelop">
+	
+	<change author="Mike Krueger" date = "10/20/2002">
+		bugfixed the rename project feature: startup project and
+		project references now get updated
+	</change>
+	
+	<change author="Shinsaku Nakagawa" date = "10/19/2002">
+		refactored java/vb.net project structures
+	</change>
+	
+	<change author="Shinsaku Nakagawa" date = "10/19/2002">
+		bugfix in the C# forms project template
+	</change>
+
+	<change author="Mike Krueger" date = "10/19/2002">
+		fixed a window selection bug in the mdi layout (I don't
+		think that it was released in .91)
+	</change>
+
+	<change author="Shinsaku Nakagawa" date = "10/18/2002">
+		bugfix in the java backend binding
+	</change>
+
+	<change author="Mike Krueger" date = "10/18/2002">
+		The context menus in the forms designer are no longer auto
+		generated (they do look nicer now)
+	</change>
+
+	<change author="Shinsaku Nakagawa" date = "10/15/2002">
+		fixed set color code generation bug in the forms designer
+	</change>
+
+	<change author="Mike Krueger" date = "10/15/2002">
+		XML loading/code generation bugfixes
+	</change>
+
+	<change author="Mike Krueger" date = "10/14/2002">
+		Xml loader/code generation changes
+	</change>
+
+	<change author="Mike Krueger" date = "10/13/2002">
+		Forms Designer: new XmlGenerator - xml form format changed
+	</change>
+
+	<change author="Mike Krueger" date = "10/12/2002">
+		Startpage layout changes
+	</change>
+
+	<change author="Mike Krueger" date = "10/12/2002">
+		Added StartPage AddIn
+	</change>
+
+	<change author="Mike Krueger" date = "10/12/2002">
+		C# Syntax highlighting changed
+	</change>
+		
+	<change author="Markus Palme" date = "10/11/2002">
+		New VBFormattingStrategy
+	</change>
+	
+	<change author="Mike Krueger" date = "10/10/2002">
+		Contributions vbformatting/ambiences
+	</change>
+	
+	<change author="Markus Palme" date = "10/09/2002">
+		rewrote VB.NET formatting strategy
+	</change>
+
+	<change author="Shinsaku Nakagawa" date = "10/09/2002">
+		fixed "Text" property problem in FormDesigner.
+	</change>
+
+	<change author="Mike Krueger" date = "10/09/2002">
+		form designer bugfixes:
+		     cut/copy/paste/undo/redo/cursor keys etc now work in 
+		     the text editor when selected
+		</change>
+
+	<change author="Mike Krueger" date = "10/09/2002">
+		Duplicate properties/events now filtered in code completion.
+	</change>
+
+	<change author="Poul Staugaard" date = "10/08/2002">
+		bugfixed in the com reference import code.
+	</change>
+
+	<change author="Mike Krueger" date = "10/07/2002">
+		Did take out the C++ dll which wrapped another execute
+		function because we found the bug that prevented Process.Start
+		from working correctly
+	</change>
+	
+	<change author="Georg Brandl" date = "10/07/2002">
+		Changed VB/C# ambience, now it prints complete modifiers.
+		Reflection Class/Parameter : bugfixes
+	</change>
+	
+	<change author="Mike Krueger" date = "10/06/2002">
+		The core now recognizes a load sequence.
+		(Thanx to an idea from Poul Staugaard)
+	</change>
+	
+	
+	<change author="Mike Krueger" date = "10/06/2002">
+		The cursor+tab keys now work in the forms designer.
+		If I forgot a key please inform me.
+	</change>
+
+	<change author="Mike Krueger" date = "10/06/2002">
+		Fixed bug that allowed to open the same file twice. This
+		bug caused that projects did not recompile correctly too.
+	</change>
+
+	<change author="Mike Krueger" date = "10/03/2002">
+		<file name="WildcardSearchStrategy.cs">
+			<change>
+				fixed bug that made the # char (should match
+				any digit) match all but digits
+			</change>
+		</file>
+	</change>
+	
+	<change author="Mike Krueger" date = "10/02/2002">
+		Component tray is now white instead of blue
+	</change>
+
+	<change author="Mike Krueger" date = "10/01/2002">
+		Included new NDOC version.
+	</change>
+
+	<change author="Mike Krueger" date = "10/01/2002">
+		Clipboard lost content after close bug fixed.
+	</change>
+
+	<change author="Mike Krueger" date = "09/29/2002">
+		Cleaned the build script (now a clean should remove
+		all assemblies and a build builds all)
+	</change>
+
+	<change author="Mike Krueger" date = "09/28/2002">
+		Refactored the Forms designer.
+	</change>
+
+	<change author="Mike Krueger" date = "09/25/2002">
+		Fixed Search & Replace bug which sometimes produced an
+		unhandled exception.
+	</change>
+
+	<change author="Mike Krueger" date = "09/25/2002">
+		Removed the OnSelected/OnDeselected method form the
+		IWorkbenchWindow. The Workbench Window and layout manager
+		should handle the select/deselect events without interference
+		from outside.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/22/2002">
+		Fixed enum code completion crash bug.
+	</change>
+
+	<change author="Mike Krueger" date = "09/22/2002">
+		Fixed empty combine configuration bug.
+		(combine save crashed with an exception, the project was uneditable but loading did work)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/22/2002">
+		Fixed 'long delay' bug when opening large non C# projects
+		(happend at least with one larger VB project)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/22/2002">
+		Added constructor insight
+	</change>
+	
+	<change author="Mike Krueger" date = "09/22/2002">
+		Search/Replace Dialog (not s&r in files): search in whole combine is search in active file
+		when the dialog is reopened (the whole project setting is discarded).
+		This reduces my search & replace error rate dramatically ... 
+	</change>
+	
+	<change author="Mike Krueger" date = "09/22/2002">
+		Changed the HTML Help File format. The HtmlHelpFile nodes are now taken out in the output file.
+		(They were obsolete)
+	</change>
+	
+	<!-- release .91 -->
+	
+	<change author="Mike Krueger" date = "09/22/2002">
+		Inserted Russia and Brazilian Protugese language definitions.
+		(Thanx to the translators :))
+	</change>
+	
+	<change author="Mike Krueger" date = "09/22/2002">
+		Fixed goto line number dialog bug (dialog closed immediately after pop up)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/21/2002">
+		Global Change : No more check for the TextAreaDisplayBindingWrapper class. Instead a ITextAreaProvider interface which
+		has a TextAreaControl property is used instead.
+		(This allows that any display binding can 'expose' a textarea to search & replace and other menu options which use a textarea)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/21/2002">
+		C# Backend binding compile manager: Now the compilefile method takes a compiler parameters argument
+	</change>
+	
+	<change author="Mike Krueger" date = "09/21/2002">
+		Implemented basic Form designer roundtrip for C# some rules:
+		Don't touch the initialize components method ...
+		don't try to put field declarations which are used in the initialize components
+		method in the same line ...
+	</change>
+	
+	<change author="Mike Krueger" date = "09/20/2002">
+		Code Completion drop down is now more intelligent to find the correct capitalized member.
+		For example if you have members:
+		aInt
+		AInt
+		
+		and you want to complete with: myType.A <- aInt may have been choosen now it is AInt (the item with
+		the fewest capitalization errors is selected)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/20/2002">
+		Added icons for the forms designer actions.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/20/2002">
+		Forms Designer: Enhanced the SelectionService. Now the selection should work like expected.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/20/2002">
+		Secured font loading (now #D should work on NT4, at least it should not fail
+		due font loading problems).
+		(The resource service got a secure font loading routine)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/20/2002">
+		Added Format menu for the Windows Forms designer.
+		(There are some nice actions there)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/20/2002">
+		Implemented DesignerSerializationService.
+		Now Cut/Copy/Paste works.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/19/2002">
+		Added following forms designer services:
+			AmbientProperties
+			INameCreationService
+			IDesignerEventService
+		Removed the ServicesManager class (Now all is hosted by the IDesignerHost. The ServicesManager class was IMHO obsolete.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/18/2002">
+		The task view now shows the file name and path separated (the sharpdevelop paths went too long :))
+	</change>
+	
+	<change author="Mike Krueger" date = "09/18/2002">
+		Changed the toggle comment action to separate comment and uncomment action.
+		The Comment action is on Ctrl + / and uncomment is on Ctrl + \ 
+		(I find this more comfortable to work with)
+	</change>
+	
+	<change author="Andrea Paatz" date = "09/18/2002">
+		Project build order is now topolgical sorted and now the combine build correctly in the build order.
+		(cycles will cause an exception and error dialog box and no infinite loop)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/18/2002">
+		Adding an empty combine to a combine no longer crashes.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/18/2002">
+		Fixed little code completion bug that sometimes hides a method (for example System.Diagnostics.Process. didn't 
+		sbow the Start method)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/18/2002">
+		Form Designer bugfix: Now font set will generate valid code (you still can't set italic/bold properties)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/18/2002">
+		The undo/redo and clipboard actions no longer crash when the view content
+		doesn't support undo/redo or clipboard actions.
+	</change>
+	
+	<change author="Andrea Paatz" date = "09/18/2002">
+		Refactored the resolver. It runs now more stable and more correct.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/16/2002">
+		Replaced the chars in the task view with funny icons.
+	</change>
+	
+	<change author="Andrea Paatz" date = "09/16/2002">
+		Fixed Parser layer bug which didn't set regions in implicit/explicit conversion operators 
+		and caused a class browser exception.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/16/2002">
+		Search & Replace in files/in directory now recognizes if the read access is denied.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/16/2002">
+		FileUtilitySevice SearchDirectories now no longer crashes if the directory access is denied an exception
+		box with access denied to xyz is displayed when this method is used and access is denied.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/16/2002">
+		Added ObservedLoad methods (loading must be observed too :) ... because file access may be denied or
+		the file loading might cause an exception (lost network connection) file loading must be made safe in #D too
+	</change>
+	
+	<change author="Mike Krueger" date = "09/16/2002">
+		fixed error drawer exception bug.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/16/2002">
+		fixed save current project configuration bug
+	</change>
+	
+	<change author="Markus Palme" date = "09/15/2002">
+		Added option "rootnamespace" to VB compiler parameters
+	</change
+	>
+	<change author="Markus Palme" date = "09/16/2002">
+		VB.DOC integration
+	</change>
+	
+	<change author="Mike Krueger" date = "09/15/2002">
+		Fixed serve syntax highlighting bug (lines sometimes didn't update) in the defaulthighlighting strategy 
+		mark tokens method.
+	</change>
+	
+	<change author="Andrea Paatz" date = "09/15/2002">
+		Start to implement a C# coding style guide validator
+	</change>
+	
+	<change author="Mike Krueger" date = "09/15/2002">
+		Refactored the ClassBrowserIconsService (Naming, Public Fields to Properties)
+		Refactored the FileUtilityService (Naming)		
+	</change>
+	
+	<change author="Mike Krueger" date = "09/14/2002">
+		Inserted Regular expression toolkit from Markus Palme (see the tools menu)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/14/2002">
+		Documented the Search & Replace stuff
+	</change>
+	
+	<change author="Andrea Paatz" date = "09/13/2002">
+		Little bugfix in the KMP searching algorithm.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/13/2002">
+		Refactored the syntax highlighting
+	</change>
+	
+	<change author="Andrea Paatz" date = "09/12/2002">
+		Implemented the KMP searching algorithm. KMP was choosen instead of boyer moore and other alternatives because
+		the others must initialize the alphabet which would be 65536 chars. (maybe after the next unicode spec over 4000000000)
+		Even if they are faster the initialization penalaty seems too high and KMP is fast enough (much faster than the old brute
+		force strategy).
+	</change>
+	
+	<change author="Mike Krueger" date = "09/12/2002">
+		Fixed a bug in the replace all. (not all patterns were replaced sometimes)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/12/2002">
+		Added a length check in the IsFileNameValid method from the FileUtilityService. currently this
+		is hardcoded to 260 because no .NET function could be found for this.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/12/2002">
+		Fixed a memento store bug that get appearent using the observed file safe. (too long file names)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/12/2002">
+		Included the options font change garbage draw bug in the text area bugfix from Alexandre Semenov <salexru2000@sympatico.ca>
+	</change>
+	
+	<change author="Mike Krueger" date = "09/12/2002">
+		Completed the ObservedSave functions
+	</change>
+	
+	<change author="Mike Krueger" date = "09/11/2002">
+		Fixed the bug with the conversion of old prjx files that may mess up the .cmbx file.
+		
+		I've seen that it may be a deeper problem with files that are saved by SharpDevelop because 
+		SharpDevelop assumed almost always that it had write permission or that it has write permission
+		but that the write did ok. (In some cases 'inform' messageboxes were shown) 
+		
+		I've introduced new functionality to the IFileService to solve this problem :
+		
+		2 enums : 
+		
+		public enum SaveFilePolicy {
+			Inform,
+			ProvideAlternative
+		}
+		
+		public enum SaveFileResult {
+			OK,
+			Failed,
+			SavedAlternatively
+		}
+	
+		2 delegates:
+		public delegate void SaveFileDelegate();
+		public delegate void SaveFileAsDelegate(string saveFile);
+		
+		A whole bunch of functions:
+		
+		SaveFileResult ObservedSave(SaveFileDelegate saveFile, string fileName);
+		SaveFileResult ObservedSave(SaveFileDelegate saveFile, string fileName, SaveFilePolicy policy);
+		SaveFileResult ObservedSave(SaveFileDelegate saveFile, string fileName, string messsage, SaveFilePolicy policy);
+		
+		SaveFileResult ObservedSave(SaveFileAsDelegate saveFileAs, string fileName);
+		SaveFileResult ObservedSave(SaveFileAsDelegate saveFileAs, string fileName, SaveFilePolicy policy);
+		SaveFileResult ObservedSave(SaveFileAsDelegate saveFileAs, string fileName, string message, SaveFilePolicy policy);
+		
+		SaveFileResult ObservedSave(XmlDocument doc, string fileName);
+		SaveFileResult ObservedSave(XmlDocument doc, string fileName, SaveFilePolicy policy);	
+		SaveFileResult ObservedSave(XmlDocument doc, string fileName, string message, SaveFilePolicy policy);	
+		
+		First : Do not use them inside view content save/save as methods because the view content save/save as methods
+		        are observed at the command level. Generally put the obeservedsave at a single point. 
+		        Example: The view are many but the save method is only called in the command therefore it should be put into the command.
+		                 The project class has one save method which is called in many occaisons (propably, but it is more than one) therefore
+		                 it should be observed in the project class itself.
+		        
+		These functions check the save if it throws an exception an depending on the SaveFilePolicy it does:
+			+ Inform the User with a message box about the file (location) and gives a short description about the reason
+			  (check write permission)
+			+ Or displays a box that has retry/ignore/choose different location buttons and the user can choose what he wishes
+			  to do. 
+			  
+		The SaveFileResult is the canonical result of this mess :)
+		
+		If no message is given a default message will be displayed. If you specify your own message you have following properties :
+	
+			{"FileName", fileName},
+			{"Path",     Path.GetDirectoryName(fileName)},
+			{"FileNameWithoutPath", Path.GetFileName(fileName)},
+			{"Exception", exceptionGot.GetType().FullName},
+		
+		Note that the ObservedSave with the SaveFileDelegate can't handle the ProvideAlternative as the other services
+		in this case it shows only retry / ignoe. That is because it gets no function that it could give the file name.
+		Therefore this function can only return OK or Failed and never returns SavedAlternatively.
+		
+		Note the ObservedSave routine doesn't check if the fileName is valid. It is recommended that only valid names get used.
+		(see IsFileNameValid method in the FileUtility class)
+		
+		It is recommended to use this functions for ANY save operation inside SharpDevelop. If not I'll personally check the 
+		save routine you write :)
+		
+		btw. I've checked the whole code and now it should always use 'safe' writes.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/11/2002">
+		Fixed the class browser bug that has shown a invoke method inside a delegate.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/10/2002">
+		Fixed some search & replace bugs
+	</change>
+	
+	<change author="Mike Krueger" date = "09/10/2002">
+		Added new property to the IViewContent interface :
+		IsUntitled
+		(If this is true the content name is the UntitledName else it is the ContentName)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/09/2002">
+		Added COM Reference panel bugfix from Poul Staugaard
+	</change>
+	
+	<change author="Mike Krueger" date = "09/08/2002">
+		Added Wildcard search strategy.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/08/2002">
+		Implemented the Search in Files infrastructure and dialogs. Search in files works and the result is
+		displayed in the task list.
+		Added DirectoryDocumentIterator which searches files in a given directory.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/08/2002">
+		More Search & Replace restructuring, now the document iterators work on text buffers instead of documents,
+		Find class refactoring (now it is a bit more general)
+		Speed improvement : Search in project is now more than twice as fast on my computer
+	</change>
+	
+	<change author="Mike Krueger" date = "09/07/2002">
+		Restructured Search & Replace. Search & Replace options now got 
+		saved when SharpDevelop is closed.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/06/2002">
+		Some Search & Replace bugfixes. Removed following search & replace options :
+		+ wrap at the end
+		+ search backward
+		+ search in not visible text
+	</change>
+	
+	<change author="Mike Krueger" date = "09/05/2002">
+		Bugfix : 
+			The set startup project didn't save bugfix
+			UI Language switch didn't update the caption titles of the pads
+	</change>
+	
+	<!-- Release .90 -->
+	
+	<change author="Mike Krueger" date = "09/04/2002">
+		The UseFullTypenames option is now used in the code generation of the forms designer.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/04/2002">
+		The items in the forms designer are now sorted according to their importance (instead of alphabetically) 
+		like in VS.NET
+	</change>
+	
+	<change author="Mike Krueger" date = "09/04/2002">
+		Made the code completion list box more intelligent
+	</change>
+	
+	<change author="Mike Krueger" date = "09/04/2002">
+		Bugfix in the comment code completion
+	</change>
+	
+	<change author="Mike Krueger" date = "09/03/2002">
+		Fixed method insight bug where methods that are overwritten are shown twice (or more times depending on how 
+		often the same method is defined in the inheritance tree)
+		The deepest method that has has documentation is shown preferably.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/03/2002">
+		Bugfixed code completion bug where the object was from an interface type that extended another interface,
+		members from the base interface are now shown too.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/03/2002">
+		Parser bug base interfaces didn't get stored for interfaces.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/03/2002">
+		Added 'using' code completion and take out 'new' code completion because it currently does not work
+		with our structure. (a little refactoring is needed but I've currently no time before the next release)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/02/2002">
+		Bugfix : Toolbar enable bug with the SDI layout manager
+	</change>
+	
+	<change author="Mike Krueger" date = "09/02/2002">
+		TextArea : LineNumberView renamed to Gutter
+	</change>
+	
+	<change author="Mike Krueger" date = "09/02/2002">
+		Overworked following dialogs : Combine options, deploy, code generation, text editor behaviour, select style panel
+	</change>
+	<change author="Mike Krueger" date = "09/02/2002">
+		Fixed a crash bug in the Forms designer when saving numeric up/downs & checked list boxes
+	</change>
+	
+	<change author="Mike Krueger" date = "09/01/2002">
+		Redrawn the project options dialogs for VB/C#. Now the options are splitted into 2 separate dialogs.
+		Added a call with parameters option to VB. The new dialogs do validating checks to some options.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/01/2002">
+		Did some exorcism in the TextArea painter : 
+			+ fixed memory hole
+			+ refactoring (method renaming, killed public fields)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/01/2002">
+		De-voodonized the TextAreaClipboardHandler (formerly known as SharpTextAreaClipboardHandler)
+	</change>
+	
+	<change author="Mike Krueger" date = "09/01/2002">
+		Refactored the line number viewer a bit. Added try { .. } catch block around the paint routine too because
+		I get exceptions in rare unreproduceable cases on my notebook. The line number viewer code seems not to
+		produce this exception. I assume that it has something todo with the SetStyle(ControlStyles.Selectable, false).
+		Or some other set styles. 
+	</change>
+	
+	<change author="Mike Krueger" date = "09/01/2002">
+		New TreeView options dialog. I think that it now looks a bit better.
+	</change>
+	
+	<change author="Mike Krueger" date = "09/01/2002">
+		Refactored the textarea control a bit to make it nicer. Cleaned out some unnecessary flags and rearranged the methods.
+		After 1.0 this is one of the #D parts that need much more refactoring.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/31/2002">
+		Made the tree view options dialog work better under uncommon resolutions. Changed some panels
+		to make it easier for translators (more room for labels)
+	</change>
+	
+	<change author="Mike Krueger" date = "08/31/2002">
+		Finished the code completion wizard dialog.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/31/2002">
+		Added more translation strings
+	</change>
+	
+	<change author="Mike Krueger" date = "08/30/2002">
+		Added a code generation panel. All code generators (wizards etc.) should take the codeDOM options from 
+		the AmbienceService to generate their code.
+	</change>
+	<change author="Mike Krueger" date = "08/30/2002">
+		Made the options dialog a bit smaller (I think they look a bit nicer, when I've time I have to work on the 
+		SharpDevelop outfit a bit)
+	</change>
+	<change author="Mike Krueger" date = "08/30/2002">
+		Introduced a new service : AmbienceService
+		In this service are the ambiences avaiable. In the future this service will handle all ambience stuff, like
+		code generating options.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/30/2002">
+		Added new wizard infrastructure functionalaty: 
+			Panels could now cancel an operation (ReceiveDialogMessage returns now a bool indicating the cancel)
+			Panels could now enable/disable the next/prev/cancel button from the wizard
+	</change>
+	<change author="Mike Krueger" date = "08/30/2002">
+		Completed the code completion wizard.
+	</change>
+	<change author="Mike Krueger" date = "08/29/2002">
+		Recreated the select visual style panel for the IDE options. The old dialog looked weird on some systems.
+		(didn't figure out why and made a better looking version)
+		Added option to switch the current ambience.
+	</change>
+	<change author="Mike Krueger" date = "08/29/2002">
+		Renamed ILanguageConversion to IAmbience (and all implementing classes did change the name too)
+	</change>
+	
+	<change author="Mike Krueger" date = "08/29/2002">
+		Referenced assemblies are now put into the parser service structures.
+		Should work, but the global namespace gets the references (little bug).
+	</change>
+	
+	<change author="Mike Krueger" date = "08/29/2002">
+		Added 2 code completion data base creation methods : efficient & fast.
+		efficient takes 3 times more time & memory to create, but saves over 1MB file data.
+		This results in a slightly higher 'use' performance.
+	</change>
+	
+	<change author="Andrea Paatz" date = "08/29/2002">
+		Bugfix in the resolve for non existing expressions (hopefully no ghost popups anymore except
+		for methods/indexers)
+		Parser layer :
+			+ indexers must have the name of the class they index
+			+ op_xyz names for overloaded operators
+			+ IsSpecialName flag for operators
+			+ 'const' keyword should be mapped to const
+			+ enum fields are all 'const'
+			+ 'protected internal' and 'internal protected' should be parsed diffrent (see modifiers)
+	</change>
+	
+	<change author="Mike Krueger" date = "08/29/2002">
+		Extended the Wizard code. The implementation for non linear wizards was missing. 
+		The wizard should now look normal under a non standard resoulution too.
+		Started to add the new code completion data wizard.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/29/2002">
+		Added an IService interface that all services must implement (an abstract implementation is provided as usal).
+		This interface has initialize and unload methods and defines events for them.
+		Initialize is called AFTER all services are loaded from the add-in tree.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/29/2002">
+		Removed the csc/vbc exe path get routine, now it no longer reads out the registry instead it uses
+		System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory()
+	</change>
+	
+	<change author="Mike Krueger" date = "08/29/2002">
+		Fixed the Windows.Form bug that did put 'this' references in the VB.NET generated code.
+		I've changed the output format a little and optimized it for manual changes and readability.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/28/2002">
+		Added Convert(IIndexer) in the ILanguageConversion interface and implemented C#/.NET/VB.NET implementations
+		of this conversion.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/28/2002">
+		Added 'methodinsight' for indexer usage.
+		Added new keyword auto completion.
+		What is currently missing ? 
+			Method return type code completion
+			Indexer return type completion.
+			Constructor method insight
+			General expression type completion & insight
+			Generating cc data for referenced assemblies.
+			Rest:
+			+ Wizard for CC
+			+ Rename ILanguageConversion to IAmbience
+			+ IDE Option for ambiences
+	</change>
+	
+	<change author="Mike Krueger" date = "08/28/2002">
+		Added new context menu command from Markus Palme :
+		CommentRegion
+		
+		Now it works for C#/C++/JAVA and VB.NET too, the well known key 
+		Alt + / 
+		is the same command.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/28/2002">
+		Support for using alias in the code completion. Created methods in IUsing :
+		IsInside(row, column)
+		SearchType(partitialTypeName)
+		SearchNamespace(partitialTypeName)
+	</change>
+	
+	<change author="Mike Krueger" date = "08/28/2002">
+		Build/rebuild project keys are now on F9 instead on F8 (F8 had another function)
+		Ready message appears now after a single project is compiled/recompiled
+	</change>
+	
+	<change author="Mike Krueger" date = "08/28/2002">
+		Bugfixes in the forms designer : cliboard keys & menu commands do now work in the editor controls
+	</change>
+	
+	<change author="Mike Krueger" date = "08/27/2002">
+		Bugfixes & enhancements in the forms designer :
+		Singleton 'bug' solved, generated names are now camel case and digit append bug solved.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/27/2002">
+		Help generation is now extern. The help browser app in the tools directory generates us a xml file which
+		is loaded into sharpdevelop.
+		The last version did this during the sharpdevelop startup.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/26/2002">
+		Bugfixes in the project layer :
+		Error when using XmlNodeName classes as fields which aren't in the xml file bug fixed.
+		
+		The project option panels now get an IProperties cusotmization object that have currently following properties :
+		"Project" the IProject object to configure (for all panels)
+		"Config" the IConfiguration object to configure (only for 'configuration' panels)
+	</change>
+	
+	<change author="Mike Krueger" date = "08/26/2002">
+		Windows.Forms designer bugfixes from Niv <niv_led@hotmail.com> : 
+		Solved : 'Invisible' components on the tray
+	</change>
+	
+	<change author="Mike Krueger" date = "08/26/2002">
+		Windows.Forms designer bugfixes/enhancements from Wojciech Gebczyk <eurocorp@rubikon.pl>
+		(Solved : MenuCommandImpl, How to fill the toolbar correctly, clean method which properties need to be saved )
+	</change>
+	
+	<change author="Mike Krueger" date = "08/25/2002">
+		Bugfixed & Enhancements in the parser layer, code completion/method insight infrastructure, abstract layer,
+		hopefully changed the file format for the completion database the last time before the release.
+	</change>
+	
+	<change author="Mike Krueger" date = "08/25/2002">
+		Bugfix : check for hostile names like COM1, added IsValidFileName(string fileName) method in the FileUtilityService
+		I recommend to use this function everytime you let the user specify a file name
+	</change>
+	
+	<change author="Andrea Paatz" date = "08/24/2002">
+		Enhanced the type resolve.
+	</change>
+	
+	<change author="Mike Krüger" date = "08/24/2002">
+		Made the code completion/method insight gui better, fixed several errors speeded up these popups a bit
+	</change>
+	
+	<change author="Mike Krüger" date = "08/24/2002">
+		Started to use the code completion/method insight version for production use :) ... I hope this will improve
+		my productivity greatly
+	</change>
+	
+	<change author="Mike Krüger" date = "08/24/2002">
+		Fixed bug in the Count Lines Dialog, it does not longer try to count directories :) 
+	</change>
+		
+	<change author="Mike Krüger" date = "08/24/2002">
+		Fixed new class wizard bug
+	</change>
+	
+	<change author="Mike Krüger" date = "08/24/2002">
+		Added icons from Markus Palme :
+			new icons:
+			Icons.16x16.XMLFileIcon
+			Icons.16x16.ILDasm
+			replaced:
+			Icons.16x16.TextFileIcon
+	</change>
+	
+	<change author="Mike Krüger" date = "08/24/2002">
+		Added IME bugfix from Shinsaku Nakagawa <shinsaku@galaxy.ocn.ne.jp>
+	</change>
+	
+	<change author="Mike Krüger" date = "08/24/2002">
+		Added CSharp & VB.NET language conversion classes, the objectbrowser uses the language conversion stuff
+		too. And I added more language conversion options.
+	</change>
+	
+	<change author="Mike Krüger" date = "08/24/2002">
+		Some enhancements in the reflection parser layer & new modifier : Literal, Literal is used for enum types and
+		the csharp keyword 'const'
+		
+		const = Literal | Static
+		
+		New Modifier : ProtectedOrAssembly
+	</change>
+	
+	<change author="Mike Krüger" date = "08/23/2002">
+		Finished the Reflection Parser layer (only 1 TODO Left : ParameterModifier Ref, seems to be a .NET bug)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/23/2002">
+		Took out the IDelegate interface, delegates are now Classes that have one Method (called 'Invoke') that has the
+		correct return type and parameter list (the delegate modifiers are the class modifiers and the name is the classname)
+		and bugfixed the delegate stuff (now it should work in code completion)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/23/2002">
+		Added SpecialName modifier in the ModifierEnum (Parser Layer). This is used for methods
+		to indicate that their name is 'special' (example : operator overloading)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/23/2002">
+		Added ParameterCollection to IDelegate
+	</change>
+	
+	<change author="Mike Krüger" date = "08/23/2002">
+		Added ILanguageConversion interface and one implementation (avaiable in the classbrowsericons service).
+		This class converts own abstract classes to human readable strings (could be used for reflection classes too).
+		
+		Added CurrentLanguageConversion property in the ClassBrowserIconsService class (i know I should refactor it, but currently
+		it's a good place, because this service is usesd everywhere I need natural strings for members)
+		
+		Added AddInPath : /SharpDevelop/Workbench/LanguageConverters
+		In this path are class codons of ILanguageConversion implementations
+		
+		Added property : SharpDevelop.UI.LanguageConverters
+		This property is the ID of the current selected ILanguageConversion codon in the add-in tree
+		
+	</change>
+	
+	<change author="Andrea Paatz" date = "08/23/2002">
+		made the type lookup better (csharp parser)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/23/2002">
+		Added method insight
+	</change>
+	
+	<change author="Mike Krüger" date = "08/22/2002">
+		wrote own persistance layer for the reflection classes, hd space consumption reduced from 85MB to 10MB + faster loading
+		times
+	</change>
+	
+	<change author="Mike Krüger" date = "08/22/2002">
+		Made the code completion popup control better
+	</change>
+	
+	
+	<change author="Mike Krüger" date = "08/22/2002">
+		Moved the type lookup layer into the parser layer.
+	</change>
+	
+	<change author="Mike Krüger" date = "08/21/2002">
+		Added a reflection layer for code completion (made the .NET Framework Reflection avaiable to the code completion
+		layer).
+		- With XML documentation from the xml files that came with the SDK
+		- Conversion of the reflection information took an eternity to build and take much space, but only the first time
+		  SharpDevelop starts
+	</change>	
+	
+	<change author="Mike Krüger" date = "08/21/2002">
+		Put the SharpDevelop.Base.dll and CSharpParser.dll into the bin\ directory, because I need to serialize types
+		from this assembly. (bug in the serialization api ?)
+	</change>
+		
+	<change author="Mike Krüger" date = "08/20/2002">
+		Start of the code completion implemention, implemented the DataProvider and started to implement the reflection
+		layer.
+	</change>
+	
+	<change author="Mike Krüger" date = "08/20/2002">
+		Little bugfix in the ObjectBrowser
+		<file name="ReflectionILDasmView.cs">
+			<change>
+				method GetILDASMOutput doesn't throw an exception, if the ildasm.exe wasn't in the path. instead
+				it returns an error message which is displayed in the output window.
+			</change>
+		</file>
+	</change>
+	
+	<change author="Mike Krüger" date = "08/19/2002">
+		Moved the PropertyPad to the base assembly and made the projectbrowser communicating with this pad
+		(through static functions in the Pad...) Now it is possible to see/change some information in the property pad.
+	</change>
+	
+	<change author="Mike Krüger" date = "08/19/2002">
+		Integrated COM References in SharpDevelop. Now it is possible to reference COM objects (wrapper dlls
+		will be generated automatically) this change was submited by Poul Staugaard
+	</change>
+	
+	<change author="Mike Krüger" date = "08/18/2002">
+		Changed the ObjectBrowser : DisplayInformation was splitted into 2 classes, because
+		the DisplayBinding must be a factory in the new SharpDevelop version. The ObjectBrowser
+		uses the ClassBrowserIcons service for it's icons instead of handling them alone.
+	</change>	
+	
+	<!-- Release .89 -->
+	
+	<change author="Mike Krüger" date = "08/18/2002">
+		Fixed the bug that undo/redo didn't clear the selections, this could lead to a 
+		exception in the textareapainter.
+	</change>
+	
+	<change author="Mike Krüger" date = "08/18/2002">
+		Added Swedish language resources
+	</change>
+	
+	<change author="Mike Krüger" date = "08/18/2002">
+		Bugfixes in the parser, classbrowser and classbrowsericons classes
+	</change>
+	
+	<change author="Mike Krüger" date = "08/18/2002">
+		Added some new Icons for the Help, Events (protected, private, internal)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/17/2002">
+		new xml headers for SharpDevelop and xml defined changelog :)
+	</change>
+
+	<change author="Mike Krüger" date = "08/16/2002">
+		new IViewContent property : bool IsViewOnly; determines if the view is viewonly (like a browser)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/16/2002">
+		extended the toolbar
+	</change>
+	
+	<change author="Mike Krüger" date = "08/16/2002">
+		added new menuicons (for build & bookmarks)
+	</change>
+
+	<change author="Mike Krüger" date = "08/16/2002">
+		Strange project does not open the first time bug under Windows 2000 solved.
+	</change>
+	
+	<change author="Mike Krüger" date = "08/16/2002">
+		CSharp backend binding : Treat Warnings As Errors option is now given to the compiler (csc.exe)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/16/2002">
+		File Open : check if file exists (recent open has thrown an exception)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/16/2002">
+		Create the project output directory, if it does not exists. This is done BEFORE the language binding compile is called,
+		therefore language bindings don't need to check it.
+	</change>
+	
+	<change author="Mike Krüger" date = "08/15/2002">
+		Reintegrated folding, it has some bugs with the remove keys and some other minor issues, but you could see that
+		it will be working again.
+	</change>
+
+	<change author="Mike Krüger" date = "08/15/2002">
+		ICSharpCode.SharpDevelop.Gui.Pads.ProjectBrowser.INodeBuilder renamed to
+		ICSharpCode.SharpDevelop.Gui.Pads.ProjectBrowser.IProjectNodeBuilder
+	</change>
+	
+	<change author="Andrea Paatz" date = "08/16/2002">
+		Added some text editor unit tests
+	</change>
+	
+	<change author="Mike Krüger" date = "08/15/2002">
+		New Abstract Parser structure/Parser refactorings (SharpDevelop.Base isn't dependend on the CSharpParser
+		anymore)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/15/2002">
+		Reintegrated the class browser
+	</change>
+	
+	<change author="Andrea Paatz" date = "08/15/2002">
+		Refactored the old C# parser over to a new abstract parser structure and some
+		parser refactorings.
+	</change>
+	
+	
+	<change author="Mike Krüger" date = "08/15/2002">
+		Added some unit tests for some edit actions as sample, I plan to have more unit tests for sharpdevelop parts,
+		if you want to write some unit tests contact me under mike@icsharpcode.net
+	</change>
+	
+	
+	<change author="Mike Krüger" date = "08/15/2002">
+		Remove works in the Form Editor
+	</change>
+	
+	
+	<change author="Mike Krüger" date = "08/14/2002">
+		IEditActionServices is now IEditActionHandler (because it is no Service ...)
+	</change>
+	
+	<change author="Mike Krüger" date = "08/14/2002">
+		Made Run/Compile thread safe it is possible to compile ten times with pressing Alt + F8 ten times,
+		but there will only be one compile thread, in old versions the compile threads weren't thread safe :/
+	</change>
+	
+	<change author="Mike Krüger" date = "08/14/2002">
+		NDoc now works again with sharpdevelop
+	</change>
+	
+	<change author="Mike Krüger" date = "08/14/2002">
+		Bugfixed the VisualError class, it does now paint the error underlines at the correct position.
+	</change>
+	
+	<change author="Mike Krüger">
+		Combine api changed:
+		void GetAllProjects(ArrayList list, Combine combine)
+		is now replaced through :
+		ArrayList GetAllProjects(Combine combine)
+		this method now gets all projects back (instead of using a parameter for the output).
+	</change>
+	
+	<change author="Mike Krüger">
+		new method in the IProjectServices:
+		MarkProjectDirty(IProject project); --> marks a project for recompile.
+	</change>
+	
+	<change author="Mike Krüger">
+		xml formatting strategy is now quite intelligent (not 100% but very useful)
+	</change>
+	
+	<change author="Mike Krüger">
+		Added new Project options dialog
+	</change>
+
+	<change author="Mike Krüger">
+		AddInTree change :
+		/SharpDevelop/Workbench/ProjectOptions is now splitted:
+
+		/SharpDevelop/Workbench/ProjectOptions/ConfigurationProperties
+			-> in this path are the properties stored that are configuration dependend
+			-> These panels get a project configuration as customization object
+
+		/SharpDevelop/Workbench/ProjectOptions/General
+			-> For the rest
+			-> These panels get a IProject as customization object
+	</change>
+	
+	<change author="Mike Krüger">
+		File Save As Command : file is inserted in the recent open file list
+	</change>
+	
+	<change author="Mike Krüger">
+		underscore drawing bug fixed (FontHeight is FontHeight + 3)
+	</change>
+
+	<change author="Markus Palme">
+		new ObjectBrowser added
+	</change>
+	
+	<change author="Mike Krüger">
+		Inserted XML Formatting strategy, now closing tags are generated for xml files
+	</change>
+	
+	<change author="Mike Krüger">
+		Converted all old nant build files over to the new nant (the new nant is now shipped with sharpdevelop)
+	</change>
+	
+	<change author="Mike Krüger">
+		IDocument is now called IDocumentAggregator
+	</change>
+	
+	<change author="Mike Krüger">
+		IClipboardHandable is now IClipboardHandler
+	</change>
+	
+	<change author="Mike Krüger">
+		ICSharpCode.SharpDevelop.Gui.Navigation is now ICSharpCode.SharpDevelop.Gui.Pads
+	</change>
+
+	<change author="Mike Krüger">
+		TextEditor API changes:
+			ITextStoreStrategy is now ITextBufferStratety (better name ... it's a buffer)
+			ILineTrackingStrategy is now ILineManager (does more than mere line tracking, highlighting & folding)
+			ITextSelection is now ISelection (and TextSelection class is now DefaultSelection)
+			FormatingStrategy is now FormattingStrategy
+			Added FoldingStrategy
+	</change>
+	
+	<change author="Mike Krüger">
+		The application config folder moved from APPLICATIONDATA\.SharpDevelop to APPLICATIONDATA\.ICSharpCode\SharpDevelop
+	</change>
+	
+	<change author="Mike Krüger">
+		Converted old singletons to services:
+			- FileUtility is now FileUtilityService
+			- GlobalResources is now ResourcesService
+			- StringParser is now StringParserService
+			- GlobalProperties is now PropertyService
+		  This made the ICSharpCode.Core.Util namespace oboslete and all is moved
+		  to ICSharpCode.Core.Services
+	</change>
+	
+	<change author="Mike Krüger">
+		Syntax Highlighting definition change : Environment Variable Linenumbers is now called LineNumbers (consitency)
+	</change>
+	
+	<change author="Mike Krüger">
+		Support for mono : mcs and the mono runtime (jit and interpeter), but files with spaces in pathname won't compile.
+	</change>
+	
+	<change author="Mike Krüger">
+		TextStore : SetContentTo() now SetContent()
+	</change>
+	
+	<change author="Mike Krüger">
+		New commandline option : [-,--,/]nologo
+		(switches off the splash screen on startup)
+	</change>
+	
+	
+	<change author="Mike Krüger/Christoph Wille">
+		integrated a SharpDevelop HelpBrowser (don't ask for integrated SDK help, we're working on that)
+	</change>
+	
+	<change author="Mike Krüger">
+		TextAreaControl is now separated from SharpDevelop, no longer need for
+		referencing sharpdevelop core dlls (or for syntax highlighting files, but
+		they're optional) it's all moved to a new dll : ICSharpCode.TextEditor.dll
+		The namespace is ICSharpCode.TextEditor.dll (see samples\SharpPad for an example
+		of using this control)
+	</change>
+	
+	<change author="Mike Krüger">
+		move the abstract gui layer from the Core.Gui namespace and core assebmly to the base assembly and the
+		ICSharpCode.SharpDevelop.Gui namespace (Core.Gui is now dead)
+	</change>
+	
+	<change author="Mike Krüger">
+		changed the namespace layout a bit (all is now in ICSharpCode.SharpDevelop instead of SharpDevelop and cleaned
+		out some namespaces
+	</change>
+	
+	<change author="Mark Heath">
+		added two edit actions : control + delete/backspace
+	</change>
+	
+	<change author="Mark Heath">
+		Added bugfixes from Mark Heath:
+		<file name="MiscKeys.cs">
+			<change>
+				changes to Tab class and ShiftTab class TextUtilities.cs
+			</change>
+			<change>
+				new LeadingWhitespaceToTabs function TextUtilitiesTest.cs
+			</change>
+			<change>
+				testsuite for the LeadingWhitespaceToTabs function - put this in the src\SharpDevelop\SharpDevelopTests project\FormatCommands.cs
+			</change>
+			<change>
+				ConvertTabsToSpaces - slight refactoring
+			</change>
+			<change>
+				ConvertSpacesToTabs - slight refactoring
+			</change>
+			<change>
+				ConvertLeadingTabsToSpaces - new implementation
+			</change>
+			<change>
+				ConvertLeadingSpacesToTabs - new implementation
+			</change>
+		 </file>
+	</change>
+	
+	<change author="Mike Krüger">
+		Changed the project subsytem, now it's easier to create language bindings. New project
+		file format was neccessary, old projects convert automatically.
+	</change>
+	
+	<change author="Mike Krüger">
+		New Projectbrowser structure now allows customization by language binding developers
+	</change>
+	
+	<change author="Mike Krüger">
+		Support for other fonts than Courier in the textarea
+	</change>
+
+	<!-- Release .88b -->
+</changelog>

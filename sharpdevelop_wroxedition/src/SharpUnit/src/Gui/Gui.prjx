@@ -1,0 +1,39 @@
+<Project name="Gui" description="creates an empty C# Windows application" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\TestView.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\MainClass.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\GuiMainForm.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\AssemblyView.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\RichText\RichtTextSegment.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\RichText\ExtendedRichTextBox.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\ProgressBar.cs" subtype="Code" buildaction="Compile" />
+    <File name="..\..\Resources\IconResources.resources" subtype="Code" buildaction="EmbedAsResource" />
+    <File name=".\Dialogs\CommonAboutDialog.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Xml\ControlDictionary.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Xml\GuiXmlGenerator.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Xml\XmlForm.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Xml\XmlUserControl.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Xml\StringWrapper.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\RichText" subtype="Directory" buildaction="Nothing" />
+    <File name=".\Dialogs" subtype="Directory" buildaction="Nothing" />
+    <File name=".\Xml" subtype="Directory" buildaction="Nothing" />
+  </Contents>
+  <References>
+    <Reference type="Project" refto="Core" />
+    <Reference type="Assembly" refto="..\..\bin\MagicLocalLibrary.dll" />
+  </References>
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\..\bin" assembly="SharpUnit" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="TestGui" />
+    </Configuration>
+  </Configurations>
+</Project>

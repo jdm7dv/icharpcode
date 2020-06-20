@@ -1,0 +1,101 @@
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+    text-align: left;
+}
+
+h1, h3
+{
+	margin-bottom: .4em; 
+	margin-top: 1em;
+}
+
+h1
+{
+	font-size: 150%;
+}
+
+h3
+{
+	font-size: 110%;
+}
+
+table
+{
+    font-size: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 20px;
+}
+
+th
+{
+    background-color: #cccccc;
+    color: #000000;
+    font-weight: bolder;
+    padding: 5px;
+    border: 1px solid #999999;
+}
+
+tr
+{
+    background-color: #ffffff;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #999999;
+}
+
+td
+{
+	border: 1px solid #999999;
+	padding: 5px;
+}
+
+p
+{
+	margin: .5em 0em .5em 0em;
+}
+
+pre
+{
+	margin-top: .5em;
+	margin-bottom: .5em; 
+}
+
+.syntax
+{
+	font: Monospace, Courier New, Courier;
+    letter-spacing: .1em;	background-color: #cccccc;
+	color: #000000;
+	font-size: 100%;
+	font-weight: bolder;
+    padding: 5px;
+    border: 1px solid #999999;
+    margin-left: 20px;
+	padding: 4px 8px;
+	margin-top: 1em;
+	margin-bottom: 1em; 
+}
+
+.i1
+{
+    margin-left: 20px;
+}
+
+.i2
+{
+    margin-left: 40px;
+}
+
+.i3
+{
+    margin-left: 60px;
+}
+
+.missing
+{
+	color: Red;
+}
+

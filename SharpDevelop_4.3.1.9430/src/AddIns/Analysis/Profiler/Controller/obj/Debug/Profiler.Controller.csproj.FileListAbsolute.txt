@@ -1,0 +1,6 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\bin\ICSharpCode.Profiler.Controller.xml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\bin\ICSharpCode.Profiler.Controller.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\bin\ICSharpCode.Profiler.Controller.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Controller\obj\Debug\Profiler.Controller.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Controller\obj\Debug\ICSharpCode.Profiler.Controller.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Controller\obj\Debug\ICSharpCode.Profiler.Controller.pdb

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Template Originator="Mike Krueger" Created="03/10/2001" LastModified="03/10/2001">
+	
+	<TemplateConfiguration>
+		<Name>${res:Templates.Project.C#.EmptyWindowsApp.Name}</Name>
+		<Category>C#</Category>
+		<Icon>C#.Project.EmptyCSProjectIcon</Icon>
+		<LanguageName>C#</LanguageName>
+		<Description>${res:Templates.Project.C#.EmptyWindowsApp.Description}</Description>
+	</TemplateConfiguration>
+	
+	<ProjectFiles/>
+	
+	<ProjectOptions Target = "WinExe" PauseConsoleOutput = "False" />
+	
+</Template>

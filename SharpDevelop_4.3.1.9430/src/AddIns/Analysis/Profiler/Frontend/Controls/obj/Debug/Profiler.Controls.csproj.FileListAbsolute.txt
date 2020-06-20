@@ -1,0 +1,16 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\bin\ICSharpCode.Profiler.Controls.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\bin\ICSharpCode.Profiler.Controls.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\Profiler.Controls.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\CompareView.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\CompareView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\ExtendedTimeLineControl.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\QueryView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\ICSharpCode.Profiler.Controls_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\ICSharpCode.Profiler.Controls_MarkupCompile.lref
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\ExtendedTimeLineControl.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\QueryView.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\Themes\Generic.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\ICSharpCode.Profiler.Controls.g.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\ICSharpCode.Profiler.Controls.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\Controls\obj\Debug\ICSharpCode.Profiler.Controls.pdb

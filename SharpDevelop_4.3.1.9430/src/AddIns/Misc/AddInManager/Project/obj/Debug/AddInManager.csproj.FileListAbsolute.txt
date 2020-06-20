@@ -1,0 +1,4 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\AddInManager\Project\obj\Debug\AddInManager.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\AddInManager\Project\obj\Debug\ICSharpCode.AddInManager.ManagerForm.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\AddInManager\Project\obj\Debug\ICSharpCode.AddInManager.AboutForm.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\AddInManager\Project\obj\Debug\AddInManager.csproj.GenerateResource.Cache

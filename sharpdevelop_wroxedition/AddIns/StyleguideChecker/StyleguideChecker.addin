@@ -1,0 +1,20 @@
+<AddIn name        = "Styleguide Checker"
+       author      = "Mike Krueger"
+       copyright   = "GPL"
+       url         = "unknown"
+       description = "Checks the SharpDevelop C# Style Guidelines for combines"
+       version     = "1.0.0">
+
+	<Runtime>
+		<Import assembly="StyleguideChecker.dll" />
+	</Runtime>
+
+	<Extension path = "/SharpDevelop/Workbench/MainMenu/Tools">
+		<MenuItem id = "Styleguide Checker" 
+				  insertafter = "Separator1" insertbefore = "Options"
+				  label       = "Check Styleguide in Combine" 
+				  description = "Checks the SharpDevelop C# Style Guidelines for combines" 
+				  class       = "ICSharpCode.StyleguideChecker.StyleGuideChecker"
+		/>
+	</Extension>
+</AddIn>

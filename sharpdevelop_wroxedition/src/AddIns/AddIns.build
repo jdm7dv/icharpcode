@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+
+<project name="SharpDevelop - AddIns" default="build" basedir=".">
+	<property name="debug" value="False"/>
+	<property name="StartPageDirectory" value="../../AddIns/StartPage"/>
+	
+	<target name="build">
+		<!-- compile RegExToolkit -->
+		<echo message="Building RegExTk"/>
+		<csc 
+			target="library" 
+			output="../../AddIns/RegExpTk/RegExpTk.dll" 
+			debug="${debug}">
+			<property name="debug" value="False"/>
+			<sources basedir="RegExpTk">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/CSharpParser.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+			</references>
+		</csc>
+		
+		<!-- compile Styleguide Checker -->
+		<echo message="Building Styleguide Checker"/>
+		<csc 
+			target="library" 
+			output="../../AddIns/StyleguideChecker/StyleguideChecker.dll" 
+			debug="${debug}">
+			
+			<sources basedir="StyleguideChecker">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+						<property name="StartPageDirectory" value="../../AddIns/StartPage"/>
+<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/CSharpParser.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+			</references>
+		</csc>
+		
+		<!-- compile StartPage AddIn -->
+		<echo message="Building StartPage AddIn Checker"/>
+		<mkdir dir="${StartPageDirectory}"/>
+		<copy  file="StartPage/StartPage.addin" todir="${StartPageDirectory}"/>
+
+		<csc 
+			target="library" 
+			output="${StartPageDirectory}/ICSharpCode.StartPage.dll" 
+			debug="${debug}">
+			
+			<sources basedir="StartPage">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<resources basedir="StartPage">
+				<includes name="gradient.png"/>
+				<includes name="start.png"/>
+				<includes name="top.png"/>
+			</resources>
+			
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+			</references>
+		</csc>
+	</target>
+
+	<target name="clean">
+	        <delete verbose="true" >
+			<fileset basedir="../..">
+				<includes name="AddIns/RegExpTk/RegExpTk.dll"/>
+				<inStartPagecludes name="AddIns/StyleguideChecker/StyleguideChecker.dll"/>
+			</fileset>
+		</delete>
+	        <delete verbose="true" >
+			<fileset basedir="${StartPageDirectory}">
+				<includes name="*.*"/>
+			</fileset>
+		</delete>
+		<delete dir="${StartPageDirectory}"/>
+	</target>
+</project>

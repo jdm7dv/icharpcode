@@ -1,0 +1,220 @@
+<AddIn name        = "SharpDevelop Bindings"
+       author      = "Mike Krueger"
+       copyright   = "GPL"
+       url         = "http://www.icsharpcode.net"
+       description = "NCvs core module"
+       version     = "1.0.0">
+	
+	<Extension path = "/SharpDevelop/Workbench/FileFilter">
+		<FileFilter id = "CSharp"
+		            insertbefore="AllFiles"
+		            name = "C# Files (*.cs)"
+		            extensions = "*.cs"/>
+		<FileFilter id = "VBNET"
+		            insertbefore="AllFiles"
+		            name = "VB Files (*.vb)"
+		            extensions = "*.vb"/>
+		<FileFilter id = "JScript"
+		            insertbefore="AllFiles"
+		            name = "JScript Files (*.js)"
+		            extensions = "*.js"/>
+		<FileFilter id = "Java"
+		            insertbefore="AllFiles"
+		            name = "Java Files (*.java)"
+		            extensions = "*.java"/>
+		<FileFilter id = "Assemblies"
+		            insertbefore="AllFiles"
+		            name = "Assemblies Files (*.exe, *.dll)"
+		            extensions = "*.exe,*.dll"/>
+		<FileFilter id = "Html"
+		            insertbefore="AllFiles"
+		            name = "Html Files (*.htm, *.html)"
+		            extensions = "*.htm,*.html"/>
+		<FileFilter id = "Xml"
+		            insertbefore="AllFiles"
+		            name = "Xml Files (*.xml)"
+		            extensions = "*.xml"/>
+		<FileFilter id = "Resources"
+		            insertbefore="AllFiles"
+		            name = "Resource Files (*.resources, *.resx)"
+		            extensions = "*.resources,*.resx"/>
+		<FileFilter id = "XmlForms"
+		            insertbefore="AllFiles"
+		            name = "Xml Forms (*.xfrm)"
+		            extensions = "*.xfrm"/>
+		<FileFilter id = "Text files"
+		            insertbefore="AllFiles"
+		            insertafter="CSharp,Java"
+		            name = "Text files (*.txt)"
+		            extensions = "*.txt"/>
+		<FileFilter id = "SharpDevelop templates"
+		            insertbefore="AllFiles"
+		            name = "Templates (*.xft; *.xpt)"
+		            extensions = "*.xft,*.xpt"/>
+		</Extension>
+
+	<Runtime>
+		<Import assembly="CSharpLanguageModule.dll"/>
+		<Import assembly="ObjectBrowser.dll"/>
+		<Import assembly="ResourceEditor.dll"/>
+		
+		<Import assembly="JavaLanguageModule.dll"/>
+		<Import assembly="JScriptLanguageModule.dll"/>
+		<Import assembly="VBNetLanguageModule.dll"/>
+	</Runtime>
+	
+	<Extension path = "/SharpDevelop/Workbench/ProjectOptions/ConfigurationProperties">
+		<Conditional activeproject="C#">
+			<DialogPanel id = "CSharpCodeGenerationPanel"
+			             label = "${res:Dialog.Options.PrjOptions.CodeGenerationPanel.PanelName}"
+			             class = "CSharpBinding.CodeGenerationPanel"/>
+			<DialogPanel id = "CSharpOutputOptionsPanel"
+			             label = "${res:Dialog.Options.PrjOptions.OutputOptionsPanel.PanelName}"
+			             class = "CSharpBinding.OutputOptionsPanel"/>
+			<DialogPanel id = "CSharpRuntimeCompilerPanel"
+			             label = "Runtime/Compiler"
+			             class = "CSharpBinding.ChooseRuntimePanel"/>
+		</Conditional>
+		<Conditional activeproject="VBNET">
+			<DialogPanel id = "VBCodeGenerationPanel"
+			             label = "${res:Dialog.Options.PrjOptions.CodeGenerationPanel.PanelName}"
+			             class = "VBBinding.CodeGenerationPanel"/>
+			<DialogPanel id = "VBOutputOptionsPanel"
+			             label = "${res:Dialog.Options.PrjOptions.OutputOptionsPanel.PanelName}"
+			             class = "VBBinding.OutputOptionsPanel"/>
+			<DialogPanel id = "VBDOCConfigurationPanel"
+			             label = "VB.DOC"
+			             class = "VBBinding.VBDOCConfigurationPanel"/>
+		</Conditional>
+		<Conditional activeproject="JScript">
+			<DialogPanel id = "JScriptProjectPanel"
+			             label = "${res:Dialog.Options.PrjOptions.CodeGenerationPanel.PanelName}"
+			             class = "JScriptBinding.ProjectConfigurationPropertyPanel"/>
+	
+		</Conditional>
+		<Conditional activeproject="Java">
+			<DialogPanel id = "JavaProjectPanel"
+			             label = "${res:Dialog.Options.PrjOptions.CodeGenerationPanel.PanelName}"
+			             class = "JavaBinding.ProjectConfigurationPropertyPanel"/>
+	
+		</Conditional>
+	</Extension>
+
+	<Extension path = "/AddIns/DefaultTextEditor/Formater">
+		<Conditional textcontent = "C#">
+			<Class id ="CSharpFormatter" insertbefore="DefaultFormatter" class = "CSharpBinding.FormattingStrategy.CSharpFormattingStrategy"/>
+		</Conditional>
+		<Conditional textcontent = "VBNET">
+			<Class id ="VBNetFormatter" insertbefore="DefaultFormatter" class ="VBBinding.FormattingStrategy.VBFormattingStrategy"/>
+		</Conditional>
+		<Conditional textcontent = "Java">
+			<Class id ="JavaFormatter" insertbefore="DefaultFormatter" class = "JavaBinding.FormattingStrategy.JavaFormattingStrategy"/>
+		</Conditional>
+	</Extension>
+	
+	<Extension path = "/Workspace/Icons">
+		<!-- C# -->
+		<Icon id = "C#Prj"  language   = "C#"  location="icons\CSharpProject.png"/>
+		<Icon id = "C#File" extensions = ".cs" location="icons\CSharpFileIcon.png"/>
+		<Icon id = "C#.File.CSFileIcon" location="icons\CSharpFile.png" />
+		<Icon id = "C#.Project.EmptyCSProjectIcon" location="icons\EmptyCSharpProject.png" />
+		
+		<Icon id = "C#.Project.CSProjectIcon" location="icons\FullCSharpProject.png"/>
+		<Icon id = "C#.Project.CSWebProjectIcon" location="icons\EmptyCSharpApplication.png"/>
+		<Icon id = "C#.Project.CSWebServiceIcon" location="icons\CSharpWebService.png" />
+		<Icon id = "C#.Project.ConsoleCSharpProject" location="icons\ConsoleCSharpProject.png"/>
+		<Icon id = "C#.Project.CSharpClassLibrary" location="icons\CSharpClassLibrary.png" />
+		<Icon id = "C#.Project.CSharpServiceFileIcon" location="icons\CSharpCubeFileIcon.png"     />
+		<Icon id = "C#.Project.FullCSharpProject" location="icons\FullCSharpProject.png"/>
+		<Icon id = "C#.Project.ServiceCSharpProject" location="icons\ServiceCSharpProject.png"/>
+		
+		<!-- VB.NET -->
+		<Icon id = "VBPrj"   language = "VBNET"  location = "icons\VBProject.png"/>
+		<Icon id = "VBFile"  extensions=".vb"    location = "icons\VBFileIcon.png"/>
+		
+		<Icon location = "icons\ConsoleVBProject.png"      id = "VB.Project.ConsoleVBProject"/>
+		<Icon location = "icons\EmptyVBProject.png"        id = "VB.Project.EmptyVBProject"/>
+		<Icon location = "icons\EmptyVBWebApplication.png" id = "VB.Project.VBWebProjectIcon"/>
+		<Icon location = "icons\FullVBProject.png"         id = "VB.Project.FullVBProject"/>
+		<Icon location = "icons\ServiceVBProject.png"   id = "VB.Project.ServiceVBProject"/>
+		<Icon location = "icons\VBClassLibrary.png"     id = "VB.Project.VBClassLibrary"/>
+		<Icon location = "icons\VBCubeFileIcon.png"     id = "VB.Project.VBServiceFileIcon"/>
+		
+		<Icon location = "icons\VBFile.png" id = "VB.File.VBFile"/>
+		
+		<Icon location = "icons\VBWebDocument.png" id = "VB.Project.VBWebDocument"/>
+		
+		<Icon location = "icons\VBWebService.png"       id = "VB.Project.VBWebService"/>
+		
+		<!-- Java -->
+                <Icon id="JavaPrj" language="Java" location = "icons\JavaProject.png"/>
+                <Icon id="JavaFile"  location = "icons\JavaFileIcon.png" extensions=".java"/>
+                <Icon        location = "icons\JavaFile.png" id = "JAVA.File.JavaFileIcon"/>
+                <Icon        location = "icons\EmptyJavaProject.png" id = "JAVA.Project.EmptyJavaProjectIcon"/>
+
+                <Icon        location = "icons\FullJavaProject.png" id = "JAVA.Project.JavaProjectIcon"/>
+                <Icon        location = "icons\EmptyJavaApplication.png" id = "JAVA.Project.JavaWebProjectIcon"/>
+                <Icon        location = "icons\JavaWebService.png"       id = "JAVA.Project.JavaWebServiceIcon"/>
+                <Icon        location = "icons\ConsoleJavaProject.png"   id = "JAVA.Project.ConsoleJavaProject"/>
+                <Icon        location = "icons\JavaClassLibrary.png"     id = "JAVA.Project.JavaClassLibrary"/>
+                <Icon        location = "icons\JavaCubeFileIcon.png"     id = "JAVA.Project.JavaServiceFileIcon"/>
+                <Icon        location = "icons\FullJavaProject.png"      id = "JAVA.Project.FullJavaProject"/>
+                <Icon        location = "icons\ServiceJavaProject.png"   id = "JAVA.Project.ServiceJavaProject"/>
+		
+		<!-- Java Script -->
+                <Icon id ="JSPrj" language = "JScript" location = "icons\JavaScriptProject.png"/>
+                <Icon id ="JSFile"    location = "icons\JavaScriptFileIcon.png" extensions=".js"/>
+                <Icon        location = "icons\JScriptFile.png" 		id = "JS.File.JsFileIcon"/>
+                <Icon        location = "icons\JScriptClassLibrary.png"         id = "JSCRIPT.Project.JsClassLibrary"/>
+                <Icon        location = "icons\FullJScriptProject.png" 		id = "JSCRIPT.Project.JsProjectIcon"/>
+                <Icon        location = "icons\ServiceJScriptProject.png"   	id = "JSCRIPT.Project.ServiceJsProject"/>
+                <Icon        location = "icons\EmptyJScriptWebApplication.png"  id = "JSCRIPT.Project.JsWebProjectIcon"/>
+                <Icon        location = "icons\JScriptWebService.png"       	id = "JSCRIPT.Project.JsWebServiceIcon"/>
+                <Icon        location = "icons\JavaScriptProject.png" 		id = "JSCRIPT.Project.EmptyJsProjectIcon"/>
+                <Icon        location = "icons\JScriptCubeFileIcon.png"     	id = "JSCRIPT.Project.JsServiceFileIcon"/>
+		
+		<!-- Resources -->
+		<Icon id = "Icons.16x16.ResourceFileIcon" location = "icons\Icons.16x16.ResourceFileIcon.png" extensions=".resources,.resx"/>
+		
+		<!-- XML -->
+		<Icon id = "XmlFileIcon" location = "icons\XmlFileIcon.png" extensions=".xml"/>
+		
+		<!-- #Unit testconfig -->
+		<Icon id = "TestConfig" location = "icons\TestConfigIcon.png" extensions=".testconfig"/>
+		
+		<!-- TextFiles -->
+		<Icon id = "Icons.16x16.TextFileIcon" extensions=".txt,.doc"/>
+	</Extension>
+	
+	<Extension path = "/SharpDevelop/Workbench/DisplayBindings">
+		<DisplayBinding id           = "ObjectBrowser"
+		                insertbefore = "Text"
+		                class        = "ObjectBrowser.DisplayInformation" />
+		<DisplayBinding id           = "ResourceEditor"
+		                insertbefore = "Text"
+		                class        = "ResourceEditor.ResourceEditorDisplayBinding" />
+	</Extension>
+		
+	
+	<Extension path = "/SharpDevelop/Workbench/LanguageBindings">
+		<LanguageBinding id    = "CSharp"
+		                 supportedextensions = ".cs"
+		                 class = "CSharpBinding.CSharpLanguageBinding" />
+		<LanguageBinding id    = "VBNET"
+		                 supportedextensions = ".vb"
+		                 class = "VBBinding.VBLanguageBinding" />
+		<LanguageBinding id    = "Java"
+		                 supportedextensions = ".java"
+		                 class = "JavaBinding.JavaLanguageBinding" />
+		<LanguageBinding id    = "JScript"
+		                 supportedextensions = ".js"
+		                 class = "JScriptBinding.JScriptLanguageBinding" />
+	</Extension>
+	
+	<Extension path = "/SharpDevelop/Views/ProjectBrowser/NodeBuilders">
+		<Class id = "JavaNodeBuilder"
+		       insertbefore = "DefaultBuilder"
+		       class = "JavaBinding.JavaNodeBuilder"/>
+	</Extension>
+	
+</AddIn>

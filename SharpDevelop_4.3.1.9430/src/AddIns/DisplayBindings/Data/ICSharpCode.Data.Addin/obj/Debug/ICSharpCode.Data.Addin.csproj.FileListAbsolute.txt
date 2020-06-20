@@ -1,0 +1,5 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.Addin\obj\Debug\ICSharpCode.Data.Addin.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.Addin\obj\Debug\Pad\DatabasesTreeViewUserControl.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.Addin\obj\Debug\Pad\DatabasesTreeViewUserControl.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.Addin\obj\Debug\ICSharpCode.Data.Addin_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.Addin\obj\Debug\ICSharpCode.Data.Addin.g.resources

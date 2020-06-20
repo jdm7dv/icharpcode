@@ -1,0 +1,61 @@
+<System.Windows.Forms.Form>
+  <MaximizeBox value="False" />
+  <Text value="Error while saving" />
+  <DockPadding value="" />
+  <MinimizeBox value="False" />
+  <Font value="[Font: Name=Tahoma, Size=14, Units=0, GdiCharSet=1, GdiVerticalFont=False]" />
+  <Size value="{Width=512, Height=264}" />
+  <SnapToGrid value="True" />
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <DrawGrid value="True" />
+  <Name value="SaveErrorInformDialog" />
+  <FormBorderStyle value="FixedDialog" />
+  <GridSize value="{Width=8, Height=8}" />
+  <ShowInTaskbar value="False" />
+  <Controls>
+    <System.Windows.Forms.Label>
+      <Location value="{X=8,Y=0}" />
+      <Size value="{Width=502, Height=24}" />
+      <TabIndex value="3" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Anchor value="Top, Left, Right" />
+      <Name value="descriptionLabel" />
+      <TextAlign value="BottomLeft" />
+      <Text value="Description" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.TextBox>
+      <Text value="" />
+      <Multiline value="True" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=494, Height=176}" />
+      <Location value="{X=8,Y=24}" />
+      <TabIndex value="2" />
+      <Anchor value="Top, Bottom, Left, Right" />
+      <ReadOnly value="True" />
+      <Name value="descriptionTextBox" />
+      <Controls />
+    </System.Windows.Forms.TextBox>
+    <System.Windows.Forms.Button>
+      <Name value="exceptionButton" />
+      <TabIndex value="1" />
+      <Anchor value="Bottom, Right" />
+      <Text value="Show Exception" />
+      <Size value="{Width=120, Height=23}" />
+      <Location value="{X=380,Y=208}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.Button>
+      <DialogResult value="OK" />
+      <TabIndex value="0" />
+      <Anchor value="Bottom, Right" />
+      <Name value="okButton" />
+      <Text value="OK" />
+      <Size value="{Width=120, Height=23}" />
+      <Location value="{X=248,Y=208}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+  </Controls>
+</System.Windows.Forms.Form>

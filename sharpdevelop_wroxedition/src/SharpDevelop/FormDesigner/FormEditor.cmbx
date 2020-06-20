@@ -1,0 +1,16 @@
+<Combine fileversion="1.0" name="FormEditor" description="">
+  <StartMode startupentry="FormEditor" single="True">
+    <Execute entry="FormEditor" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\FormEditor.prjx" />
+  </Entries>
+  <Configurations active="Debug">
+    <Configuration name="Release">
+      <Entry name="FormEditor" configurationname="Debug" build="False" />
+    </Configuration>
+    <Configuration name="Debug">
+      <Entry name="FormEditor" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>

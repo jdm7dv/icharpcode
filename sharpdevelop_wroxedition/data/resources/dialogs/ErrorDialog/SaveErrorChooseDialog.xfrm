@@ -1,0 +1,83 @@
+<System.Windows.Forms.Form>
+  <MaximizeBox value="False" />
+  <Name value="SaveErrorChooseDialog" />
+  <Text value="Error while saving" />
+  <DockPadding value="" />
+  <MinimizeBox value="False" />
+  <Font value="[Font: Name=Tahoma, Size=14, Units=0, GdiCharSet=1, GdiVerticalFont=False]" />
+  <Size value="{Width=520, Height=262}" />
+  <SnapToGrid value="True" />
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <DrawGrid value="True" />
+  <FormBorderStyle value="FixedDialog" />
+  <GridSize value="{Width=8, Height=8}" />
+  <ShowInTaskbar value="False" />
+  <Controls>
+    <System.Windows.Forms.Button>
+      <Name value="retryButton" />
+      <DialogResult value="Retry" />
+      <TabIndex value="5" />
+      <Anchor value="Bottom, Right" />
+      <Text value="Retry" />
+      <Size value="{Width=120, Height=23}" />
+      <Location value="{X=4,Y=206}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.Button>
+      <Name value="ignoreButton" />
+      <DialogResult value="Ignore" />
+      <TabIndex value="4" />
+      <Anchor value="Bottom, Right" />
+      <Text value="Ignore" />
+      <Size value="{Width=120, Height=23}" />
+      <Location value="{X=132,Y=206}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.Label>
+      <Location value="{X=8,Y=0}" />
+      <Size value="{Width=510, Height=24}" />
+      <TabIndex value="3" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Anchor value="Top, Left, Right" />
+      <Name value="descriptionLabel" />
+      <TextAlign value="BottomLeft" />
+      <Text value="Description" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.TextBox>
+      <Text value="" />
+      <Name value="descriptionTextBox" />
+      <Multiline value="True" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=502, Height=174}" />
+      <Location value="{X=8,Y=24}" />
+      <TabIndex value="2" />
+      <Anchor value="Top, Bottom, Left, Right" />
+      <ReadOnly value="True" />
+      <Controls />
+    </System.Windows.Forms.TextBox>
+    <System.Windows.Forms.Button>
+      <TabIndex value="1" />
+      <Anchor value="Bottom, Right" />
+      <Name value="exceptionButton" />
+      <Text value="Show Exception" />
+      <Size value="{Width=120, Height=23}" />
+      <Location value="{X=388,Y=206}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.Button>
+      <DialogResult value="OK" />
+      <TabIndex value="0" />
+      <Anchor value="Bottom, Right" />
+      <Text value="Choose Location" />
+      <Size value="{Width=120, Height=23}" />
+      <Name value="chooseLocationButton" />
+      <Location value="{X=260,Y=206}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+  </Controls>
+</System.Windows.Forms.Form>

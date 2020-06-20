@@ -1,0 +1,22 @@
+<Project name="ConsoleTool" description="creates a console C# project" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\ConsoleMain.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+  </Contents>
+  <References>
+    <Reference type="Project" refto="Core" />
+  </References>
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\..\bin" assembly="SharpUnitConsole" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="TestConsole" />
+    </Configuration>
+  </Configurations>
+</Project>

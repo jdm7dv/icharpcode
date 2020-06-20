@@ -1,0 +1,27 @@
+<Project name="TypedCollectionWizard" description="creates a windows forms project" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Exclude" />
+    <File name=".\MainForm.cs" subtype="Code" buildaction="Exclude" />
+    <File name=".\TypedCollectionGenerator.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TypedCollectionWizardPanel.cs" subtype="Code" buildaction="Compile" />
+  </Contents>
+  <References>
+    <Reference type="Assembly" refto="..\..\..\bin\SharpDevelop.exe" />
+    <Reference type="Assembly" refto="..\..\..\AddIns\SharpDevelop.Base.dll" />
+    <Reference type="Assembly" refto="..\..\..\bin\MagicLocalLibrary.dll" />
+    <Reference type="Assembly" refto="..\..\..\bin\ICSharpCode.XmlForms.dll" />
+  </References>
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="False" />
+      <Output directory="..\..\..\AddIns\Wizards" assembly="TypedCollectionWizard" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="CodeGenerator" />
+    </Configuration>
+  </Configurations>
+</Project>

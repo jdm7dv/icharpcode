@@ -1,0 +1,5 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\bin\SharpDevelop.EnvDTE.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\bin\SharpDevelop.EnvDTE.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\SharpDevelop.EnvDTE\obj\Debug\SharpDevelop.EnvDTE.vbprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\SharpDevelop.EnvDTE\obj\Debug\SharpDevelop.EnvDTE.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\SharpDevelop.EnvDTE\obj\Debug\SharpDevelop.EnvDTE.pdb

@@ -1,0 +1,78 @@
+<System.Windows.Forms.UserControl>
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <SnapToGrid value="True" />
+  <Size value="{Width=336, Height=304}" />
+  <DrawGrid value="True" />
+  <Name value="CreatedObject0" />
+  <DockPadding value="" />
+  <GridSize value="{Width=8, Height=8}" />
+  <Controls>
+    <System.Windows.Forms.GroupBox>
+      <Text value="VB.DOC Configuration" />
+      <Size value="{Width=320, Height=288}" />
+      <Name value="VBDOCGroupBox" />
+      <Anchor value="Top, Bottom, Left, Right" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Location value="{X=8,Y=8}" />
+      <TabIndex value="0" />
+      <Controls>
+        <System.Windows.Forms.Button>
+          <TabIndex value="5" />
+          <Anchor value="Top, Right" />
+          <Name value="BrowseOutputFileButton" />
+          <Text value="..." />
+          <Size value="{Width=24, Height=20}" />
+          <Location value="{X=288,Y=64}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.Button>
+        <System.Windows.Forms.TextBox>
+          <Text value="" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Size value="{Width=272, Height=20}" />
+          <Location value="{X=8,Y=64}" />
+          <Name value="OutputFileTextBox" />
+          <TabIndex value="4" />
+          <Anchor value="Top, Left, Right" />
+          <Controls />
+        </System.Windows.Forms.TextBox>
+        <System.Windows.Forms.Label>
+          <Location value="{X=8,Y=48}" />
+          <Size value="{Width=56, Height=16}" />
+          <TabIndex value="3" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Name value="OutputFileLabel" />
+          <Text value="Output:" />
+          <Controls />
+        </System.Windows.Forms.Label>
+        <System.Windows.Forms.CheckedListBox>
+          <Name value="FileListBox" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <TabIndex value="2" />
+          <Anchor value="Top, Bottom, Left, Right" />
+          <Size value="{Width=304, Height=154}" />
+          <Location value="{X=8,Y=120}" />
+          <Controls />
+        </System.Windows.Forms.CheckedListBox>
+        <System.Windows.Forms.Label>
+          <Name value="FileLabel" />
+          <Location value="{X=8,Y=104}" />
+          <Size value="{Width=144, Height=16}" />
+          <TabIndex value="1" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Text value="Files to parse:" />
+          <Controls />
+        </System.Windows.Forms.Label>
+        <System.Windows.Forms.CheckBox>
+          <Name value="EnableVBDocCheckBox" />
+          <TabIndex value="0" />
+          <Text value="enable VB.DOC" />
+          <Size value="{Width=224, Height=16}" />
+          <Location value="{X=8,Y=24}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+      </Controls>
+    </System.Windows.Forms.GroupBox>
+  </Controls>
+</System.Windows.Forms.UserControl>

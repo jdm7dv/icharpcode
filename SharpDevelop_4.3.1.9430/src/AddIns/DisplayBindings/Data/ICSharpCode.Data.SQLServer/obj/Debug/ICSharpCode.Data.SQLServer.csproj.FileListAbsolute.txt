@@ -1,0 +1,4 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.SQLServer\obj\Debug\ControlPanel\SQLServerControlPanel.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.SQLServer\obj\Debug\ControlPanel\SQLServerControlPanel.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.SQLServer\obj\Debug\ICSharpCode.Data.SQLServer_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.SQLServer\obj\Debug\ICSharpCode.Data.SQLServer.g.resources

@@ -1,0 +1,6 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\HelpViewer\obj\x86\Debug\HelpViewer.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\HelpViewer\obj\x86\Debug\Source\Controls\SearchPadControl.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\HelpViewer\obj\x86\Debug\Source\Controls\TocPadControl.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\HelpViewer\obj\x86\Debug\Source\Controls\SearchPadControl.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\HelpViewer\obj\x86\Debug\Source\Controls\TocPadControl.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\HelpViewer\obj\x86\Debug\HelpViewer_MarkupCompile.cache

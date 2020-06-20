@@ -1,0 +1,40 @@
+<Combine fileversion="1.0" name="SharpDevelop Wrox Edition" description="">
+  <StartMode startupentry="Core" single="True">
+    <Execute entry="Base" type="Execute" />
+    <Execute entry="Core" type="None" />
+    <Execute entry="DefaultEditor" type="None" />
+    <Execute entry="BackendBindings" type="None" />
+    <Execute entry="SharpDevelopTests" type="None" />
+    <Execute entry="FormEditor" type="None" />
+    <Execute entry="ICSharpCode.TextEditor" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\Core\Core.prjx" />
+    <Entry filename=".\Base\SharpDevelop.prjX" />
+    <Entry filename=".\ICSharpCode.TextEditor\ICSharpCode.TextEditor.prjx" />
+    <Entry filename=".\SDDefaultEditor\SDDefaultEditor.prjx" />
+    <Entry filename=".\FormDesigner\FormEditor.prjx" />
+    <Entry filename="..\BackendBindings\BackendBindings.cmbx" />
+    <Entry filename=".\SharpDevelopTests\SharpDevelopTests.cmbx" />
+  </Entries>
+  <Configurations active="Debug">
+    <Configuration name="Release">
+      <Entry name="Base" configurationname="Debug" build="False" />
+      <Entry name="Core" configurationname="Debug" build="False" />
+      <Entry name="DefaultEditor" configurationname="Debug" build="False" />
+      <Entry name="BackendBindings" configurationname="Debug" build="False" />
+      <Entry name="SharpDevelopTests" configurationname="Debug" build="False" />
+      <Entry name="FormEditor" configurationname="Debug" build="False" />
+      <Entry name="ICSharpCode.TextEditor" configurationname="Debug" build="False" />
+    </Configuration>
+    <Configuration name="Debug">
+      <Entry name="Base" configurationname="Debug" build="False" />
+      <Entry name="Core" configurationname="Debug" build="False" />
+      <Entry name="DefaultEditor" configurationname="Debug" build="False" />
+      <Entry name="BackendBindings" configurationname="Debug" build="False" />
+      <Entry name="SharpDevelopTests" configurationname="Debug" build="False" />
+      <Entry name="FormEditor" configurationname="Debug" build="False" />
+      <Entry name="ICSharpCode.TextEditor" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>

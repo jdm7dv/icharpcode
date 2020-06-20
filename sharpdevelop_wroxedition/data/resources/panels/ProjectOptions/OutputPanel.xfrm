@@ -1,0 +1,102 @@
+<System.Windows.Forms.UserControl>
+  <Name value="CreatedObject0" />
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <SnapToGrid value="True" />
+  <Size value="{Width=504, Height=384}" />
+  <DrawGrid value="True" />
+  <DockPadding value="" />
+  <GridSize value="{Width=8, Height=8}" />
+  <Controls>
+    <System.Windows.Forms.GroupBox>
+      <Text value="${res:Dialog.Options.PrjOptions.Configuration.OutputGroupBox}" />
+      <Size value="{Width=488, Height=136}" />
+      <Anchor value="Top, Left, Right" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Name value="groupBox" />
+      <Location value="{X=8,Y=8}" />
+      <TabIndex value="0" />
+      <Controls>
+        <System.Windows.Forms.CheckBox>
+          <Name value="pauseConsoleOutputCheckBox" />
+          <TabIndex value="7" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.PrjOptions.Configuration.PauseConsoleOutputCheckBox}" />
+          <Size value="{Width=360, Height=24}" />
+          <Location value="{X=120,Y=104}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.Button>
+          <Name value="browseButton" />
+          <TabIndex value="4" />
+          <Anchor value="Top, Right" />
+          <Text value="..." />
+          <Size value="{Width=32, Height=20}" />
+          <Location value="{X=448,Y=48}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.Button>
+        <System.Windows.Forms.TextBox>
+          <Text value="" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Size value="{Width=344, Height=22}" />
+          <Location value="{X=136,Y=72}" />
+          <Name value="parametersTextBox" />
+          <TabIndex value="6" />
+          <Anchor value="Top, Left, Right" />
+          <Controls />
+        </System.Windows.Forms.TextBox>
+        <System.Windows.Forms.Label>
+          <Name value="label3" />
+          <Location value="{X=8,Y=72}" />
+          <Size value="{Width=120, Height=23}" />
+          <TabIndex value="5" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <TextAlign value="MiddleRight" />
+          <Text value="${res:Dialog.Options.PrjOptions.Configuration.CmdLineParametersLabel}" />
+          <Controls />
+        </System.Windows.Forms.Label>
+        <System.Windows.Forms.TextBox>
+          <Text value="" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Size value="{Width=304, Height=22}" />
+          <Location value="{X=136,Y=48}" />
+          <TabIndex value="3" />
+          <Anchor value="Top, Left, Right" />
+          <Name value="outputDirectoryTextBox" />
+          <Controls />
+        </System.Windows.Forms.TextBox>
+        <System.Windows.Forms.Label>
+          <Name value="label2" />
+          <Location value="{X=8,Y=48}" />
+          <Size value="{Width=120, Height=23}" />
+          <TabIndex value="2" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <TextAlign value="MiddleRight" />
+          <Text value="${res:Dialog.Options.PrjOptions.Configuration.OutputPathLabel}" />
+          <Controls />
+        </System.Windows.Forms.Label>
+        <System.Windows.Forms.TextBox>
+          <Text value="" />
+          <Name value="assemblyNameTextBox" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Size value="{Width=344, Height=22}" />
+          <Location value="{X=136,Y=24}" />
+          <TabIndex value="1" />
+          <Anchor value="Top, Left, Right" />
+          <Controls />
+        </System.Windows.Forms.TextBox>
+        <System.Windows.Forms.Label>
+          <Name value="label1" />
+          <Location value="{X=8,Y=24}" />
+          <Size value="{Width=120, Height=23}" />
+          <TabIndex value="0" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <TextAlign value="MiddleRight" />
+          <Text value="${res:Dialog.Options.PrjOptions.Configuration.AssemblyNameLabel}" />
+          <Controls />
+        </System.Windows.Forms.Label>
+      </Controls>
+    </System.Windows.Forms.GroupBox>
+  </Controls>
+</System.Windows.Forms.UserControl>

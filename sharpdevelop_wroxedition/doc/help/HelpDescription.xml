@@ -1,0 +1,8 @@
+<!-- This file is used to generate a xml help file which can be used
+     inside the SharpDevelop help browser -->
+<HelpCollection>
+  <HelpFile hhc="SharpDevelop.hhc" chm="SharpDevelop.chm"/>
+  <HelpFolder name="#ziplib">
+    <HelpFile hhc="031SharpZipLib.hhc" chm="031SharpZipLib.chm" />
+  </HelpFolder>
+</HelpCollection>

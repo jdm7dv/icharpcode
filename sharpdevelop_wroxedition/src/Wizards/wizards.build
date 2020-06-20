@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+
+<project name="Wizards" default="build" basedir=".">
+	<property name="debug" value="False"/>
+	
+	<target name="build">
+		
+		<!-- compile NewClassWizard -->
+		<echo message="Building new class wizard"/>
+		<csc 
+			target="library" 
+			output="../../AddIns/Wizards/NewClassWizard.dll" 
+			debug="${debug}">
+			
+			<sources basedir="NewClassWizard">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.DefaultTexteditor.dll"/>
+			</references>
+		</csc>
+		
+
+		<!-- compile typed collection wizard -->
+		<echo message="Building typed collection wizard"/>
+		<csc 
+			target="library" 
+			output="../../AddIns/Wizards/TypedCollectionWizard.dll" 
+			debug="${debug}">
+			
+			<sources basedir="TypedCollectionWizard">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="../..">
+				<includes name="bin/MagicLocalLibrary.dll"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.DefaultTexteditor.dll"/>
+			</references>
+		</csc>
+
+		<!-- compile MessageBoxWizard -->
+		<echo message="Building message box wizard"/>
+		<csc 
+			target="library" 
+			output="../../AddIns/Wizards/MessageBoxBuilder.dll" 
+			debug="${debug}">
+			
+			<sources basedir="MessageBoxBuilder">
+				<includes name="**/*.cs"/>
+			</sources>
+			<resources basedir="MessageBoxBuilder/res">
+				<includes name="Icons.resources"/>
+			</resources>
+			<references basedir="../..">
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+				<includes name="bin/ICSharpCode.TextEditor.dll"/>
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.DefaultTexteditor.dll"/>
+			</references>
+		</csc>
+
+	</target>
+	
+	<target name="clean">
+	        <delete verbose="true" >
+			<fileset basedir="../../AddIns/Wizards">
+				<includes name="NewClassWizard.dll"/>
+				<includes name="MessageBoxBuilder.dll"/>
+				<includes name="TypedCollectionWizard.dll"/>
+			</fileset>
+		</delete>
+	</target>
+	
+</project>

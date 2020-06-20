@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<project name="NZLib" default="build" basedir=".">
+
+	<target name="build">
+		<!-- compile SharpUnit.Core -->
+		<echo message="Building ICSharpCode.SharpUnit"/>
+		<csc 
+			target="library" 
+			output="bin/ICSharpCode.SharpUnit.dll" 
+			debug="False">
+			
+			<sources basedir="src/Core">
+				<includes name="**/*.cs"/>
+			</sources>
+		</csc>
+
+		<!-- compile SharpUnit.Console -->
+		<echo message="Building ICSharpCode.SharpUnit"/>
+		<csc 
+			target="exe" 
+			output="bin/SharpUnitConsole.exe" 
+			debug="False">
+			
+			<sources basedir="src/Console">
+				<includes name="**/*.cs"/>
+			</sources>
+
+			<references basedir="bin">
+				<includes name="ICSharpCode.SharpUnit.dll"/>
+			</references>
+
+		</csc>
+
+		<!-- compile SharpUnit.Gui -->
+		<echo message="Building ICSharpCode.SharpUnit"/>
+		<csc 
+			target="winexe" 
+			output="bin/SharpUnit.exe" 
+			win32icon="resources/SharpUnitIcon.ico"
+			debug="False">
+			
+			<sources basedir="src/Gui">
+				<includes name="**/*.cs"/>
+			</sources>
+			<resources basedir="resources">
+				<includes name="IconResources.resources"/>
+			</resources>
+
+			<references basedir="bin">
+				<includes name="ICSharpCode.SharpUnit.dll"/>
+				<includes name="MagicLocalLibrary.dll"/>
+			</references>
+
+		</csc>
+	</target>
+	
+	<target name="clean">
+	        <delete verbose="true" >
+			<fileset basedir=".">
+				<includes name="bin/ICSharpCode.SharpUnit.dll"/>
+				<includes name="bin/SharpUnitConsole.exe"/>
+				<includes name="bin/SharpUnit.exe"/>
+			</fileset>
+		</delete>
+	</target>
+</project>

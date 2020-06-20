@@ -1,0 +1,6 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\Misc\UsageDataCollector\UsageDataCollector.xml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\Misc\UsageDataCollector\UsageDataCollector.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\Misc\UsageDataCollector\UsageDataCollector.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\UsageDataCollector\UsageDataCollector\obj\Debug\UsageDataCollector.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\UsageDataCollector\UsageDataCollector\obj\Debug\UsageDataCollector.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\UsageDataCollector\UsageDataCollector\obj\Debug\UsageDataCollector.pdb

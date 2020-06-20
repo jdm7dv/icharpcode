@@ -1,0 +1,1196 @@
+<HelpCollection>
+  <HelpFolder name="SharpDevelop">
+    <HelpTopic name="Welcome to SharpDevelop!" link="SharpDevelop.chm::/pr01.html" />
+    <HelpFolder name="1. Getting Started with SharpDevelop">
+      <HelpTopic name="1. Introduction" link="SharpDevelop.chm::/ch01s01.html" />
+      <HelpFolder name="2. SharpDevelop IDE">
+        <HelpFolder name="2.1. #develop Scouts">
+          <HelpTopic name="2.1.1. Projects Scout" link="SharpDevelop.chm::/ch01s02s01s01.html" />
+          <HelpTopic name="2.1.2. Classes Scout" link="SharpDevelop.chm::/ch01s02s01s02.html" />
+          <HelpTopic name="2.1.3. Files Scout" link="SharpDevelop.chm::/ch01s02s01s03.html" />
+          <HelpTopic name="2.1.4. Tools Scout" link="SharpDevelop.chm::/ch01s02s01s04.html" />
+          <HelpTopic name="2.1.5. Help Scout" link="SharpDevelop.chm::/ch01s02s01s05.html" />
+          <HelpTopic name="2.1.6. Properties Scout" link="SharpDevelop.chm::/ch01s02s01s06.html" />
+        </HelpFolder>
+        <HelpTopic name="2.2. Code Window" link="SharpDevelop.chm::/ch01s02s02.html" />
+        <HelpTopic name="2.3. Task List" link="SharpDevelop.chm::/ch01s02s03.html" />
+        <HelpTopic name="2.4. Output" link="SharpDevelop.chm::/ch01s02s04.html" />
+      </HelpFolder>
+      <HelpFolder name="3. C# and SharpDevelop">
+        <HelpTopic name="3.1. Your First C# Project: Hello, World" link="SharpDevelop.chm::/ch01s03s01.html" />
+        <HelpTopic name="3.2. Fixing Errors (C#)" link="SharpDevelop.chm::/ch01s03s02.html" />
+      </HelpFolder>
+      <HelpFolder name="4. VB.NET and SharpDevelop">
+        <HelpTopic name="4.1. Your First VB.NET Project: Hello, World" link="SharpDevelop.chm::/ch01s04s01.html" />
+        <HelpTopic name="4.2. Fixing Errors (VB.NET)" link="SharpDevelop.chm::/ch01s04s02.html" />
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="2. Working with SharpDevelop">
+      <HelpTopic name="1. Introduction" link="SharpDevelop.chm::/ch02s01.html" />
+      <HelpFolder name="2. Projects">
+        <HelpTopic name="2.1. Projects" link="SharpDevelop.chm::/ch02s02s01.html" />
+        <HelpTopic name="2.2. Creating new projects" link="SharpDevelop.chm::/ch02s02s02.html" />
+        <HelpTopic name="2.3. Project Templates" link="SharpDevelop.chm::/ch02s02s03.html" />
+        <HelpFolder name="2.4. Project options">
+          <HelpFolder name="2.4.1. General, Project Options">
+            <HelpTopic name="2.4.1.1. Name" link="SharpDevelop.chm::/ch02s02s04s01.html#d0e831" />
+            <HelpTopic name="2.4.1.2. Description" link="SharpDevelop.chm::/ch02s02s04s01.html#d0e836" />
+            <HelpTopic name="2.4.1.3. Project Documentation" link="SharpDevelop.chm::/ch02s02s04s01.html#d0e841" />
+            <HelpTopic name="2.4.1.4. Auto-Find Files" link="SharpDevelop.chm::/ch02s02s04s01.html#auto_find_files" />
+            <HelpTopic name="2.4.1.5. Enable Viewstate" link="SharpDevelop.chm::/ch02s02s04s01.html#d0e856" />
+          </HelpFolder>
+          <HelpFolder name="2.4.2. Deploy, Compile">
+            <HelpTopic name="2.4.2.1. Include files in compile run" link="SharpDevelop.chm::/ch02s02s04s02.html#d0e867" />
+          </HelpFolder>
+          <HelpFolder name="2.4.3. Deploy, Deploy">
+            <HelpFolder name="2.4.3.1. Deploy">
+              <HelpTopic name="2.4.3.1.1. Project files" link="SharpDevelop.chm::/ch02s02s04s03.html#d0e885" />
+              <HelpTopic name="2.4.3.1.2. Compilation target" link="SharpDevelop.chm::/ch02s02s04s03.html#d0e890" />
+              <HelpTopic name="2.4.3.1.3. With scriptfile" link="SharpDevelop.chm::/ch02s02s04s03.html#d0e895" />
+            </HelpFolder>
+            <HelpTopic name="2.4.3.2. Deploy target" link="SharpDevelop.chm::/ch02s02s04s03.html#d0e900" />
+          </HelpFolder>
+          <HelpFolder name="2.4.4. Configurations, Settings (C#)">
+            <HelpFolder name="2.4.4.1. Code Generation and Warnings">
+              <HelpTopic name="2.4.4.1.1. Compile Target" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e914" />
+              <HelpTopic name="2.4.4.1.2. Define Symbols" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e919" />
+              <HelpTopic name="2.4.4.1.3. Main class" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e924" />
+              <HelpTopic name="2.4.4.1.4. Win32Icon" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e929" />
+              <HelpTopic name="2.4.4.1.5. Generate overflow checks" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e936" />
+              <HelpTopic name="2.4.4.1.6. Allow 'unsafe' code" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e941" />
+              <HelpTopic name="2.4.4.1.7. Treat warnings as errors" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e946" />
+              <HelpTopic name="2.4.4.1.8. Enable optimizations" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e951" />
+              <HelpTopic name="2.4.4.1.9. Emit debugging information" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e956" />
+              <HelpTopic name="2.4.4.1.10. Generate xml documentation" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e961" />
+              <HelpTopic name="2.4.4.1.11. Warning level" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e966" />
+            </HelpFolder>
+            <HelpFolder name="2.4.4.2. Output">
+              <HelpTopic name="2.4.4.2.1. Assembly name" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e974" />
+              <HelpTopic name="2.4.4.2.2. Output path" link="SharpDevelop.chm::/ch02s02s04s04.html#d0e979" />
+            </HelpFolder>
+          </HelpFolder>
+          <HelpFolder name="2.4.5. Configurations, Settings (VB.NET)">
+            <HelpTopic name="2.4.5.1. Imports" link="SharpDevelop.chm::/ch02s02s04s05.html#d0e999" />
+          </HelpFolder>
+          <HelpFolder name="2.4.6. Configurations, Runtime/Compiler">
+            <HelpFolder name="2.4.6.1. Runtime">
+              <HelpTopic name="2.4.6.1.1. Microsoft .NET" link="SharpDevelop.chm::/ch02s02s04s06.html#d0e1013" />
+              <HelpTopic name="2.4.6.1.2. Mono" link="SharpDevelop.chm::/ch02s02s04s06.html#d0e1017" />
+              <HelpTopic name="2.4.6.1.3. Mono Runtime Interpreter" link="SharpDevelop.chm::/ch02s02s04s06.html#d0e1021" />
+            </HelpFolder>
+            <HelpFolder name="2.4.6.2. Compiler">
+              <HelpTopic name="2.4.6.2.1. Microsoft csc" link="SharpDevelop.chm::/ch02s02s04s06.html#d0e1028" />
+              <HelpTopic name="2.4.6.2.2. Mono mcs" link="SharpDevelop.chm::/ch02s02s04s06.html#d0e1031" />
+            </HelpFolder>
+          </HelpFolder>
+        </HelpFolder>
+        <HelpTopic name="2.5. Building projects" link="SharpDevelop.chm::/ch02s02s05.html" />
+        <HelpTopic name="2.6. Running projects" link="SharpDevelop.chm::/ch02s02s06.html" />
+        <HelpTopic name="2.7. Deploying projects" link="SharpDevelop.chm::/ch02s02s07.html" />
+        <HelpTopic name="2.8. Generating Documentation" link="SharpDevelop.chm::/ch02s02s08.html" />
+      </HelpFolder>
+      <HelpFolder name="3. Files">
+        <HelpTopic name="3.1. Introduction" link="SharpDevelop.chm::/ch02s03s01.html" />
+        <HelpTopic name="3.2. Creating new files" link="SharpDevelop.chm::/ch02s03s02.html" />
+        <HelpTopic name="3.3. File Templates" link="SharpDevelop.chm::/ch02s03s03.html" />
+        <HelpTopic name="3.4. File Wizards" link="SharpDevelop.chm::/ch02s03s04.html" />
+        <HelpTopic name="3.5. Adding Existing Files" link="SharpDevelop.chm::/ch02s03s05.html" />
+        <HelpFolder name="3.6. Editing Files">
+          <HelpTopic name="3.6.1. Opening Files for Editing" link="SharpDevelop.chm::/ch02s03s06s01.html" />
+          <HelpFolder name="3.6.2. Code Editor">
+            <HelpTopic name="3.6.2.1. File Mode" link="SharpDevelop.chm::/ch02s03s06s02.html#code_file_mode" />
+          </HelpFolder>
+        </HelpFolder>
+        <HelpTopic name="3.7. Including/Excluding Files from Compilation/Deployment" link="SharpDevelop.chm::/ch02s03s07.html" />
+      </HelpFolder>
+      <HelpFolder name="4. Folders">
+        <HelpTopic name="4.1. Creating a Folder" link="SharpDevelop.chm::/ch02s04s01.html" />
+        <HelpTopic name="4.2. Moving items between Folders" link="SharpDevelop.chm::/ch02s04s02.html" />
+      </HelpFolder>
+      <HelpFolder name="5. References">
+        <HelpFolder name="5.1. Adding a Reference">
+          <HelpTopic name="5.1.1. Adding a Global Assembly Cache (GAC) reference" link="SharpDevelop.chm::/ch02s05s01s01.html" />
+          <HelpTopic name="5.1.2. Adding a Project reference" link="SharpDevelop.chm::/ch02s05s01s02.html" />
+          <HelpTopic name="5.1.3. Adding a .NET Assembly reference" link="SharpDevelop.chm::/ch02s05s01s03.html" />
+        </HelpFolder>
+        <HelpTopic name="5.2. Removing a Reference" link="SharpDevelop.chm::/ch02s05s02.html" />
+      </HelpFolder>
+      <HelpFolder name="6. Combines">
+        <HelpTopic name="6.1. Combine" link="SharpDevelop.chm::/ch02s06s01.html" />
+        <HelpFolder name="6.2. Combine Options">
+          <HelpFolder name="6.2.1. Common, Startup Properties">
+            <HelpTopic name="6.2.1.1. Startup Project(s)" link="SharpDevelop.chm::/ch02s06s02s01.html#d0e1728" />
+          </HelpFolder>
+          <HelpFolder name="6.2.2. Common, Dependencies">
+            <HelpTopic name="6.2.2.1. Setting Project Dependencies" link="SharpDevelop.chm::/ch02s06s02s02.html#d0e1741" />
+          </HelpFolder>
+          <HelpFolder name="6.2.3. Configuration, Configurations">
+            <HelpTopic name="6.2.3.1. Combine configuration" link="SharpDevelop.chm::/ch02s06s02s03.html#d0e1764" />
+            <HelpTopic name="6.2.3.2. Configuration Manager" link="SharpDevelop.chm::/ch02s06s02s03.html#d0e1769" />
+            <HelpTopic name="6.2.3.3. Configuration Entries" link="SharpDevelop.chm::/ch02s06s02s03.html#d0e1774" />
+            <HelpTopic name="6.2.3.4. Entry configuration" link="SharpDevelop.chm::/ch02s06s02s03.html#d0e1779" />
+          </HelpFolder>
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="7. IDE Options">
+        <HelpFolder name="7.1. SharpDevelop Options">
+          <HelpFolder name="7.1.1. UI Language">
+            <HelpTopic name="7.1.1.1. Installing Language Packs" link="SharpDevelop.chm::/ch02s07s01s01.html#d0e1829" />
+          </HelpFolder>
+          <HelpTopic name="7.1.2. Visual Style" link="SharpDevelop.chm::/ch02s07s01s02.html" />
+          <HelpFolder name="7.1.3. Load/Save Options">
+            <HelpFolder name="7.1.3.1. Load">
+              <HelpTopic name="7.1.3.1.1. Load user-specific settings with the document" link="SharpDevelop.chm::/ch02s07s01s03.html#d0e1886" />
+            </HelpFolder>
+            <HelpFolder name="7.1.3.2. Save">
+              <HelpTopic name="7.1.3.2.1. Always create backup copy" link="SharpDevelop.chm::/ch02s07s01s03.html#d0e1894" />
+              <HelpTopic name="7.1.3.2.2. Line terminator style" link="SharpDevelop.chm::/ch02s07s01s03.html#d0e1899" />
+            </HelpFolder>
+          </HelpFolder>
+        </HelpFolder>
+        <HelpFolder name="7.2. Coding">
+          <HelpFolder name="7.2.1. Code Templates">
+            <HelpTopic name="7.2.1.1. Adding a Code Template" link="SharpDevelop.chm::/ch02s07s02s01.html#d0e1945" />
+            <HelpTopic name="7.2.1.2. Editing a Code Template" link="SharpDevelop.chm::/ch02s07s02s01.html#d0e1978" />
+            <HelpTopic name="7.2.1.3. Deleting a Code Template" link="SharpDevelop.chm::/ch02s07s02s01.html#d0e2014" />
+          </HelpFolder>
+        </HelpFolder>
+        <HelpFolder name="7.3. Text Editor">
+          <HelpFolder name="7.3.1. General">
+            <HelpFolder name="7.3.1.1. General Options">
+              <HelpTopic name="7.3.1.1.1. Enable code completion" link="SharpDevelop.chm::/ch02s07s03s01.html#d0e2038" />
+              <HelpTopic name="7.3.1.1.2. Enable doublebuffering" link="SharpDevelop.chm::/ch02s07s03s01.html#d0e2041" />
+              <HelpTopic name="7.3.1.1.3. Enable folding" link="SharpDevelop.chm::/ch02s07s03s01.html#d0e2044" />
+            </HelpFolder>
+            <HelpFolder name="7.3.1.2. Font">
+              <HelpTopic name="7.3.1.2.1. Textfont" link="SharpDevelop.chm::/ch02s07s03s01.html#d0e2050" />
+              <HelpTopic name="7.3.1.2.2. Render font antialiased" link="SharpDevelop.chm::/ch02s07s03s01.html#d0e2055" />
+            </HelpFolder>
+          </HelpFolder>
+          <HelpFolder name="7.3.2. Markers and Rulers">
+            <HelpTopic name="7.3.2.1. Show horizontal ruler" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2061" />
+            <HelpTopic name="7.3.2.2. Show vertical ruler" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2066" />
+            <HelpTopic name="7.3.2.3. Line marker style" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2069" />
+            <HelpTopic name="7.3.2.4. Show line numbers" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2074" />
+            <HelpTopic name="7.3.2.5. Underline errors" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2077" />
+            <HelpTopic name="7.3.2.6. Highlight matching bracket" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2080" />
+            <HelpTopic name="7.3.2.7. Show invalid lines" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2083" />
+            <HelpTopic name="7.3.2.8. Show EOL markers" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2086" />
+            <HelpTopic name="7.3.2.9. Show spaces" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2089" />
+            <HelpTopic name="7.3.2.10. Show tabs" link="SharpDevelop.chm::/ch02s07s03s02.html#d0e2092" />
+          </HelpFolder>
+          <HelpFolder name="7.3.3. Behaviour">
+            <HelpFolder name="7.3.3.1. Tabs">
+              <HelpTopic name="7.3.3.1.1. Tab size" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2101" />
+              <HelpTopic name="7.3.3.1.2. Indentation" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2104" />
+              <HelpTopic name="7.3.3.1.3. Indentation size" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2107" />
+              <HelpTopic name="7.3.3.1.4. Insert spaces/Keep tabs" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2110" />
+            </HelpFolder>
+            <HelpFolder name="7.3.3.2. Behaviour">
+              <HelpTopic name="7.3.3.2.1. Can move caret behind EOL" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2116" />
+              <HelpTopic name="7.3.3.2.2. Automatic template insertion" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2119" />
+              <HelpTopic name="7.3.3.2.3. Auto insert curly braces" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2122" />
+              <HelpTopic name="7.3.3.2.4. Hide mouse cursor while typing" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2125" />
+              <HelpTopic name="7.3.3.2.5. Mousewheel direction" link="SharpDevelop.chm::/ch02s07s03s03.html#d0e2128" />
+            </HelpFolder>
+          </HelpFolder>
+        </HelpFolder>
+        <HelpFolder name="7.4. Tools">
+          <HelpFolder name="7.4.1. External Tools">
+            <HelpTopic name="7.4.1.1. Adding an External Tool" link="SharpDevelop.chm::/ch02s07s04s01.html#d0e2141" />
+            <HelpTopic name="7.4.1.2. Deleting an External Tool" link="SharpDevelop.chm::/ch02s07s04s01.html#d0e2207" />
+          </HelpFolder>
+        </HelpFolder>
+      </HelpFolder>
+      <HelpTopic name="8. Text Libraries" link="SharpDevelop.chm::/ch02s08.html" />
+    </HelpFolder>
+    <HelpFolder name="3. Unit Testing">
+      <HelpFolder name="1. #Unit Introduction">
+        <HelpTopic name="1.1. Using #Unit" link="SharpDevelop.chm::/ch03s01s01.html" />
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="4. Extending SharpDevelop">
+      <HelpTopic name="1. Introduction" link="SharpDevelop.chm::/ch04s01.html" />
+      <HelpTopic name="2. Creating a File Wizard" link="SharpDevelop.chm::/ch04s02.html" />
+    </HelpFolder>
+    <HelpFolder name="5. Walkthroughs">
+      <HelpTopic name="1. Introduction" link="SharpDevelop.chm::/ch05s01.html" />
+      <HelpFolder name="2. Walkthrough: Creating a File Wizard">
+        <HelpTopic name="2.1. Interfaces you should know" link="SharpDevelop.chm::/ch05s02s01.html" />
+        <HelpTopic name="2.2. The File Wizard definition Xml" link="SharpDevelop.chm::/ch05s02s02.html" />
+        <HelpTopic name="2.3. Example File Wizard" link="SharpDevelop.chm::/ch05s02s03.html" />
+      </HelpFolder>
+      <HelpFolder name="3. Walkthrough: Creating a Project Wizard">
+        <HelpTopic name="3.1. Interfaces you should know" link="SharpDevelop.chm::/ch05s03s01.html" />
+        <HelpTopic name="3.2. The Project Wizard definition Xml" link="SharpDevelop.chm::/ch05s03s02.html" />
+        <HelpTopic name="3.3. Example Project Wizard" link="SharpDevelop.chm::/ch05s03s03.html" />
+      </HelpFolder>
+      <HelpFolder name="4. Walkthrough: Unit Testing">
+        <HelpTopic name="4.1. Writing Unit Tests" link="SharpDevelop.chm::/ch05s04s01.html" />
+        <HelpTopic name="4.2. How to Start the Test" link="SharpDevelop.chm::/ch05s04s02.html" />
+        <HelpTopic name="4.3. Compatibility" link="SharpDevelop.chm::/ch05s04s03.html" />
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="6. Samples">
+      <HelpTopic name="1. Introduction" link="SharpDevelop.chm::/ch06s01.html" />
+      <HelpTopic name="2. Codon Creation" link="SharpDevelop.chm::/ch06s02.html" />
+      <HelpTopic name="3. Custom IView Content" link="SharpDevelop.chm::/ch06s03.html" />
+      <HelpTopic name="4. Display Bindings Sample" link="SharpDevelop.chm::/ch06s04.html" />
+      <HelpTopic name="5. Language Bindings" link="SharpDevelop.chm::/ch06s05.html" />
+      <HelpTopic name="6. Pad Content Sample" link="SharpDevelop.chm::/ch06s06.html" />
+      <HelpTopic name="7. SharpPad" link="SharpDevelop.chm::/ch06s07.html" />
+    </HelpFolder>
+    <HelpFolder name="7. References">
+      <HelpTopic name="1. Shortcut Keys" link="SharpDevelop.chm::/ch07s01.html" />
+    </HelpFolder>
+    <HelpFolder name="A. Appendix">
+      <HelpFolder name="1. HOWTO: Build the Help">
+        <HelpTopic name="1.1. About the Technologies" link="SharpDevelop.chm::/apas01s01.html" />
+        <HelpTopic name="1.2. Help Shopping List" link="SharpDevelop.chm::/apas01s02.html" />
+      </HelpFolder>
+    </HelpFolder>
+  </HelpFolder>
+  <HelpFolder name="#ziplib">
+    <HelpFile hhc="031SharpZipLib.hhc" chm="031SharpZipLib.chm" />
+    <HelpFolder name="ICSharpCode.SharpZipLib">
+      <HelpFolder name="ZipException Class">
+        <HelpTopic name="ZipException Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.ZipExceptionMembers.html" />
+        <HelpFolder name="ZipException Constructor">
+          <HelpTopic name="ZipException Constructor ()" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.ZipExceptionConstructor1.html" />
+          <HelpTopic name="ZipException Constructor (String)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.ZipExceptionConstructor2.html" />
+        </HelpFolder>
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="ICSharpCode.SharpZipLib.BZip2">
+      <HelpFolder name="BZip2 Class">
+        <HelpTopic name="BZip2 Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Members.html" />
+        <HelpTopic name="BZip2 Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constructor.html" />
+        <HelpFolder name="Methods">
+          <HelpTopic name="Compress Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2.Compress.html" />
+          <HelpTopic name="Decompress Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2.Decompress.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="BZip2Constants Class">
+        <HelpTopic name="BZip2Constants Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2ConstantsMembers.html" />
+        <HelpTopic name="BZip2Constants Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2ConstantsConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="baseBlockSize Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.baseBlockSize.html" />
+          <HelpTopic name="G_SIZE Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.G_SIZE.html" />
+          <HelpTopic name="MAX_ALPHA_SIZE Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.MAX_ALPHA_SIZE.html" />
+          <HelpTopic name="MAX_CODE_LEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.MAX_CODE_LEN.html" />
+          <HelpTopic name="MAX_SELECTORS Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.MAX_SELECTORS.html" />
+          <HelpTopic name="N_GROUPS Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.N_GROUPS.html" />
+          <HelpTopic name="N_ITERS Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.N_ITERS.html" />
+          <HelpTopic name="NUM_OVERSHOOT_BYTES Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.NUM_OVERSHOOT_BYTES.html" />
+          <HelpTopic name="rNums Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.rNums.html" />
+          <HelpTopic name="RUNA Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.RUNA.html" />
+          <HelpTopic name="RUNB Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2Constants.RUNB.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="BZip2InputStream Class">
+        <HelpTopic name="BZip2InputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStreamMembers.html" />
+        <HelpTopic name="BZip2InputStream Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStreamConstructor.html" />
+        <HelpFolder name="Properties">
+          <HelpTopic name="CanRead Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.CanRead.html" />
+          <HelpTopic name="CanSeek Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.CanSeek.html" />
+          <HelpTopic name="CanWrite Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.CanWrite.html" />
+          <HelpTopic name="Length Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.Length.html" />
+          <HelpTopic name="Position Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.Position.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.Close.html" />
+          <HelpTopic name="Flush Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.Flush.html" />
+          <HelpTopic name="Read Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.Read.html" />
+          <HelpTopic name="ReadByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.ReadByte.html" />
+          <HelpTopic name="Seek Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.Seek.html" />
+          <HelpTopic name="SetLength Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.SetLength.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.Write.html" />
+          <HelpTopic name="WriteByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2InputStream.WriteByte.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="BZip2OutputStream Class">
+        <HelpTopic name="BZip2OutputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStreamMembers.html" />
+        <HelpFolder name="BZip2OutputStream Constructor">
+          <HelpTopic name="BZip2OutputStream Constructor (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStreamConstructor1.html" />
+          <HelpTopic name="BZip2OutputStream Constructor (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStreamConstructor2.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="CanRead Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.CanRead.html" />
+          <HelpTopic name="CanSeek Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.CanSeek.html" />
+          <HelpTopic name="CanWrite Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.CanWrite.html" />
+          <HelpTopic name="Length Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.Length.html" />
+          <HelpTopic name="Position Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.Position.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.Close.html" />
+          <HelpTopic name="Finalize Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.Finalize2.html" />
+          <HelpTopic name="Flush Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.Flush.html" />
+          <HelpTopic name="Read Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.Read.html" />
+          <HelpTopic name="ReadByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.ReadByte.html" />
+          <HelpTopic name="Seek Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.Seek.html" />
+          <HelpTopic name="SetLength Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.SetLength.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.Write.html" />
+          <HelpTopic name="WriteByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.BZip2.BZip2OutputStream.WriteByte.html" />
+        </HelpFolder>
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="ICSharpCode.SharpZipLib.Checksums">
+      <HelpFolder name="Adler32 Class">
+        <HelpTopic name="Adler32 Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Adler32Members.html" />
+        <HelpTopic name="Adler32 Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Adler32Constructor.html" />
+        <HelpFolder name="Properties">
+          <HelpTopic name="Value Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Adler32.Value.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Adler32.Reset.html" />
+          <HelpFolder name="Update Method">
+            <HelpTopic name="Update Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Adler32.Update2.html" />
+            <HelpTopic name="Update Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Adler32.Update1.html" />
+            <HelpTopic name="Update Method (Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Adler32.Update3.html" />
+          </HelpFolder>
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="Crc32 Class">
+        <HelpTopic name="Crc32 Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Crc32Members.html" />
+        <HelpTopic name="Crc32 Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Crc32Constructor.html" />
+        <HelpFolder name="Properties">
+          <HelpTopic name="Value Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Crc32.Value.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Crc32.Reset.html" />
+          <HelpFolder name="Update Method">
+            <HelpTopic name="Update Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Crc32.Update2.html" />
+            <HelpTopic name="Update Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Crc32.Update1.html" />
+            <HelpTopic name="Update Method (Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.Crc32.Update3.html" />
+          </HelpFolder>
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="IChecksum Interface">
+        <HelpTopic name="IChecksum Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.IChecksumMembers.html" />
+        <HelpFolder name="Properties">
+          <HelpTopic name="Value Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.IChecksum.Value.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.IChecksum.Reset.html" />
+          <HelpFolder name="Update Method">
+            <HelpTopic name="Update Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.IChecksum.Update2.html" />
+            <HelpTopic name="Update Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.IChecksum.Update1.html" />
+            <HelpTopic name="Update Method (Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.IChecksum.Update3.html" />
+          </HelpFolder>
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="StrangeCRC Class">
+        <HelpTopic name="StrangeCRC Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.StrangeCRCMembers.html" />
+        <HelpTopic name="StrangeCRC Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.StrangeCRCConstructor.html" />
+        <HelpFolder name="Properties">
+          <HelpTopic name="Value Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.StrangeCRC.Value.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.StrangeCRC.Reset.html" />
+          <HelpFolder name="Update Method">
+            <HelpTopic name="Update Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.StrangeCRC.Update2.html" />
+            <HelpTopic name="Update Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.StrangeCRC.Update1.html" />
+            <HelpTopic name="Update Method (Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Checksums.StrangeCRC.Update3.html" />
+          </HelpFolder>
+        </HelpFolder>
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="ICSharpCode.SharpZipLib.GZip">
+      <HelpFolder name="GZipConstants Class">
+        <HelpTopic name="GZipConstants Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipConstantsMembers.html" />
+        <HelpTopic name="GZipConstants Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipConstantsConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="FCOMMENT Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipConstants.FCOMMENT.html" />
+          <HelpTopic name="FEXTRA Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipConstants.FEXTRA.html" />
+          <HelpTopic name="FHCRC Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipConstants.FHCRC.html" />
+          <HelpTopic name="FNAME Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipConstants.FNAME.html" />
+          <HelpTopic name="FTEXT Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipConstants.FTEXT.html" />
+          <HelpTopic name="GZIP_MAGIC Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipConstants.GZIP_MAGIC.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="GZipInputStream Class">
+        <HelpTopic name="GZipInputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStreamMembers.html" />
+        <HelpFolder name="GZipInputStream Constructor">
+          <HelpTopic name="GZipInputStream Constructor (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStreamConstructor1.html" />
+          <HelpTopic name="GZipInputStream Constructor (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStreamConstructor2.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="baseInputStream Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStream.baseInputStream.html" />
+          <HelpTopic name="buf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStream.buf.html" />
+          <HelpTopic name="crc Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStream.crc.html" />
+          <HelpTopic name="eos Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStream.eos.html" />
+          <HelpTopic name="inf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStream.inf.html" />
+          <HelpTopic name="len Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStream.len.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Read Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipInputStream.Read.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="GZipOutputStream Class">
+        <HelpTopic name="GZipOutputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStreamMembers.html" />
+        <HelpFolder name="GZipOutputStream Constructor">
+          <HelpTopic name="GZipOutputStream Constructor (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStreamConstructor1.html" />
+          <HelpTopic name="GZipOutputStream Constructor (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStreamConstructor2.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="baseOutputStream Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStream.baseOutputStream.html" />
+          <HelpTopic name="buf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStream.buf.html" />
+          <HelpTopic name="crc Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStream.crc.html" />
+          <HelpTopic name="def Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStream.def.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStream.Close.html" />
+          <HelpTopic name="Finish Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStream.Finish.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.GZip.GZipOutputStream.Write.html" />
+        </HelpFolder>
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="ICSharpCode.SharpZipLib.Tar">
+      <HelpFolder name="InvalidHeaderException Class">
+        <HelpTopic name="InvalidHeaderException Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.InvalidHeaderExceptionMembers.html" />
+        <HelpFolder name="InvalidHeaderException Constructor">
+          <HelpTopic name="InvalidHeaderException Constructor ()" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.InvalidHeaderExceptionConstructor1.html" />
+          <HelpTopic name="InvalidHeaderException Constructor (String)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.InvalidHeaderExceptionConstructor2.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpTopic name="ProgressMessageHandler Delegate" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.ProgressMessageHandler.html" />
+      <HelpFolder name="TarArchive Class">
+        <HelpTopic name="TarArchive Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchiveMembers.html" />
+        <HelpTopic name="TarArchive Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchiveConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="asciiTranslate Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.asciiTranslate.html" />
+          <HelpTopic name="debug Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.debug.html" />
+          <HelpTopic name="groupId Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.groupId.html" />
+          <HelpTopic name="groupName Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.groupName.html" />
+          <HelpTopic name="keepOldFiles Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.keepOldFiles.html" />
+          <HelpTopic name="pathPrefix Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.pathPrefix.html" />
+          <HelpTopic name="recordBuf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.recordBuf.html" />
+          <HelpTopic name="recordSize Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.recordSize.html" />
+          <HelpTopic name="rootPath Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.rootPath.html" />
+          <HelpTopic name="tarIn Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.tarIn.html" />
+          <HelpTopic name="tarOut Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.tarOut.html" />
+          <HelpTopic name="userId Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.userId.html" />
+          <HelpTopic name="userName Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.userName.html" />
+          <HelpTopic name="verbose Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.verbose.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="GroupId Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.GroupId.html" />
+          <HelpTopic name="GroupName Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.GroupName.html" />
+          <HelpTopic name="IsVerbose Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.IsVerbose.html" />
+          <HelpTopic name="RecordSize Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.RecordSize.html" />
+          <HelpTopic name="UserId Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.UserId.html" />
+          <HelpTopic name="UserName Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.UserName.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="CloseArchive Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.CloseArchive.html" />
+          <HelpFolder name="CreateInputTarArchive Method">
+            <HelpTopic name="CreateInputTarArchive Method (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.CreateInputTarArchive1.html" />
+            <HelpTopic name="CreateInputTarArchive Method (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.CreateInputTarArchive2.html" />
+            <HelpTopic name="CreateInputTarArchive Method (Stream, Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.CreateInputTarArchive3.html" />
+          </HelpFolder>
+          <HelpFolder name="CreateOutputTarArchive Method">
+            <HelpTopic name="CreateOutputTarArchive Method (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.CreateOutputTarArchive1.html" />
+            <HelpTopic name="CreateOutputTarArchive Method (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.CreateOutputTarArchive2.html" />
+            <HelpTopic name="CreateOutputTarArchive Method (Stream, Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.CreateOutputTarArchive3.html" />
+          </HelpFolder>
+          <HelpTopic name="ExtractContents Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.ExtractContents.html" />
+          <HelpTopic name="ListContents Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.ListContents.html" />
+          <HelpTopic name="OnProgressMessageEvent Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.OnProgressMessageEvent.html" />
+          <HelpTopic name="SetAsciiTranslation Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.SetAsciiTranslation.html" />
+          <HelpTopic name="SetDebug Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.SetDebug.html" />
+          <HelpTopic name="SetKeepOldFiles Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.SetKeepOldFiles.html" />
+          <HelpTopic name="SetUserInfo Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.SetUserInfo.html" />
+          <HelpTopic name="WriteEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.WriteEntry.html" />
+        </HelpFolder>
+        <HelpFolder name="Events">
+          <HelpTopic name="ProgressMessageEvent Event" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarArchive.ProgressMessageEvent.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="TarBuffer Class">
+        <HelpTopic name="TarBuffer Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBufferMembers.html" />
+        <HelpTopic name="TarBuffer Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBufferConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="DEFAULT_BLKSIZE Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.DEFAULT_BLKSIZE.html" />
+          <HelpTopic name="DEFAULT_RCDSIZE Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.DEFAULT_RCDSIZE.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.Close.html" />
+          <HelpFolder name="CreateInputTarBuffer Method">
+            <HelpTopic name="CreateInputTarBuffer Method (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.CreateInputTarBuffer1.html" />
+            <HelpTopic name="CreateInputTarBuffer Method (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.CreateInputTarBuffer2.html" />
+            <HelpTopic name="CreateInputTarBuffer Method (Stream, Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.CreateInputTarBuffer3.html" />
+          </HelpFolder>
+          <HelpFolder name="CreateOutputTarBuffer Method">
+            <HelpTopic name="CreateOutputTarBuffer Method (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.CreateOutputTarBuffer1.html" />
+            <HelpTopic name="CreateOutputTarBuffer Method (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.CreateOutputTarBuffer2.html" />
+            <HelpTopic name="CreateOutputTarBuffer Method (Stream, Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.CreateOutputTarBuffer3.html" />
+          </HelpFolder>
+          <HelpTopic name="GetBlockSize Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.GetBlockSize.html" />
+          <HelpTopic name="GetCurrentBlockNum Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.GetCurrentBlockNum.html" />
+          <HelpTopic name="GetCurrentRecordNum Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.GetCurrentRecordNum.html" />
+          <HelpTopic name="GetRecordSize Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.GetRecordSize.html" />
+          <HelpTopic name="IsEOFRecord Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.IsEOFRecord.html" />
+          <HelpTopic name="ReadRecord Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.ReadRecord.html" />
+          <HelpTopic name="SetDebug Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.SetDebug.html" />
+          <HelpTopic name="SkipRecord Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.SkipRecord.html" />
+          <HelpFolder name="WriteRecord Method">
+            <HelpTopic name="WriteRecord Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.WriteRecord1.html" />
+            <HelpTopic name="WriteRecord Method (Byte[], Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarBuffer.WriteRecord2.html" />
+          </HelpFolder>
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="TarEntry Class">
+        <HelpTopic name="TarEntry Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntryMembers.html" />
+        <HelpTopic name="TarEntry Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntryConstructor1.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="file Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.file.html" />
+          <HelpTopic name="header Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.header.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="File Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.File.html" />
+          <HelpTopic name="GroupId Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.GroupId.html" />
+          <HelpTopic name="GroupName Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.GroupName.html" />
+          <HelpTopic name="IsDirectory Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.IsDirectory.html" />
+          <HelpTopic name="ModTime Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.ModTime.html" />
+          <HelpTopic name="Name Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.Name.html" />
+          <HelpTopic name="Size Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.Size.html" />
+          <HelpTopic name="TarHeader Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.TarHeader.html" />
+          <HelpTopic name="UserId Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.UserId.html" />
+          <HelpTopic name="UserName Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.UserName.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="AdjustEntryName Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.AdjustEntryName.html" />
+          <HelpTopic name="ComputeCheckSum Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.ComputeCheckSum.html" />
+          <HelpTopic name="CreateEntryFromFile Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.CreateEntryFromFile.html" />
+          <HelpTopic name="CreateTarEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.CreateTarEntry.html" />
+          <HelpTopic name="Equals Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.Equals.html" />
+          <HelpTopic name="GetDirectoryEntries Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.GetDirectoryEntries.html" />
+          <HelpTopic name="GetFileTarHeader Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.GetFileTarHeader.html" />
+          <HelpTopic name="GetHashCode Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.GetHashCode.html" />
+          <HelpTopic name="IsDescendent Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.IsDescendent.html" />
+          <HelpTopic name="NameTarHeader Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.NameTarHeader.html" />
+          <HelpTopic name="ParseTarHeader Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.ParseTarHeader.html" />
+          <HelpTopic name="SetIds Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.SetIds.html" />
+          <HelpTopic name="SetNames Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.SetNames.html" />
+          <HelpTopic name="WriteEntryHeader Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarEntry.WriteEntryHeader.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="TarHeader Class">
+        <HelpTopic name="TarHeader Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeaderMembers.html" />
+        <HelpTopic name="TarHeader Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeaderConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="checkSum Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.checkSum.html" />
+          <HelpTopic name="CHKSUMLEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.CHKSUMLEN.html" />
+          <HelpTopic name="DEVLEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.DEVLEN.html" />
+          <HelpTopic name="devMajor Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.devMajor.html" />
+          <HelpTopic name="devMinor Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.devMinor.html" />
+          <HelpTopic name="GIDLEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.GIDLEN.html" />
+          <HelpTopic name="GNAMELEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.GNAMELEN.html" />
+          <HelpTopic name="GNU_TMAGIC Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.GNU_TMAGIC.html" />
+          <HelpTopic name="groupId Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.groupId.html" />
+          <HelpTopic name="groupName Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.groupName.html" />
+          <HelpTopic name="LF_BLK Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_BLK.html" />
+          <HelpTopic name="LF_CHR Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_CHR.html" />
+          <HelpTopic name="LF_CONTIG Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_CONTIG.html" />
+          <HelpTopic name="LF_DIR Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_DIR.html" />
+          <HelpTopic name="LF_FIFO Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_FIFO.html" />
+          <HelpTopic name="LF_LINK Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_LINK.html" />
+          <HelpTopic name="LF_NORMAL Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_NORMAL.html" />
+          <HelpTopic name="LF_OLDNORM Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_OLDNORM.html" />
+          <HelpTopic name="LF_SYMLINK Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.LF_SYMLINK.html" />
+          <HelpTopic name="linkFlag Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.linkFlag.html" />
+          <HelpTopic name="linkName Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.linkName.html" />
+          <HelpTopic name="magic Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.magic.html" />
+          <HelpTopic name="MAGICLEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.MAGICLEN.html" />
+          <HelpTopic name="mode Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.mode.html" />
+          <HelpTopic name="MODELEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.MODELEN.html" />
+          <HelpTopic name="modTime Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.modTime.html" />
+          <HelpTopic name="MODTIMELEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.MODTIMELEN.html" />
+          <HelpTopic name="name Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.name.html" />
+          <HelpTopic name="NAMELEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.NAMELEN.html" />
+          <HelpTopic name="size Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.size.html" />
+          <HelpTopic name="SIZELEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.SIZELEN.html" />
+          <HelpTopic name="TMAGIC Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.TMAGIC.html" />
+          <HelpTopic name="UIDLEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.UIDLEN.html" />
+          <HelpTopic name="UNAMELEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.UNAMELEN.html" />
+          <HelpTopic name="userId Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.userId.html" />
+          <HelpTopic name="userName Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.userName.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Clone Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.Clone.html" />
+          <HelpTopic name="GetCheckSumOctalBytes Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.GetCheckSumOctalBytes.html" />
+          <HelpTopic name="GetLongOctalBytes Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.GetLongOctalBytes.html" />
+          <HelpTopic name="GetName Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.GetName.html" />
+          <HelpTopic name="GetNameBytes Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.GetNameBytes.html" />
+          <HelpTopic name="GetOctalBytes Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.GetOctalBytes.html" />
+          <HelpTopic name="ParseName Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.ParseName.html" />
+          <HelpTopic name="ParseOctal Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarHeader.ParseOctal.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="TarInputStream Class">
+        <HelpTopic name="TarInputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStreamMembers.html" />
+        <HelpFolder name="TarInputStream Constructor">
+          <HelpTopic name="TarInputStream Constructor (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStreamConstructor1.html" />
+          <HelpTopic name="TarInputStream Constructor (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStreamConstructor2.html" />
+          <HelpTopic name="TarInputStream Constructor (Stream, Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStreamConstructor3.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="buffer Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.buffer.html" />
+          <HelpTopic name="currEntry Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.currEntry.html" />
+          <HelpTopic name="debug Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.debug.html" />
+          <HelpTopic name="eFactory Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.eFactory.html" />
+          <HelpTopic name="entryOffset Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.entryOffset.html" />
+          <HelpTopic name="entrySize Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.entrySize.html" />
+          <HelpTopic name="hasHitEOF Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.hasHitEOF.html" />
+          <HelpTopic name="readBuf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.readBuf.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="Available Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Available.html" />
+          <HelpTopic name="CanRead Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.CanRead.html" />
+          <HelpTopic name="CanSeek Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.CanSeek.html" />
+          <HelpTopic name="CanWrite Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.CanWrite.html" />
+          <HelpTopic name="IsMarkSupported Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.IsMarkSupported.html" />
+          <HelpTopic name="Length Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Length.html" />
+          <HelpTopic name="Position Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Position.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Close.html" />
+          <HelpTopic name="CopyEntryContents Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.CopyEntryContents.html" />
+          <HelpTopic name="Flush Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Flush.html" />
+          <HelpTopic name="GetNextEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.GetNextEntry.html" />
+          <HelpTopic name="GetRecordSize Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.GetRecordSize.html" />
+          <HelpTopic name="Mark Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Mark.html" />
+          <HelpTopic name="Read Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Read.html" />
+          <HelpTopic name="ReadByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.ReadByte.html" />
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Reset.html" />
+          <HelpTopic name="Seek Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Seek.html" />
+          <HelpTopic name="SetBufferDebug Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.SetBufferDebug.html" />
+          <HelpTopic name="SetDebug Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.SetDebug.html" />
+          <HelpTopic name="SetEntryFactory Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.SetEntryFactory.html" />
+          <HelpTopic name="SetLength Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.SetLength.html" />
+          <HelpTopic name="Skip Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Skip.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.Write.html" />
+          <HelpTopic name="WriteByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.WriteByte.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="TarInputStream.EntryFactoryAdapter Class">
+        <HelpTopic name="TarInputStream.EntryFactoryAdapter Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.EntryFactoryAdapterMembers.html" />
+        <HelpTopic name="TarInputStream.EntryFactoryAdapter Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.EntryFactoryAdapterConstructor.html" />
+        <HelpFolder name="Methods">
+          <HelpFolder name="CreateEntry Method">
+            <HelpTopic name="CreateEntry Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.EntryFactoryAdapter.CreateEntry1.html" />
+            <HelpTopic name="CreateEntry Method (String)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.EntryFactoryAdapter.CreateEntry2.html" />
+          </HelpFolder>
+          <HelpTopic name="CreateEntryFromFile Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.EntryFactoryAdapter.CreateEntryFromFile.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="TarInputStream.IEntryFactory Interface">
+        <HelpTopic name="TarInputStream.IEntryFactory Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.IEntryFactoryMembers.html" />
+        <HelpFolder name="Methods">
+          <HelpFolder name="CreateEntry Method">
+            <HelpTopic name="CreateEntry Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.IEntryFactory.CreateEntry1.html" />
+            <HelpTopic name="CreateEntry Method (String)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.IEntryFactory.CreateEntry2.html" />
+          </HelpFolder>
+          <HelpTopic name="CreateEntryFromFile Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarInputStream.IEntryFactory.CreateEntryFromFile.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="TarOutputStream Class">
+        <HelpTopic name="TarOutputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStreamMembers.html" />
+        <HelpFolder name="TarOutputStream Constructor">
+          <HelpTopic name="TarOutputStream Constructor (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStreamConstructor1.html" />
+          <HelpTopic name="TarOutputStream Constructor (Stream, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStreamConstructor2.html" />
+          <HelpTopic name="TarOutputStream Constructor (Stream, Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStreamConstructor3.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="assemBuf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.assemBuf.html" />
+          <HelpTopic name="assemLen Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.assemLen.html" />
+          <HelpTopic name="buffer Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.buffer.html" />
+          <HelpTopic name="currBytes Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.currBytes.html" />
+          <HelpTopic name="currSize Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.currSize.html" />
+          <HelpTopic name="debug Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.debug.html" />
+          <HelpTopic name="outputStream Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.outputStream.html" />
+          <HelpTopic name="recordBuf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.recordBuf.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="CanRead Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.CanRead.html" />
+          <HelpTopic name="CanSeek Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.CanSeek.html" />
+          <HelpTopic name="CanWrite Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.CanWrite.html" />
+          <HelpTopic name="Length Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.Length.html" />
+          <HelpTopic name="Position Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.Position.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.Close.html" />
+          <HelpTopic name="CloseEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.CloseEntry.html" />
+          <HelpTopic name="Finish Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.Finish.html" />
+          <HelpTopic name="Flush Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.Flush.html" />
+          <HelpTopic name="GetRecordSize Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.GetRecordSize.html" />
+          <HelpTopic name="PutNextEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.PutNextEntry.html" />
+          <HelpTopic name="Read Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.Read.html" />
+          <HelpTopic name="ReadByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.ReadByte.html" />
+          <HelpTopic name="Seek Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.Seek.html" />
+          <HelpTopic name="SetBufferDebug Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.SetBufferDebug.html" />
+          <HelpTopic name="SetDebug Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.SetDebug.html" />
+          <HelpTopic name="SetLength Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.SetLength.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.Write.html" />
+          <HelpTopic name="WriteByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Tar.TarOutputStream.WriteByte.html" />
+        </HelpFolder>
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="ICSharpCode.SharpZipLib.Zip">
+      <HelpTopic name="CompressionMethod Enumeration" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.CompressionMethod.html" />
+      <HelpFolder name="ZipConstants Class">
+        <HelpTopic name="ZipConstants Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstantsMembers.html" />
+        <HelpTopic name="ZipConstants Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstantsConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="CENATT Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENATT.html" />
+          <HelpTopic name="CENATX Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENATX.html" />
+          <HelpTopic name="CENCOM Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENCOM.html" />
+          <HelpTopic name="CENCRC Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENCRC.html" />
+          <HelpTopic name="CENDSK Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENDSK.html" />
+          <HelpTopic name="CENEXT Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENEXT.html" />
+          <HelpTopic name="CENFLG Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENFLG.html" />
+          <HelpTopic name="CENHDR Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENHDR.html" />
+          <HelpTopic name="CENHOW Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENHOW.html" />
+          <HelpTopic name="CENLEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENLEN.html" />
+          <HelpTopic name="CENNAM Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENNAM.html" />
+          <HelpTopic name="CENOFF Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENOFF.html" />
+          <HelpTopic name="CENSIG Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENSIG.html" />
+          <HelpTopic name="CENSIG64 Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENSIG64.html" />
+          <HelpTopic name="CENSIZ Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENSIZ.html" />
+          <HelpTopic name="CENTIM Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENTIM.html" />
+          <HelpTopic name="CENVEM Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENVEM.html" />
+          <HelpTopic name="CENVER Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.CENVER.html" />
+          <HelpTopic name="ENDCOM Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDCOM.html" />
+          <HelpTopic name="ENDDCD Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDDCD.html" />
+          <HelpTopic name="ENDHDR Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDHDR.html" />
+          <HelpTopic name="ENDNRD Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDNRD.html" />
+          <HelpTopic name="ENDOFF Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDOFF.html" />
+          <HelpTopic name="ENDSIG Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDSIG.html" />
+          <HelpTopic name="ENDSIZ Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDSIZ.html" />
+          <HelpTopic name="ENDSUB Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDSUB.html" />
+          <HelpTopic name="ENDTOT Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ENDTOT.html" />
+          <HelpTopic name="EXTCRC Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.EXTCRC.html" />
+          <HelpTopic name="EXTHDR Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.EXTHDR.html" />
+          <HelpTopic name="EXTLEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.EXTLEN.html" />
+          <HelpTopic name="EXTSIG Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.EXTSIG.html" />
+          <HelpTopic name="EXTSIZ Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.EXTSIZ.html" />
+          <HelpTopic name="LOCCRC Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCCRC.html" />
+          <HelpTopic name="LOCEXT Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCEXT.html" />
+          <HelpTopic name="LOCFLG Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCFLG.html" />
+          <HelpTopic name="LOCHDR Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCHDR.html" />
+          <HelpTopic name="LOCHOW Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCHOW.html" />
+          <HelpTopic name="LOCLEN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCLEN.html" />
+          <HelpTopic name="LOCNAM Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCNAM.html" />
+          <HelpTopic name="LOCSIG Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCSIG.html" />
+          <HelpTopic name="LOCSIZ Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCSIZ.html" />
+          <HelpTopic name="LOCTIM Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCTIM.html" />
+          <HelpTopic name="LOCVER Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.LOCVER.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="ConvertToArray Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ConvertToArray.html" />
+          <HelpTopic name="ConvertToString Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipConstants.ConvertToString.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="ZipEntry Class">
+        <HelpTopic name="ZipEntry Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntryMembers.html" />
+        <HelpFolder name="ZipEntry Constructor">
+          <HelpTopic name="ZipEntry Constructor (String)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntryConstructor1.html" />
+          <HelpTopic name="ZipEntry Constructor (ZipEntry)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntryConstructor2.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="flags Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.flags.html" />
+          <HelpTopic name="offset Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.offset.html" />
+          <HelpTopic name="zipFileIndex Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.zipFileIndex.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="Comment Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.Comment.html" />
+          <HelpTopic name="CompressedSize Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.CompressedSize.html" />
+          <HelpTopic name="CompressionMethod Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.CompressionMethod.html" />
+          <HelpTopic name="Crc Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.Crc.html" />
+          <HelpTopic name="DateTime Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.DateTime.html" />
+          <HelpTopic name="DosTime Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.DosTime.html" />
+          <HelpTopic name="ExtraData Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.ExtraData.html" />
+          <HelpTopic name="IsDirectory Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.IsDirectory.html" />
+          <HelpTopic name="Name Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.Name.html" />
+          <HelpTopic name="Size Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.Size.html" />
+          <HelpTopic name="Version Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.Version.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Clone Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.Clone.html" />
+          <HelpTopic name="ToString Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipEntry.ToString.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="ZipFile Class">
+        <HelpTopic name="ZipFile Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFileMembers.html" />
+        <HelpFolder name="ZipFile Constructor">
+          <HelpTopic name="ZipFile Constructor (String)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFileConstructor1.html" />
+          <HelpTopic name="ZipFile Constructor (FileStream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFileConstructor2.html" />
+          <HelpTopic name="ZipFile Constructor (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFileConstructor3.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="Name Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFile.Name.html" />
+          <HelpTopic name="Size Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFile.Size.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFile.Close.html" />
+          <HelpTopic name="GetEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFile.GetEntry.html" />
+          <HelpTopic name="GetEnumerator Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFile.GetEnumerator.html" />
+          <HelpTopic name="GetInputStream Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipFile.GetInputStream.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="ZipInputStream Class">
+        <HelpTopic name="ZipInputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStreamMembers.html" />
+        <HelpTopic name="ZipInputStream Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStreamConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="baseInputStream Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.baseInputStream.html" />
+          <HelpTopic name="buf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.buf.html" />
+          <HelpTopic name="inf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.inf.html" />
+          <HelpTopic name="len Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.len.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="Available Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.Available.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.Close.html" />
+          <HelpTopic name="CloseEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.CloseEntry.html" />
+          <HelpTopic name="GetNextEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry.html" />
+          <HelpTopic name="Read Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.Read.html" />
+          <HelpTopic name="ReadByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipInputStream.ReadByte.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="ZipOutputStream Class">
+        <HelpTopic name="ZipOutputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStreamMembers.html" />
+        <HelpTopic name="ZipOutputStream Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStreamConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="baseOutputStream Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.baseOutputStream.html" />
+          <HelpTopic name="buf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.buf.html" />
+          <HelpTopic name="def Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.def.html" />
+          <HelpTopic name="DEFLATED Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.DEFLATED.html" />
+          <HelpTopic name="STORED Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.STORED.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="CloseEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.CloseEntry.html" />
+          <HelpTopic name="Finish Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.Finish.html" />
+          <HelpTopic name="PutNextEntry Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.PutNextEntry.html" />
+          <HelpTopic name="SetComment Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.SetComment.html" />
+          <HelpTopic name="SetLevel Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.SetLevel.html" />
+          <HelpTopic name="SetMethod Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.SetMethod.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.ZipOutputStream.Write.html" />
+        </HelpFolder>
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="ICSharpCode.SharpZipLib.Zip.Compression">
+      <HelpFolder name="Deflater Class">
+        <HelpTopic name="Deflater Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterMembers.html" />
+        <HelpFolder name="Deflater Constructor">
+          <HelpTopic name="Deflater Constructor ()" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstructor1.html" />
+          <HelpTopic name="Deflater Constructor (Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstructor2.html" />
+          <HelpTopic name="Deflater Constructor (Int32, Boolean)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstructor3.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="BEST_COMPRESSION Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.BEST_COMPRESSION.html" />
+          <HelpTopic name="BEST_SPEED Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.BEST_SPEED.html" />
+          <HelpTopic name="DEFAULT_COMPRESSION Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.DEFAULT_COMPRESSION.html" />
+          <HelpTopic name="DEFLATED Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.DEFLATED.html" />
+          <HelpTopic name="NO_COMPRESSION Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.NO_COMPRESSION.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="Adler Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.Adler.html" />
+          <HelpTopic name="IsFinished Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.IsFinished.html" />
+          <HelpTopic name="IsNeedingInput Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.IsNeedingInput.html" />
+          <HelpTopic name="TotalIn Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.TotalIn.html" />
+          <HelpTopic name="TotalOut Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.TotalOut.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpFolder name="Deflate Method">
+            <HelpTopic name="Deflate Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.Deflate1.html" />
+            <HelpTopic name="Deflate Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.Deflate2.html" />
+          </HelpFolder>
+          <HelpTopic name="Finish Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.Finish.html" />
+          <HelpTopic name="Flush Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.Flush.html" />
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.Reset.html" />
+          <HelpFolder name="SetDictionary Method">
+            <HelpTopic name="SetDictionary Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.SetDictionary1.html" />
+            <HelpTopic name="SetDictionary Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.SetDictionary2.html" />
+          </HelpFolder>
+          <HelpFolder name="SetInput Method">
+            <HelpTopic name="SetInput Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.SetInput1.html" />
+            <HelpTopic name="SetInput Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.SetInput2.html" />
+          </HelpFolder>
+          <HelpTopic name="SetLevel Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.SetLevel.html" />
+          <HelpTopic name="SetStrategy Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Deflater.SetStrategy.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="DeflaterConstants Class">
+        <HelpTopic name="DeflaterConstants Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstantsMembers.html" />
+        <HelpTopic name="DeflaterConstants Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstantsConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="COMPR_FUNC Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.COMPR_FUNC.html" />
+          <HelpTopic name="DEBUGGING Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.DEBUGGING.html" />
+          <HelpTopic name="DEFAULT_MEM_LEVEL Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.DEFAULT_MEM_LEVEL.html" />
+          <HelpTopic name="DEFLATE_FAST Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.DEFLATE_FAST.html" />
+          <HelpTopic name="DEFLATE_SLOW Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.DEFLATE_SLOW.html" />
+          <HelpTopic name="DEFLATE_STORED Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.DEFLATE_STORED.html" />
+          <HelpTopic name="DYN_TREES Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.DYN_TREES.html" />
+          <HelpTopic name="GOOD_LENGTH Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.GOOD_LENGTH.html" />
+          <HelpTopic name="HASH_BITS Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.HASH_BITS.html" />
+          <HelpTopic name="HASH_MASK Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.HASH_MASK.html" />
+          <HelpTopic name="HASH_SHIFT Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.HASH_SHIFT.html" />
+          <HelpTopic name="HASH_SIZE Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.HASH_SIZE.html" />
+          <HelpTopic name="MAX_BLOCK_SIZE Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.MAX_BLOCK_SIZE.html" />
+          <HelpTopic name="MAX_CHAIN Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.MAX_CHAIN.html" />
+          <HelpTopic name="MAX_DIST Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.MAX_DIST.html" />
+          <HelpTopic name="MAX_LAZY Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.MAX_LAZY.html" />
+          <HelpTopic name="MAX_MATCH Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.MAX_MATCH.html" />
+          <HelpTopic name="MAX_WBITS Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.MAX_WBITS.html" />
+          <HelpTopic name="MIN_LOOKAHEAD Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.MIN_LOOKAHEAD.html" />
+          <HelpTopic name="MIN_MATCH Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.MIN_MATCH.html" />
+          <HelpTopic name="NICE_LENGTH Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.NICE_LENGTH.html" />
+          <HelpTopic name="PENDING_BUF_SIZE Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.PENDING_BUF_SIZE.html" />
+          <HelpTopic name="PRESET_DICT Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.PRESET_DICT.html" />
+          <HelpTopic name="STATIC_TREES Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.STATIC_TREES.html" />
+          <HelpTopic name="STORED_BLOCK Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.STORED_BLOCK.html" />
+          <HelpTopic name="WMASK Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.WMASK.html" />
+          <HelpTopic name="WSIZE Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterConstants.WSIZE.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="DeflaterEngine Class">
+        <HelpTopic name="DeflaterEngine Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngineMembers.html" />
+        <HelpTopic name="DeflaterEngine Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngineConstructor.html" />
+        <HelpFolder name="Properties">
+          <HelpTopic name="Adler Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.Adler.html" />
+          <HelpTopic name="Strategy Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.Strategy.html" />
+          <HelpTopic name="TotalIn Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.TotalIn.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Deflate Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.Deflate.html" />
+          <HelpTopic name="FillWindow Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.FillWindow.html" />
+          <HelpTopic name="NeedsInput Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.NeedsInput.html" />
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.Reset.html" />
+          <HelpTopic name="ResetAdler Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.ResetAdler.html" />
+          <HelpTopic name="SetDictionary Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.SetDictionary.html" />
+          <HelpTopic name="SetInput Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.SetInput.html" />
+          <HelpTopic name="SetLevel Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterEngine.SetLevel.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="DeflaterHuffman Class">
+        <HelpTopic name="DeflaterHuffman Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffmanMembers.html" />
+        <HelpTopic name="DeflaterHuffman Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffmanConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="pending Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.pending.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="BitReverse Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.BitReverse.html" />
+          <HelpTopic name="CompressBlock Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.CompressBlock.html" />
+          <HelpTopic name="FlushBlock Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.FlushBlock.html" />
+          <HelpTopic name="FlushStoredBlock Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.FlushStoredBlock.html" />
+          <HelpTopic name="IsFull Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.IsFull.html" />
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Reset.html" />
+          <HelpTopic name="SendAllTrees Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.SendAllTrees.html" />
+          <HelpTopic name="TallyDist Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.TallyDist.html" />
+          <HelpTopic name="TallyLit Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.TallyLit.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="DeflaterHuffman.Tree Class">
+        <HelpTopic name="DeflaterHuffman.Tree Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.TreeMembers.html" />
+        <HelpTopic name="DeflaterHuffman.Tree Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.TreeConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="bl_counts Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.bl_counts.html" />
+          <HelpTopic name="codes Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.codes.html" />
+          <HelpTopic name="freqs Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.freqs.html" />
+          <HelpTopic name="length Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.length.html" />
+          <HelpTopic name="maxLength Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.maxLength.html" />
+          <HelpTopic name="minNumCodes Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.minNumCodes.html" />
+          <HelpTopic name="numCodes Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.numCodes.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="BuildCodes Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.BuildCodes.html" />
+          <HelpTopic name="BuildTree Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.BuildTree.html" />
+          <HelpTopic name="CalcBLFreq Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.CalcBLFreq.html" />
+          <HelpTopic name="CheckEmpty Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.CheckEmpty.html" />
+          <HelpTopic name="GetEncodedLength Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.GetEncodedLength.html" />
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.Reset.html" />
+          <HelpTopic name="SetStaticCodes Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.SetStaticCodes.html" />
+          <HelpTopic name="WriteSymbol Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.WriteSymbol.html" />
+          <HelpTopic name="WriteTree Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterHuffman.Tree.WriteTree.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="DeflaterPending Class">
+        <HelpTopic name="DeflaterPending Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPendingMembers.html" />
+        <HelpTopic name="DeflaterPending Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPendingConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="buf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflaterPending.buf.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpTopic name="DeflateStrategy Enumeration" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.DeflateStrategy.html" />
+      <HelpFolder name="Inflater Class">
+        <HelpTopic name="Inflater Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.InflaterMembers.html" />
+        <HelpFolder name="Inflater Constructor">
+          <HelpTopic name="Inflater Constructor ()" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.InflaterConstructor1.html" />
+          <HelpTopic name="Inflater Constructor (Boolean)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.InflaterConstructor2.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="Adler Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.Adler.html" />
+          <HelpTopic name="IsFinished Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.IsFinished.html" />
+          <HelpTopic name="IsNeedingDictionary Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.IsNeedingDictionary.html" />
+          <HelpTopic name="IsNeedingInput Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.IsNeedingInput.html" />
+          <HelpTopic name="RemainingInput Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.RemainingInput.html" />
+          <HelpTopic name="TotalIn Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.TotalIn.html" />
+          <HelpTopic name="TotalOut Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.TotalOut.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpFolder name="Inflate Method">
+            <HelpTopic name="Inflate Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.Inflate1.html" />
+            <HelpTopic name="Inflate Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.Inflate2.html" />
+          </HelpFolder>
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.Reset.html" />
+          <HelpFolder name="SetDictionary Method">
+            <HelpTopic name="SetDictionary Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.SetDictionary1.html" />
+            <HelpTopic name="SetDictionary Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.SetDictionary2.html" />
+          </HelpFolder>
+          <HelpFolder name="SetInput Method">
+            <HelpTopic name="SetInput Method (Byte[])" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.SetInput1.html" />
+            <HelpTopic name="SetInput Method (Byte[], Int32, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Inflater.SetInput2.html" />
+          </HelpFolder>
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="InflaterHuffmanTree Class">
+        <HelpTopic name="InflaterHuffmanTree Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTreeMembers.html" />
+        <HelpTopic name="InflaterHuffmanTree Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTreeConstructor.html" />
+        <HelpFolder name="Fields">
+          <HelpTopic name="defDistTree Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree.defDistTree.html" />
+          <HelpTopic name="defLitLenTree Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree.defLitLenTree.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="GetSymbol Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.InflaterHuffmanTree.GetSymbol.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="PendingBuffer Class">
+        <HelpTopic name="PendingBuffer Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBufferMembers.html" />
+        <HelpFolder name="PendingBuffer Constructor">
+          <HelpTopic name="PendingBuffer Constructor ()" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBufferConstructor1.html" />
+          <HelpTopic name="PendingBuffer Constructor (Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBufferConstructor2.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="buf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.buf.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="BitCount Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.BitCount.html" />
+          <HelpTopic name="IsFlushed Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.IsFlushed.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="AlignToByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.AlignToByte.html" />
+          <HelpTopic name="Flush Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.Flush.html" />
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.Reset.html" />
+          <HelpTopic name="ToByteArray Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.ToByteArray.html" />
+          <HelpTopic name="WriteBits Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.WriteBits.html" />
+          <HelpTopic name="WriteBlock Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.WriteBlock.html" />
+          <HelpTopic name="WriteByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.WriteByte.html" />
+          <HelpTopic name="WriteInt Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.WriteInt.html" />
+          <HelpTopic name="WriteShort Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.WriteShort.html" />
+          <HelpTopic name="WriteShortMSB Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.PendingBuffer.WriteShortMSB.html" />
+        </HelpFolder>
+      </HelpFolder>
+    </HelpFolder>
+    <HelpFolder name="ICSharpCode.SharpZipLib.Zip.Compression.Streams">
+      <HelpFolder name="DeflaterOutputStream Class">
+        <HelpTopic name="DeflaterOutputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStreamMembers.html" />
+        <HelpFolder name="DeflaterOutputStream Constructor">
+          <HelpTopic name="DeflaterOutputStream Constructor (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStreamConstructor1.html" />
+          <HelpTopic name="DeflaterOutputStream Constructor (Stream, Deflater)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStreamConstructor2.html" />
+          <HelpTopic name="DeflaterOutputStream Constructor (Stream, Deflater, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStreamConstructor3.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="baseOutputStream Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.baseOutputStream.html" />
+          <HelpTopic name="buf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.buf.html" />
+          <HelpTopic name="def Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.def.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="CanRead Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.CanRead.html" />
+          <HelpTopic name="CanSeek Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.CanSeek.html" />
+          <HelpTopic name="CanWrite Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.CanWrite.html" />
+          <HelpTopic name="Length Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.Length.html" />
+          <HelpTopic name="Position Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.Position.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.Close.html" />
+          <HelpTopic name="deflate Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.deflate.html" />
+          <HelpTopic name="Finish Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.Finish.html" />
+          <HelpTopic name="Flush Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.Flush.html" />
+          <HelpTopic name="Read Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.Read.html" />
+          <HelpTopic name="ReadByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.ReadByte.html" />
+          <HelpTopic name="Seek Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.Seek.html" />
+          <HelpTopic name="SetLength Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.SetLength.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.Write.html" />
+          <HelpTopic name="WriteByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.DeflaterOutputStream.WriteByte.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="InflaterInputStream Class">
+        <HelpTopic name="InflaterInputStream Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStreamMembers.html" />
+        <HelpFolder name="InflaterInputStream Constructor">
+          <HelpTopic name="InflaterInputStream Constructor (Stream)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStreamConstructor1.html" />
+          <HelpTopic name="InflaterInputStream Constructor (Stream, Inflater)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStreamConstructor2.html" />
+          <HelpTopic name="InflaterInputStream Constructor (Stream, Inflater, Int32)" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStreamConstructor3.html" />
+        </HelpFolder>
+        <HelpFolder name="Fields">
+          <HelpTopic name="baseInputStream Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.baseInputStream.html" />
+          <HelpTopic name="buf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.buf.html" />
+          <HelpTopic name="inf Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.inf.html" />
+          <HelpTopic name="len Field" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.len.html" />
+        </HelpFolder>
+        <HelpFolder name="Properties">
+          <HelpTopic name="Available Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Available.html" />
+          <HelpTopic name="CanRead Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.CanRead.html" />
+          <HelpTopic name="CanSeek Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.CanSeek.html" />
+          <HelpTopic name="CanWrite Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.CanWrite.html" />
+          <HelpTopic name="Length Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Length.html" />
+          <HelpTopic name="Position Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Position.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="Close Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Close.html" />
+          <HelpTopic name="Fill Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Fill.html" />
+          <HelpTopic name="Flush Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Flush.html" />
+          <HelpTopic name="Read Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Read.html" />
+          <HelpTopic name="ReadByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.ReadByte.html" />
+          <HelpTopic name="Seek Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Seek.html" />
+          <HelpTopic name="SetLength Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.SetLength.html" />
+          <HelpTopic name="Skip Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Skip.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.Write.html" />
+          <HelpTopic name="WriteByte Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputStream.WriteByte.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="OutputWindow Class">
+        <HelpTopic name="OutputWindow Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindowMembers.html" />
+        <HelpTopic name="OutputWindow Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindowConstructor.html" />
+        <HelpFolder name="Methods">
+          <HelpTopic name="CopyDict Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow.CopyDict.html" />
+          <HelpTopic name="CopyOutput Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow.CopyOutput.html" />
+          <HelpTopic name="CopyStored Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow.CopyStored.html" />
+          <HelpTopic name="GetAvailable Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow.GetAvailable.html" />
+          <HelpTopic name="GetFreeSpace Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow.GetFreeSpace.html" />
+          <HelpTopic name="Repeat Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow.Repeat.html" />
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow.Reset.html" />
+          <HelpTopic name="Write Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.OutputWindow.Write.html" />
+        </HelpFolder>
+      </HelpFolder>
+      <HelpFolder name="StreamManipulator Class">
+        <HelpTopic name="StreamManipulator Members" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulatorMembers.html" />
+        <HelpTopic name="StreamManipulator Constructor" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulatorConstructor.html" />
+        <HelpFolder name="Properties">
+          <HelpTopic name="AvailableBits Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.AvailableBits.html" />
+          <HelpTopic name="AvailableBytes Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.AvailableBytes.html" />
+          <HelpTopic name="IsNeedingInput Property" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.IsNeedingInput.html" />
+        </HelpFolder>
+        <HelpFolder name="Methods">
+          <HelpTopic name="CopyBytes Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.CopyBytes.html" />
+          <HelpTopic name="DropBits Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.DropBits.html" />
+          <HelpTopic name="GetBits Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.GetBits.html" />
+          <HelpTopic name="PeekBits Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.PeekBits.html" />
+          <HelpTopic name="Reset Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.Reset.html" />
+          <HelpTopic name="SetInput Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.SetInput.html" />
+          <HelpTopic name="SkipToByteBoundary Method" link="031SharpZipLib.chm::/ICSharpCode.SharpZipLib.Zip.Compression.Streams.StreamManipulator.SkipToByteBoundary.html" />
+        </HelpFolder>
+      </HelpFolder>
+    </HelpFolder>
+  </HelpFolder>
+</HelpCollection>

@@ -1,0 +1,16 @@
+<Combine name="SDDefaultEditor" fileversion="1.0" description="">
+  <StartMode startupentry="SDDefaultEditor" single="True">
+    <Execute entry="SDDefaultEditor" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\SDDefaultEditor.prjx" />
+  </Entries>
+  <Configurations active="Debug">
+    <Configuration name="Release" description="">
+      <Entry name="SDDefaultEditor" configurationname="Debug" build="False" />
+    </Configuration>
+    <Configuration name="Debug" description="">
+      <Entry name="SDDefaultEditor" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Template Originator="Mike Krueger" Language="XmlForm" Created="07/15/2002" LastModified="07/15/2002">
+	
+	<TemplateConfiguration>
+		<Name>Xml UserControl</Name>
+		<Icon>Icons.32x32.XMLFileIcon</Icon>
+		<Category>XmlForm</Category>
+		<LanguageName>XmlForm</LanguageName>
+		<Description>Create an empty xml user control</Description>
+	</TemplateConfiguration>
+	
+	<TemplateFiles>
+		<File DefaultExtension=".xfrm" DefaultName="EmptyXmlUserControl">
+			<![CDATA[<System.Windows.Forms.UserControl/>]]>
+		</File>
+	</TemplateFiles>
+	
+	<FileOptions/>
+	
+</Template>

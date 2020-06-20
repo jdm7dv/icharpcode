@@ -1,0 +1,36 @@
+<Combine fileversion="1.0" name="BackendBindings" description="">
+  <StartMode startupentry="ResourceEditor" single="True">
+    <Execute entry="CSharpBackendBinding" type="None" />
+    <Execute entry="ObjectBrowser" type="None" />
+    <Execute entry="ResourceEditor" type="None" />
+    <Execute entry="JavaBackendBinding" type="None" />
+    <Execute entry="JavaScriptBackendBinding" type="None" />
+    <Execute entry="VBNetBackendBinding" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\CSharpLanguageModule\CSharpLanguageModule.prjx" />
+    <Entry filename=".\ObjectBrowser\ObjectBrowser.prjx" />
+    <Entry filename=".\ResourceEdit\ResourceEditDefinition.prjx" />
+    <Entry filename=".\JavaLanguageModule\JavaLanguageModule.prjx" />
+    <Entry filename=".\JScriptLanguageModule\JsLanguageModule.prjx" />
+    <Entry filename=".\VBNetLanguageModule\VBNetLanguageModule.prjx" />
+  </Entries>
+  <Configurations active="Debug">
+    <Configuration name="Release">
+      <Entry name="CSharpBackendBinding" configurationname="Debug" build="False" />
+      <Entry name="ObjectBrowser" configurationname="Debug" build="False" />
+      <Entry name="ResourceEditor" configurationname="Debug" build="False" />
+      <Entry name="JavaBackendBinding" configurationname="Debug" build="False" />
+      <Entry name="JavaScriptBackendBinding" configurationname="Debug" build="False" />
+      <Entry name="VBNetBackendBinding" configurationname="Debug" build="False" />
+    </Configuration>
+    <Configuration name="Debug">
+      <Entry name="CSharpBackendBinding" configurationname="Debug" build="False" />
+      <Entry name="ObjectBrowser" configurationname="Debug" build="False" />
+      <Entry name="ResourceEditor" configurationname="Debug" build="False" />
+      <Entry name="JavaBackendBinding" configurationname="Debug" build="False" />
+      <Entry name="JavaScriptBackendBinding" configurationname="Debug" build="False" />
+      <Entry name="VBNetBackendBinding" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>

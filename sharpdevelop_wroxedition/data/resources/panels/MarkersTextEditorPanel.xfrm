@@ -1,0 +1,149 @@
+<System.Windows.Forms.UserControl>
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <SnapToGrid value="True" />
+  <Size value="{Width=424, Height=336}" />
+  <DrawGrid value="True" />
+  <Name value="CreatedObject0" />
+  <DockPadding value="" />
+  <GridSize value="{Width=8, Height=8}" />
+  <Controls>
+    <System.Windows.Forms.GroupBox>
+      <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.MarkersGroupBox}" />
+      <Size value="{Width=408, Height=312}" />
+      <Anchor value="Top, Left, Right" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Location value="{X=8,Y=8}" />
+      <TabIndex value="0" />
+      <Name value="CreatedObject2" />
+      <Controls>
+        <System.Windows.Forms.CheckBox>
+          <TabIndex value="5" />
+          <Anchor value="Top, Left, Right" />
+          <Name value="showLineNumberCheckBox" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.LineNumberCheckBox}" />
+          <Size value="{Width=392, Height=24}" />
+          <Location value="{X=8,Y=138}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="showErrorsCheckBox" />
+          <TabIndex value="6" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.UnderLineErrorsCheckBox}" />
+          <Size value="{Width=392, Height=24}" />
+          <Location value="{X=8,Y=162}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="showBracketHighlighterCheckBox" />
+          <TabIndex value="7" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.HiglightBracketCheckBox}" />
+          <Size value="{Width=392, Height=24}" />
+          <Location value="{X=8,Y=186}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="showInvalidLinesCheckBox" />
+          <TabIndex value="8" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.InvalidLinesCheckBox}" />
+          <Size value="{Width=392, Height=24}" />
+          <Location value="{X=8,Y=210}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="showHRulerCheckBox" />
+          <TabIndex value="1" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.HorizontalRulerCheckBox}" />
+          <Size value="{Width=176, Height=24}" />
+          <Location value="{X=8,Y=16}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="showEOLMarkersCheckBox" />
+          <TabIndex value="9" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.EOLMarkersCheckBox}" />
+          <Size value="{Width=392, Height=24}" />
+          <Location value="{X=8,Y=234}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="showVRulerCheckBox" />
+          <TabIndex value="3" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.VerticalRulerCheckBox}" />
+          <Size value="{Width=176, Height=24}" />
+          <Location value="{X=8,Y=42}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <TabIndex value="11" />
+          <Name value="showTabCharsCheckBox" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.TabsCheckBox}" />
+          <Size value="{Width=392, Height=24}" />
+          <Location value="{X=8,Y=282}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="showSpaceCharsCheckBox" />
+          <TabIndex value="10" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.SpacesCheckBox}" />
+          <Size value="{Width=392, Height=24}" />
+          <Location value="{X=8,Y=258}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.Label>
+          <Name value="CreatedObject23" />
+          <Location value="{X=184,Y=40}" />
+          <Size value="{Width=104, Height=24}" />
+          <TabIndex value="99" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <TextAlign value="MiddleRight" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.AtRowLabel}" />
+          <Controls />
+        </System.Windows.Forms.Label>
+        <System.Windows.Forms.TextBox>
+          <Text value="" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Size value="{Width=64, Height=22}" />
+          <Location value="{X=288,Y=40}" />
+          <TabIndex value="2" />
+          <Name value="vRulerRowTextBox" />
+          <Controls />
+        </System.Windows.Forms.TextBox>
+        <System.Windows.Forms.Label>
+          <Name value="CreatedObject28" />
+          <Location value="{X=8,Y=88}" />
+          <Size value="{Width=152, Height=24}" />
+          <TabIndex value="99" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <TextAlign value="MiddleRight" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.Markers.LineMarkerLabel}" />
+          <Controls />
+        </System.Windows.Forms.Label>
+        <System.Windows.Forms.ComboBox>
+          <DropDownStyle value="DropDownList" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Size value="{Width=184, Height=24}" />
+          <Location value="{X=168,Y=88}" />
+          <Name value="lineMarkerStyleComboBox" />
+          <TabIndex value="4" />
+          <DropDownWidth value="168" />
+          <Controls />
+        </System.Windows.Forms.ComboBox>
+      </Controls>
+    </System.Windows.Forms.GroupBox>
+  </Controls>
+</System.Windows.Forms.UserControl>

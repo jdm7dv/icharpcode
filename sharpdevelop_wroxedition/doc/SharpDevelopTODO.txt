@@ -1,0 +1,54 @@
+General:
++ Solve assembly locking problem ... (AppDomains don't work correctly)
++ Include source control system (currently Subversion is considered)
++ double click in the code completion window bug
++ Highlighting change: The 'Digits' must be put into the Rulesets
++ New store memento system. The current one uses too long file names and too many files.
++ TextArea Control refactoring (reimplementation ????)
++ Option in the panel to switch between code page and UTF-8
++ DLL F5 option : dll's can't be executed therefore the F5 key may run a user defineable program.
+
+Forms designer:
++ "Customize Toolbar" option for user defined controls...
++ Undo doesn't work in the text area :/
++ main menu control missing
+------------
+Posted - 09/30/2002 :  11:10:17       
+--------------------------------------------------------------------------------
+ 
+I have two translation requests.
+
+1. SharpDevelopCore.addin
+
+<MenuItem id = "SetAsStartupProject" 
+label = "Set as St&artUp Project" 
+
+
+2. DefaultStatusBarService.cs
+
+public void SetCaretPosition(int x, int y, int charOffset) 
+{ 
+statusBar.CursorStatusBarPanel.Text = String.Format("ln {0,-10} col {1,-5} ch {2,-5}", y, x, charOffset); 
+}
+
+public void SetInsertMode(bool insertMode) 
+{ 
+statusBar.ModeStatusBarPanel.Text = insertMode ? "INS" : "OVR"; 
+}
+
+
+I am glad if it was translated by the next release. 
+TNX.
+
+-- 
+ 
+
+-----------------------------------------------------
+ Hi! This is a trivial bug.
+
+Situation: I double click a word, it gets selected.
+Problem: If I originaly clicked it at the right of the word, when I click the word again (unselecting the word), but more to the left of the word, the caret goes to the left of this click. Max error is about middle of the previous word.
+Expected: the caret stays at the colum/position I clicked. 
+
+
+

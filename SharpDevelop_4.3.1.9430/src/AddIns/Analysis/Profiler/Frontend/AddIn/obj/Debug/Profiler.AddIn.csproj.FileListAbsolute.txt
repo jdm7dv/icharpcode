@@ -1,0 +1,10 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Profiler.AddIn.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Src\Dialogs\ProfileExecutableForm.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Src\Dialogs\ProfilerControlWindow.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Src\Views\ComparisonView.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Src\Views\ProfilerView.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Src\Dialogs\ProfileExecutableForm.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Src\Dialogs\ProfilerControlWindow.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Src\Views\ComparisonView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\Src\Views\ProfilerView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\Profiler\Frontend\AddIn\obj\Debug\ICSharpCode.Profiler.AddIn_MarkupCompile.cache

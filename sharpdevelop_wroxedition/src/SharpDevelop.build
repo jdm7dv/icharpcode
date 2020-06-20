@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+
+<project name="SharpDevelop" default="build" basedir=".">
+	<property name="debug" value="False"/>
+	<property name="project.version" value="x.x"/>
+	
+	<script language="C#">
+		<code><![CDATA[
+			public static void ScriptMain(Project project) {
+				string sourcePath = Path.Combine(project.BaseDirectory, "SharpDevelop\\Core");
+				string assemblyInfoFileName = Path.Combine(sourcePath, "AssemblyInfo.cs");
+				StreamReader reader = File.OpenText(assemblyInfoFileName);
+		
+				Regex commentRE = new Regex("^(\\s)*//");
+				Regex versionRE = new Regex("(?<=AssemblyVersion(\\s)*\\(\")\\d+\\.\\d+");
+		
+				string line = reader.ReadLine();
+				try {
+					while (line != null) {
+						// make sure the line has not been commented out
+						if (!commentRE.Match(line).Success) {
+							// find version string
+							Match versionMatch = versionRE.Match(line);
+							if (versionMatch.Success) {
+								project.Properties["project.version"] = versionMatch.Value;
+								break;
+							}
+						}
+						line = reader.ReadLine();
+					}
+				} finally {
+					// must remember to close the file or the compile may not work
+					reader.Close();
+				}
+				
+				project.Properties["zip.date"] = System.DateTime.Now.ToString("ddMMyy");
+			}
+		]]></code>
+	</script>
+	
+	<property name="exedeploy.name" value="..\..\SharpDevelop-${project.version}e-${zip.date}.zip" />
+	<property name="srcdeploy.name" value="..\..\SharpDevelop-${project.version}s-${zip.date}.zip" />
+	<property name="backupfile.name" value="..\..\SharpDevelop${zip.date}.zip" />
+	
+	<target name="build">
+		
+		<!-- compile #Unit -->
+		<echo message="Building #Unit"/>
+		<nant buildfile="SharpUnit/SharpUnit.build"/> 
+		<copy todir="../bin">
+			<fileset basedir="./SharpUnit/bin">
+				<includes name="ICSharpCode.SharpUnit.dll"/>
+				<includes name="SharpUnit.exe"/>
+				<includes name="SharpUnitConsole.exe"/>
+			</fileset>
+		</copy>
+		
+		<!-- compile ICSharpCode.XmlForms -->
+		<echo message="Building ICSharpCode.XmlForms"/>
+		<csc 
+			target="library" 
+			output="../bin/ICSharpCode.XmlForms.dll" 
+			debug="${debug}">
+			
+			<sources basedir="ICSharpCode.XmlForms">
+				<includes name="**/*.cs"/>
+			</sources>
+		</csc>
+
+		<!-- compile #Develop -->
+		<echo message="Building SharpDevelop-${project.version}"/>
+		<csc 
+			target="winexe" 
+			output="../bin/SharpDevelop.exe" 
+			win32icon="../data/resources/SharpDevelop.ico"
+			debug="${debug}">
+			
+			<sources basedir="SharpDevelop/Core">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<resources basedir="../data/resources">
+				<includes name="IconResources.resources"/>
+				<includes name="StringResources.resources"/>
+			</resources>
+		</csc>
+		
+		<csc 
+			target="library" 
+			output="../AddIns/SharpDevelop.Base.dll" 
+			debug="${debug}">
+			
+			<sources basedir="SharpDevelop/Base">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<references basedir="..">
+				<includes name="TlbImpCode.dll"/>
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="bin/Interop.SHDocVw.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+			</references>
+
+			<resources basedir="../data/resources">
+				<includes name="IconResources.resources"/>
+				<includes name="StringResources.resources"/>
+			</resources>
+		</csc>
+
+		<!-- compile CSharpParser -->
+		<echo message="Building C# parser"/>
+		<csc 
+			target="library" 
+			output="../AddIns/CSharpParser.dll" 
+			debug="${debug}">
+			
+			<sources basedir="CSharpParser">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="..">
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+			</references>
+		</csc>
+		
+		<csc 
+			target="library" 
+			output="../AddIns/ICSharpCode.TextEditor.dll" 
+			debug="${debug}">
+			
+			<sources basedir="SharpDevelop/ICSharpCode.TextEditor">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<references basedir="..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+			</references>
+		</csc>
+		
+		<csc 
+			target="library" 
+			output="../AddIns/SharpDevelop.DefaultTexteditor.dll" 
+			debug="${debug}">
+			
+			<sources basedir="SharpDevelop/SDDefaultEditor">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<references basedir="..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/CSharpParser.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+			</references>
+		</csc>
+		
+		<!-- compile Backend Bindings -->
+		<echo message="Building Backend bindings"/>
+		<nant buildfile="BackendBindings/BackendBindings.build"/> 
+		
+		<!-- compile Wizards -->
+		<echo message="Building Wizards"/>
+		<nant buildfile="Wizards/wizards.build"/> 
+		
+		<!-- compile Add-Ins -->
+		<echo message="Building Add-Ins"/>
+		<nant buildfile="AddIns/addins.build"/> 
+		
+		<!-- compile Tools -->
+		<echo message="Building tools"/>
+		<nant buildfile="Tools/Tools.build"/>
+
+		<csc 
+			target="library" 
+			output="../AddIns/FormDesigner/ICSharpCode.FormEditor.dll" 
+			debug="${debug}">
+			
+			<sources basedir="SharpDevelop/FormDesigner">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<references basedir="..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="AddIns/bindings/CSharpLanguageModule.dll"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.DefaultTexteditor.dll"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/CSharpParser.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+			</references>
+		</csc>
+		
+	</target>
+	
+	<target name="help">
+		<mkdir dir="../help"/>
+		<csc
+			target="winexe" 
+			output="../help/SharpDevelop.exe" 
+			win32icon="../data/resources/SharpDevelop.ico"
+			doc="../help/SharpDevelop.xml"
+			debug="${debug}">
+			
+			<sources basedir="SharpDevelop/Core">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<resources basedir="../data/resources">		<!-- compile Wizards -->
+				<echo message="Building tools"/>
+				<nant buildfile="Wizards/wizards.build"/> 
+		
+				<includes name="IconResources.resources"/>
+				<includes name="StringResources.resources"/>
+			</resources>
+		</csc>
+
+		<csc 
+			target="library" 
+			output="../help/SharpDevelop.Base.dll" 
+			doc="../help/SharpDevelop.Base.xml" 
+			debug="${debug}">
+			
+			<sources basedir="SharpDevelop/Base">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<references basedir="..">
+				<includes name="help/SharpDevelop.exe"/>
+				<includes name="bin/Interop.SHDocVw.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+				<includes name="AddIns/CSharpParser.dll"/>
+			</references>
+		</csc>
+
+		<csc 
+			target="library" 
+			output="../help/SharpDevelop.DefaultTexteditor.dll" 
+			doc="../help/SharpDevelop.DefaultTexteditor.xml" 
+			debug="${debug}">
+			
+			<sources basedir="SharpDevelop/SDDefaultEditor">
+				<includes name="**/*.cs"/>
+			</sources>
+			
+			<references basedir="..">
+				<includes name="help/SharpDevelop.exe"/>
+				<includes name="help/SharpDevelop.Base.dll"/>
+				<includes name="AddIns/CSharpParser.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>				
+			</references>
+		</csc>
+		<copy  file="../bin/Interop.SHDocVw.dll" todir="../help"/>
+		<copy  file="../bin/MagicLocalLibrary.dll" todir="../help"/>
+		<copy  file="../AddIns/CSharpParser.dll" todir="../help"/>
+		
+		<ndoc helpName="SharpDevelopSDK.chm"  outputDir="../help">
+	    	<assemblies basedir="..">
+					<includes name="help/SharpDevelop.exe" />
+					<includes name="help/SharpDevelop.Base.dll"/>
+					<includes name="help/SharpDevelop.DefaultTexteditor.dll"/>
+    		</assemblies>
+    	</ndoc>
+	</target>
+
+	<target name="clean">
+	        <delete verbose="true" >
+			<fileset basedir="../bin/ndoc">
+				<includes name ="*.*"/>
+			</fileset>
+		</delete>
+	        <delete verbose="true" >
+			<fileset basedir="../bin">
+				<includes name ="*.*"/>
+				<excludes name ="Interop.SHDocVw.dll"/>
+				<excludes name ="SharpDevelop.exe.manifest"/>
+				<excludes name = "MagicLocalLibrary.dll"/>
+			</fileset>
+		</delete>
+	        
+	        <delete verbose="true" >
+			<fileset basedir="..">
+				<includes name="**/*.pdb"/>
+				<includes name="src/SharpCvs/bin/SharpCvs.exe"/>
+				
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="AddIns/CSharpParser.dll"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.DefaultTexteditor.dll"/>
+				<includes name="AddIns/FormDesigner/ICSharpCode.FormEditor.dll"/>
+			</fileset>
+		</delete>
+		<nant buildfile="SharpUnit/SharpUnit.build" target="clean"/>
+		<nant buildfile="BackendBindings/BackendBindings.build" target="clean"/>
+		<nant buildfile="Wizards/wizards.build" target = "clean"/>
+		<nant buildfile="AddIns/AddIns.build" target = "clean"/> 
+		<nant buildfile="Tools/Tools.build" target = "clean"/>
+	        <delete dir="../resources/NCvs" verbose="true" failonerror="false"/>
+	</target>
+	
+	<target name="deploy">
+		<call target="clean"/>
+		<echo message="Compiling sources"/>
+	        <zip zipfile = "${srcdeploy.name}">
+	            <fileset basedir="../..">
+	                <includes name="SharpDevelop/**"/>
+			<excludes name="SharpDevelop/src/**/.svn/**"/>
+	            </fileset>
+	        </zip>
+		
+		<call target="build"/>
+		<echo message="Compiling exe"/>
+	        <zip zipfile = "${exedeploy.name}">
+	            <fileset basedir="../..">
+	                <includes name="SharpDevelop/**"/>
+	                <excludes name="SharpDevelop/src/**"/>
+			<excludes name="SharpDevelop/src/**/.svn/**"/>
+	            </fileset>
+	        </zip>
+	
+	</target>
+	
+	<target name="backup">
+		<call target="clean"/>
+		<echo message="Creating backup file"/>
+	        <zip zipfile = "${backupfile.name}">
+	            <fileset basedir="../..">
+	                <includes name="SharpDevelop/**"/>
+			<excludes name="SharpDevelop/src/**/.svn/**"/>
+	            </fileset>
+	        </zip>
+	</target>
+	
+</project>

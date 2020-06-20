@@ -1,0 +1,40 @@
+<!-- GPL Dialog Version 1.0 by Mike Krueger
+     last change : 04/13/2002
+  -->
+<System.Windows.Forms.Form> 
+	<Text       value = "${res:Dialog.ViewGPL.DialogName}"/>
+	<ClientSize value = "{Width=724, Height=400}"/>
+	<ShowInTaskbar   value = "False"/>
+	<MaximizeBox     value = "False"/>
+	<MinimizeBox     value = "False"/>
+	<Icon            value = "Icons.16x16.CopyLeftIcon"/>
+	<FormBorderStyle value = "FixedDialog"/>
+	<StartPosition   value = "CenterScreen"/>
+	<AcceptButton    value = "okButton"/>
+	
+	<Controls>
+		<!-- The rich text box in which the GPL is shown -->
+		<System.Windows.Forms.RichTextBox>
+			<Name     value = "licenseRichTextBox"/>
+			<TabIndex value = "0"/>
+			<ReadOnly value = "True"/>
+			<Font     value = "Times New Roman, 12"/>
+			<Width    value = "724"/>
+			<Height   value = "371"/>
+			<BorderStyle value = "${BorderStyle}"/>
+		</System.Windows.Forms.RichTextBox>
+		
+		<!-- OK Button -->
+		<System.Windows.Forms.Button>
+			<Name    value = "okButton"/>
+			<Width   value = "64"/>
+			<Height  value = "24"/>
+
+			<Location value = "{X=330, Y=371}"/>
+			<TabIndex value = "1"/>
+			<Text     value = "${res:Global.OKButtonText}"/>
+			<DialogResult value = "OK"/>
+			<FlatStyle value = "${FlatStyle}"/>
+		</System.Windows.Forms.Button>
+	</Controls>
+</System.Windows.Forms.Form>

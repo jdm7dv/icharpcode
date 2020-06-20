@@ -1,0 +1,72 @@
+<Project name="FormEditor" description="erzeugt ein Windows Forms Projekt" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\DesignerOptionService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\DictionaryService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\ComponentChangeService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\UIService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\PropertyValueUIService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\EventBindingServiceImpl.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\SelectionService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\ExtenderListService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\TypeDescriptorFilterService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Hosts\DefaultDesignerHost.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Hosts\DefaultDesignerLoader.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Hosts\DesignComponentContainer.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Hosts\DefaultDesignerTransaction.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Gui\DesignPanel.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Util\NameExtender.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Xml\XmlFormReader.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\FormDesignerDisplayBinding.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\ExtenderProviderService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\TypeResolutionService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\DefaultServiceContainer.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\FormDesigner\Services" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\FormDesigner\Hosts" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\FormDesigner\Gui" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\FormDesigner\Util" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\FormDesigner\Xml" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\FormDesigner\Xml\CodeDOMGenerator.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\NameCreationService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\DesignerEventService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\DesignerSerializationService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Commands" subtype="Directory" buildaction="Compile" dependson="" data="" />
+    <File name=".\Commands\FormCommands.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\CSharpDesignerDisplayBinding.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\FormDesignerDisplayBindingBase.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\UndoRedoManager.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\ToolboxService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Services\MenuCommandService.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\FormKeyHandler.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\Commands\AutostartCommands.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\FormDesigner\Xml\XmlFormGenerator.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+  </Contents>
+  <References>
+    <Reference type="Assembly" refto="..\..\..\bin\ICSharpCode.XmlForms.dll" />
+    <Reference type="Assembly" refto="..\..\..\bin\MagicLocalLibrary.dll" />
+    <Reference type="Project" refto="Base" />
+    <Reference type="Project" refto="Core" />
+    <Reference type="Project" refto="DefaultEditor" />
+    <Reference type="Project" refto="ICSharpCode.TextEditor" />
+    <Reference type="Project" refto="CSharpBackendBinding" />
+  </References>
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configuration runwithwarnings="False" name="Debug">
+    <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+    <Execution commandlineparameters="" consolepause="False" />
+    <Output directory="..\..\..\AddIns\FormDesigner" assembly="ICSharpCode.FormEditor" />
+  </Configuration>
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="False" />
+      <Output directory="..\..\..\AddIns\FormDesigner" assembly="ICSharpCode.FormEditor" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="FormEditor" />
+    </Configuration>
+  </Configurations>
+</Project>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Template Originator="Mike Krueger" Created="03/10/2001" LastModified="03/10/2001">
+	<TemplateConfiguration>
+		<Name>${res:Templates.Project.VB.EmptyVBApp.Name}</Name>
+		<Category>VBNET</Category>
+		<LanguageName>VBNET</LanguageName>
+		<Icon>VB.Project.EmptyVBProject</Icon>
+		<Description>${res:Templates.Project.VB.EmptyVBApp.Description}</Description>
+	</TemplateConfiguration>
+	<ProjectFiles/>
+	<ProjectOptions/>
+</Template>

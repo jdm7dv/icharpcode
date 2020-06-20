@@ -1,0 +1,6 @@
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\bin\Release\ICSharpCode.Decompiler.dll
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\bin\Release\ICSharpCode.NRefactory.dll
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\bin\Release\Mono.Cecil.dll
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\bin\Release\Mono.Cecil.pdb
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\obj\Release\ICSharpCode.Decompiler.dll

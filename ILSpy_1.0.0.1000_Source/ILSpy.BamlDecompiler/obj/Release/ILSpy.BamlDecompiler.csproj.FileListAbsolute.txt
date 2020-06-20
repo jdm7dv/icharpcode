@@ -1,0 +1,3 @@
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ILSpy\bin\Release\ILSpy.BamlDecompiler.Plugin.dll
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ILSpy.BamlDecompiler\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ILSpy.BamlDecompiler\obj\Release\ILSpy.BamlDecompiler.Plugin.dll

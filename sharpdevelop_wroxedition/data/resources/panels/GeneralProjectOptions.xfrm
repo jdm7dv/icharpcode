@@ -1,0 +1,125 @@
+<System.Windows.Forms.UserControl>
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <SnapToGrid value="True" />
+  <Size value="{Width=392, Height=312}" />
+  <DrawGrid value="True" />
+  <Name value="CreatedObject0" />
+  <Font value="[Font: Name=Tahoma, Size=14, Units=0, GdiCharSet=1, GdiVerticalFont=False]" />
+  <DockPadding value="" />
+  <GridSize value="{Width=8, Height=8}" />
+  <Controls>
+    <System.Windows.Forms.Label>
+      <Location value="{X=8,Y=8}" />
+      <Size value="{Width=72, Height=16}" />
+      <TabIndex value="0" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Name value="CreatedObject1" />
+      <TextAlign value="MiddleRight" />
+      <Text value="${res:Dialog.Options.PrjOptions.General.ProjectNameLabel}" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.TextBox>
+      <Text value="" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=296, Height=24}" />
+      <Location value="{X=88,Y=8}" />
+      <Name value="ProjectNameTextBox" />
+      <TabIndex value="0" />
+      <Anchor value="Top, Left, Right" />
+      <Controls />
+    </System.Windows.Forms.TextBox>
+    <System.Windows.Forms.Label>
+      <Name value="CreatedObject4" />
+      <Location value="{X=8,Y=40}" />
+      <Size value="{Width=376, Height=16}" />
+      <TabIndex value="1" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <TextAlign value="BottomLeft" />
+      <Text value="${res:Dialog.Options.PrjOptions.General.ProjectDescriptionLabel}" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.TextBox>
+      <Text value="" />
+      <Name value="ProjectDescriptionTextBox" />
+      <Multiline value="True" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=376, Height=96}" />
+      <Location value="{X=8,Y=56}" />
+      <TabIndex value="2" />
+      <Anchor value="Top, Bottom, Left, Right" />
+      <Controls />
+    </System.Windows.Forms.TextBox>
+    <System.Windows.Forms.Label>
+      <Location value="{X=8,Y=224}" />
+      <Size value="{Width=376, Height=24}" />
+      <TabIndex value="4" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Anchor value="Bottom, Left, Right" />
+      <Name value="CreatedObject7" />
+      <TextAlign value="BottomLeft" />
+      <Text value="${res:Dialog.Options.PrjOptions.General.ProjectDocumentationLabel}" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.TextBox>
+      <Text value="" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=336, Height=24}" />
+      <Location value="{X=8,Y=248}" />
+      <TabIndex value="5" />
+      <Anchor value="Bottom, Left, Right" />
+      <Name value="ProjectDocumentationLocationTextBox" />
+      <Controls />
+    </System.Windows.Forms.TextBox>
+    <System.Windows.Forms.Button>
+      <Name value="CreatedObject10" />
+      <TabIndex value="6" />
+      <Anchor value="Bottom, Right" />
+      <Text value="..." />
+      <Size value="{Width=32, Height=20}" />
+      <Location value="{X=352,Y=248}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.GroupBox>
+      <Text value="${res:Dialog.Options.PrjOptions.General.AutoFindFilesGroupBox}" />
+      <Size value="{Width=376, Height=64}" />
+      <Anchor value="Bottom, Left, Right" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Name value="CreatedObject12" />
+      <Location value="{X=8,Y=152}" />
+      <TabIndex value="3" />
+      <Controls>
+        <System.Windows.Forms.CheckBox>
+          <TabIndex value="0" />
+          <Anchor value="Top, Bottom, Left, Right" />
+          <Name value="NewFilesOnLoadCheckBox" />
+          <Text value="${res:Dialog.Options.PrjOptions.General.SearchNewFileOnLoadCheckBox}" />
+          <Size value="{Width=360, Height=22}" />
+          <Location value="{X=8,Y=18}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="AutoInsertNewFilesCheckBox" />
+          <TabIndex value="1" />
+          <Anchor value="Top, Bottom, Left, Right" />
+          <Text value="${res:Dialog.Options.PrjOptions.General.AutoIncludeFilesCheckBox}" />
+          <Size value="{Width=344, Height=14}" />
+          <Location value="{X=24,Y=42}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+      </Controls>
+    </System.Windows.Forms.GroupBox>
+    <System.Windows.Forms.CheckBox>
+      <TabIndex value="7" />
+      <Anchor value="Bottom, Left, Right" />
+      <Name value="EnableViewStateCheckBox" />
+      <Text value="${res:Dialog.Options.PrjOptions.General.ViewStateCheckBox}" />
+      <Size value="{Width=380, Height=24}" />
+      <Location value="{X=8,Y=280}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.CheckBox>
+  </Controls>
+</System.Windows.Forms.UserControl>

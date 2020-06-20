@@ -1,0 +1,5 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\bin\ICSharpCode.NRefactory.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\bin\ICSharpCode.NRefactory.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\NRefactory\Project\obj\Debug\NRefactory.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\NRefactory\Project\obj\Debug\ICSharpCode.NRefactory.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\NRefactory\Project\obj\Debug\ICSharpCode.NRefactory.pdb

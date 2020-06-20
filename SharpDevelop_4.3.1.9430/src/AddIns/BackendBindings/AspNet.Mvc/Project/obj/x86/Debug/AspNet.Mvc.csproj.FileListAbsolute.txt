@@ -1,0 +1,6 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\AspNet.Mvc\Project\obj\x86\Debug\AspNet.Mvc.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\AspNet.Mvc\Project\obj\x86\Debug\Src\AddMvcControllerToProjectView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\AspNet.Mvc\Project\obj\x86\Debug\Src\AddMvcViewToProjectView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\AspNet.Mvc\Project\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\AspNet.Mvc\Project\obj\x86\Debug\AspNet.Mvc_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\AspNet.Mvc\Project\obj\x86\Debug\AspNet.Mvc_MarkupCompile.lref

@@ -1,0 +1,104 @@
+<System.Windows.Forms.UserControl>
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <Name value="CreatedObject0" />
+  <SnapToGrid value="True" />
+  <Size value="{Width=416, Height=365}" />
+  <DrawGrid value="True" />
+  <DockPadding value="" />
+  <GridSize value="{Width=8, Height=8}" />
+  <Controls>
+    <System.Windows.Forms.GroupBox>
+      <Text value="${res:Dialog.Options.IDEOptions.TextEditor.General.GeneralOptionsGroupBox}" />
+      <Size value="{Width=400, Height=96}" />
+      <Anchor value="Top, Left, Right" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Location value="{X=8,Y=8}" />
+      <Name value="CreatedObject2" />
+      <TabIndex value="0" />
+      <Controls>
+        <System.Windows.Forms.CheckBox>
+          <Name value="enableCodeCompletionCheckBox" />
+          <TabIndex value="0" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.General.CodeCompletionCheckBox}" />
+          <Size value="{Width=384, Height=24}" />
+          <Location value="{X=8,Y=16}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <Name value="enableFoldingCheckBox" />
+          <TabIndex value="1" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.General.FoldingCheckBox}" />
+          <Size value="{Width=384, Height=24}" />
+          <Location value="{X=8,Y=40}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+        <System.Windows.Forms.CheckBox>
+          <TabIndex value="2" />
+          <Anchor value="Top, Left, Right" />
+          <Name value="enableDoublebufferingCheckBox" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.General.DoubleBufferCheckBox}" />
+          <Size value="{Width=384, Height=24}" />
+          <Location value="{X=8,Y=64}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+      </Controls>
+    </System.Windows.Forms.GroupBox>
+    <System.Windows.Forms.GroupBox>
+      <Text value="${res:Dialog.Options.IDEOptions.TextEditor.General.FontGroupBox}" />
+      <Size value="{Width=400, Height=104}" />
+      <Anchor value="Top, Left, Right" />
+      <Name value="CreatedObject7" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Location value="{X=8,Y=112}" />
+      <TabIndex value="1" />
+      <Controls>
+        <System.Windows.Forms.Label>
+          <Location value="{X=8,Y=16}" />
+          <Size value="{Width=312, Height=24}" />
+          <TabIndex value="0" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Name value="CreatedObject9" />
+          <TextAlign value="BottomLeft" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.General.TextfontLabel}" />
+          <Controls />
+        </System.Windows.Forms.Label>
+        <System.Windows.Forms.TextBox>
+          <Text value="" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Size value="{Width=312, Height=22}" />
+          <Location value="{X=8,Y=48}" />
+          <TabIndex value="0" />
+          <Anchor value="Top, Left, Right" />
+          <ReadOnly value="True" />
+          <Name value="fontNameDisplayTextBox" />
+          <Controls />
+        </System.Windows.Forms.TextBox>
+        <System.Windows.Forms.Button>
+          <Name value="browseButton" />
+          <TabIndex value="1" />
+          <Anchor value="Top, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.General.SelectButtonText}" />
+          <Size value="{Width=64, Height=24}" />
+          <Location value="{X=328,Y=48}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.Button>
+        <System.Windows.Forms.CheckBox>
+          <TabIndex value="2" />
+          <Name value="enableAAFontRenderingCheckBox" />
+          <Anchor value="Top, Left, Right" />
+          <Text value="${res:Dialog.Options.IDEOptions.TextEditor.General.AntialiasedFontCheckBox}" />
+          <Size value="{Width=384, Height=24}" />
+          <Location value="{X=8,Y=72}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.CheckBox>
+      </Controls>
+    </System.Windows.Forms.GroupBox>
+  </Controls>
+</System.Windows.Forms.UserControl>

@@ -1,0 +1,11 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\PackageManagement.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\Src\ManagePackagesView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\Src\LicenseAcceptanceView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\Src\RegisteredPackageSourcesUserControl.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\Src\PackagesView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\Src\PagedResultsView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\Src\Scripting\PackageManagementConsoleView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\Src\SelectProjectsView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\PackageManagement_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\PackageManagement\Project\obj\x86\Debug\PackageManagement_MarkupCompile.lref

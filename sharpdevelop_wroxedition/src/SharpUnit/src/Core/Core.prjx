@@ -1,0 +1,34 @@
+<Project name="Core" description="creates a console C# project" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Core\Assertion.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Core\AssertionFailedException.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\DefaultTestSuite.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\DefaultTestRunner.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\TestFailedEventHandler.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\ITest.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\TestEventHandler.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\DefaultTest.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Core\TestMethodAttribute.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Core\ExceptExceptionAttribute.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Core\TestSuiteAttribute.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\AssemblyLoader.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\AssemblyUtilities.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\ITestRunner.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TestEnvironment\ITestSuite.cs" subtype="Code" buildaction="Compile" />
+  </Contents>
+  <References />
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="True" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\..\bin" assembly="ICSharpCode.SharpUnit" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="SharpTest" />
+    </Configuration>
+  </Configurations>
+</Project>

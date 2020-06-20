@@ -1,0 +1,42 @@
+<Project name="NewClassWizard" description="Creates a new class" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\.NewClassWizard.prjx.swp" subtype="Code" buildaction="Exclude" />
+    <File name=".\AbstractTypeInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\CodeFactory.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\CodeFactoryOptions.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\CodeProviderChooser.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\InterfaceCollection.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Licence.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\LicenseTemplates.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\NamespacesCollection.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\NewClassInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\NewClassWizardExceptions.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\ProjectInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\GUI\ClassPropertiesPanel.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\GUI\CodeOptionsControl.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\GUI\CodeOptionsPanel.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\GUI\InterfacesPanel.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\GUI\MyPanelBase.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\GUI\NamespaceTreeView.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\XML\NewClassWizard.xml" subtype="Code" buildaction="Nothing" />
+  </Contents>
+  <References>
+    <Reference type="Assembly" refto="..\..\..\AddIns\SharpDevelop.Base.dll" />
+    <Reference type="Assembly" refto="..\..\..\bin\SharpDevelop.exe" />
+    <Reference type="Assembly" refto="..\..\..\bin\ICSharpCode.XmlForms.dll" />
+  </References>
+  <DeploymentInformation target="E:\SharpDevelop\v0.87b\SharpDevelop\AddIns\Wizards" script="" strategy="Assembly" />
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="False" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="False" />
+      <Output directory="..\..\..\AddIns\Wizards" assembly="NewClassWizard" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="NewClassWizard" />
+    </Configuration>
+  </Configurations>
+</Project>

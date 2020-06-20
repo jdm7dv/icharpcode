@@ -1,0 +1,5 @@
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\BuildTools\UpdateAssemblyInfo\bin\Debug\UpdateAssemblyInfo.exe
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\BuildTools\UpdateAssemblyInfo\bin\Debug\UpdateAssemblyInfo.pdb
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\BuildTools\UpdateAssemblyInfo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\BuildTools\UpdateAssemblyInfo\obj\Debug\UpdateAssemblyInfo.exe
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\BuildTools\UpdateAssemblyInfo\obj\Debug\UpdateAssemblyInfo.pdb

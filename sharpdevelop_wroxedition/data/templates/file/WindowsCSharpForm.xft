@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Template Originator="Mike Krueger" 
+          Language="CSharpForm" Created="6/13/2001" LastModified="6/13/2001">
+	
+	<TemplateConfiguration>
+		<Name>C# Form</Name>
+		<Icon>C#.File.CSFileIcon</Icon>
+		<Category>C#</Category>
+		<LanguageName>CSharpForm</LanguageName>
+		<Description>creates a designable C# form</Description>
+	</TemplateConfiguration>
+	
+	<TemplateFiles>
+		<File DefaultExtension=".cs" DefaultName="CSharpForm">
+<![CDATA[// created on ${Date} at ${Time}
+using System;
+using System.Windows.Forms;
+
+namespace MyForm {
+	public class CreatedForm : System.Windows.Forms.Form
+	{
+		public CreatedForm()
+		{
+			InitializeComponents();
+		}
+		
+		void InitializeComponents()
+		{
+		}
+	}
+}
+]]></File>
+	</TemplateFiles>
+	
+	<FileOptions/>
+	
+</Template>

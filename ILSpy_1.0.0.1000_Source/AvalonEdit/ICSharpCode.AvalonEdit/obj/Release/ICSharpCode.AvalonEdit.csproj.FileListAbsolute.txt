@@ -1,0 +1,14 @@
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\bin\Release\ICSharpCode.AvalonEdit.xml
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\bin\Release\ICSharpCode.AvalonEdit.dll
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\bin\Release\ICSharpCode.AvalonEdit.pdb
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\ICSharpCode.AvalonEdit_MarkupCompile.cache
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\ICSharpCode.AvalonEdit_MarkupCompile.lref
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\CodeCompletion\CompletionList.baml
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\CodeCompletion\InsightWindow.baml
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\TextEditor.baml
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\themes\generic.baml
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\ICSharpCode.AvalonEdit.g.resources
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\ICSharpCode.AvalonEdit.dll
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\AvalonEdit\ICSharpCode.AvalonEdit\obj\Release\ICSharpCode.AvalonEdit.pdb

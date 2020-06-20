@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Template Originator="Mike Krueger" Created="07/06/2001" LastModified="07/06/2001">
+	
+	<TemplateConfiguration>
+		<Name>${res:Templates.Project.Misc.BlankCombine.Name}</Name>
+		<Category>SharpDevelop</Category>
+		<Icon>Icons.32x32.CombineIcon</Icon>
+		<LanguageName/>
+		<Description>${res:Templates.Project.Misc.BlankCombine.Description}</Description>
+	</TemplateConfiguration>
+	
+	<ProjectFiles/>
+	
+	<ProjectOptions/>
+	
+</Template>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Template Originator="Gary Gray" Created="09/05/2001" LastModified="09/05/2001">
+	
+	<TemplateConfiguration>
+                <Name>${res:Templates.Project.Java.EmptyJavaApp.Name}</Name>
+                <Category>Java</Category>
+                <Icon>JAVA.Project.EmptyJavaProjectIcon</Icon>
+                <LanguageName>Java</LanguageName>
+                <Description>${res:Templates.Project.Java.EmptyJavaApp.Description}</Description>
+	</TemplateConfiguration>
+	
+	<ProjectFiles/>
+	
+	<ProjectOptions/>
+	
+</Template>

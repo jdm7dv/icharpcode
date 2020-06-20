@@ -1,0 +1,5 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\DisplayBindings\WpfDesign\ICSharpCode.WpfDesign.XamlDom.xml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\DisplayBindings\WpfDesign\ICSharpCode.WpfDesign.XamlDom.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\DisplayBindings\WpfDesign\ICSharpCode.WpfDesign.XamlDom.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\WpfDesign\WpfDesign.XamlDom\Project\obj\Debug\ICSharpCode.WpfDesign.XamlDom.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\WpfDesign\WpfDesign.XamlDom\Project\obj\Debug\ICSharpCode.WpfDesign.XamlDom.pdb

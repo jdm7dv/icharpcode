@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Template Originator="Mike Krueger" Created="06/10/2001" LastModified="06/10/2001">
+	
+	<TemplateConfiguration>
+		<Name>${res:Templates.Project.C#.WinFormsProject.Name}</Name>
+		<Category>C#</Category>
+		<Icon>C#.Project.FullCSharpProject</Icon>
+		<LanguageName>C#</LanguageName>
+		<Description>${res:Templates.Project.C#.WinFormsProject.Description}</Description>
+	</TemplateConfiguration>
+	
+	<ProjectFiles>
+		<File Name="MainForm.cs">
+			<![CDATA[// project created on ${Date} at ${Time}
+using System;
+using System.Windows.Forms;
+
+namespace MyFormProject 
+{
+	class MainForm : Form
+	{
+		public MainForm()
+		{
+			InitializeComponents();
+		}
+	
+		// This method is used in the forms designer.
+		// Change this method on you own risk
+		void InitializeComponents()
+		{
+			// 
+			//  Set up generated class MainForm
+			// 
+			this.SuspendLayout();
+			this.Name = "MainForm";
+			this.Text = "This is my form";
+			this.Size = new System.Drawing.Size(300, 300);
+			this.ResumeLayout(false);
+		}
+			
+		[STAThread]
+		public static void Main(string[] args)
+		{
+			Application.Run(new MainForm());
+		}
+	}			
+}]]></File>
+		<File Name="AssemblyInfo.cs">
+			<![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+// Information about this assembly is defined by the following
+// attributes.
+//
+// change them to the information which is associated with the assembly
+// you compile.
+
+[assembly: AssemblyTitle("")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("")]
+[assembly: AssemblyCopyright("")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+
+// The assembly version has following format :
+//
+// Major.Minor.Build.Revision
+//
+// You can specify all values by your own or you can build default build and revision
+// numbers with the '*' character (the default):
+
+[assembly: AssemblyVersion("1.0.*")]
+
+// The following attributes specify the key for the sign of your assembly. See the
+// .NET Framework documentation for more information about signing.
+// This is not required, if you don't want signing let these attributes like they're.
+[assembly: AssemblyDelaySign(false)]
+[assembly: AssemblyKeyFile("")]
+]]></File>
+	</ProjectFiles>
+	
+	<ProjectOptions Target = "WinExe" PauseConsoleOutput = "False" />
+	
+</Template>

@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+
+<project name="Backend Bindings" default="build" basedir=".">
+	<property name="debug" value="False"/>
+	
+	<target name="build">
+		<!-- compile CSharp backend binding -->
+		<echo message="Building C# backend binding"/>
+	        <csc 
+			target="library" 
+			output="../../AddIns/bindings/CSharpLanguageModule.dll" 
+			debug="${debug}">
+			
+			<sources basedir="CSharpLanguageModule">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.DefaultTexteditor.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+			</references>
+		</csc>
+
+		<!-- compile VB.NET backend binding -->
+		<echo message="Building VB.NET backend binding"/>
+	        <csc 
+			target="library" 
+			output="../../AddIns/bindings/VBNetLanguageModule.dll" 
+			debug="${debug}">
+			
+			<sources basedir="VBNetLanguageModule">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.DefaultTexteditor.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+				<includes name="AddIns/bindings/VB.DOC.dll"/>
+			</references>
+		</csc>
+	        
+		<!-- compile Java Script backend binding -->
+		<echo message="Building Java Script backend binding"/>
+		
+		<csc 
+			target="library" 
+			output="../../AddIns/bindings/JScriptLanguageModule.dll" 
+			debug="${debug}">
+			
+			<sources basedir="JScriptLanguageModule">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+			</references>
+		</csc>
+	        
+
+		<!-- compile Java backend binding -->
+		<echo message="Building Java backend binding"/>
+
+		<csc 
+			target="library" 
+			output="../../AddIns/bindings/JavaLanguageModule.dll" 
+			debug="${debug}">
+			
+			<sources basedir="JavaLanguageModule">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/ICSharpCode.TextEditor.dll"/>
+				<includes name="AddIns/SharpDevelop.DefaultTexteditor.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+			</references>
+		</csc>
+		
+		<!-- compile Object Browser -->
+		<echo message="Building Object browser"/>
+		
+		<csc 
+			target="library" 
+			output="../../AddIns/bindings/ObjectBrowser.dll" 
+			debug="${debug}">
+			
+			<sources basedir="ObjectBrowser">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+			</references>
+		</csc>
+		
+		<!-- compile Resource Editor -->
+		<echo message="Building resource editor"/>
+		<csc 			
+			target="library" 
+			output="../../AddIns/bindings/ResourceEditor.dll" 
+			debug="${debug}">
+			
+			<sources basedir="ResourceEdit">
+				<includes name="**/*.cs"/>
+			</sources>
+			<references basedir="../..">
+				<includes name="bin/SharpDevelop.exe"/>
+				<includes name="bin/ICSharpCode.XmlForms.dll"/>
+				<includes name="AddIns/SharpDevelop.Base.dll"/>
+				<includes name="bin/MagicLocalLibrary.dll"/>
+			</references>
+		</csc>
+		
+	</target>
+	
+	<target name="clean">
+		<!-- clean backend bindings -->
+	        <delete verbose="true" >
+			<fileset basedir="../../AddIns/bindings">
+				<includes name="JavaLanguageModule.dll"/>
+				<includes name="JScriptLanguageModule.dll"/>
+				<includes name="VBNetLanguageModule.dll"/>
+				<includes name="CSharpLanguageModule.dll"/>
+				<includes name="ObjectBrowser.dll"/>
+				<includes name="ResourceEditor.dll"/>
+			</fileset>
+		</delete>
+	</target>
+	
+	
+</project>

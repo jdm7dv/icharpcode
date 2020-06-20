@@ -1,0 +1,28 @@
+<Combine fileversion="1.0" name="#Unit" description="">
+  <StartMode startupentry="Gui" single="True">
+    <Execute entry="Core" type="None" />
+    <Execute entry="Gui" type="None" />
+    <Execute entry="ConsoleTool" type="None" />
+    <Execute entry="Tests" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\Core\Core.prjx" />
+    <Entry filename=".\Gui\Gui.prjx" />
+    <Entry filename=".\Console\Console.prjx" />
+    <Entry filename=".\Tests\Tests.prjx" />
+  </Entries>
+  <Configurations active="Debug">
+    <Configuration name="Release">
+      <Entry name="Core" configurationname="Debug" build="False" />
+      <Entry name="Gui" configurationname="Debug" build="False" />
+      <Entry name="ConsoleTool" configurationname="Debug" build="False" />
+      <Entry name="Tests" configurationname="Debug" build="False" />
+    </Configuration>
+    <Configuration name="Debug">
+      <Entry name="Core" configurationname="Debug" build="False" />
+      <Entry name="Gui" configurationname="Debug" build="False" />
+      <Entry name="ConsoleTool" configurationname="Debug" build="False" />
+      <Entry name="Tests" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>

@@ -1,0 +1,3 @@
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\bin\Release\ICSharpCode.Decompiler.Tests.dll
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\Tests\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Downloads\ILSpy_1.0.0.1000_Source\ICSharpCode.Decompiler\Tests\obj\x86\Release\ICSharpCode.Decompiler.Tests.dll

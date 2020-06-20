@@ -1,0 +1,8 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\CodeQuality\obj\x86\Debug\CodeQuality.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\CodeQuality\obj\x86\Debug\Gui\NodeDescription.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\CodeQuality\obj\x86\Debug\Gui\NodeDescription.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\CodeQuality\obj\x86\Debug\Gui\DependencyMatrixView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\CodeQuality\obj\x86\Debug\Gui\MainView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\CodeQuality\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\CodeQuality\obj\x86\Debug\ICSharpCode.CodeQuality_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Analysis\CodeQuality\obj\x86\Debug\ICSharpCode.CodeQuality_MarkupCompile.lref

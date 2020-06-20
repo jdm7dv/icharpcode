@@ -1,0 +1,16 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\bin\ICSharpCode.AvalonEdit.xml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\bin\ICSharpCode.AvalonEdit.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\bin\ICSharpCode.AvalonEdit.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit_MarkupCompile.lref
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\CodeCompletion\CompletionList.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\CodeCompletion\InsightWindow.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\Search\SearchPanel.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\Search\DropDownButton.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\TextEditor.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\themes\generic.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.g.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\obj\Debug\ICSharpCode.AvalonEdit.pdb

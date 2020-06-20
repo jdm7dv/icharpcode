@@ -1,0 +1,65 @@
+<Project name="CSharpParser" description="creates a console C# project" newfilesearch="OnLoad" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\Neue Datei1" subtype="Code" buildaction="Exclude" />
+    <File name=".\Main.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Attributes.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\BlockFor.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\CompilationUnit.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Expression.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Interfaces.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Parameter.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Parser.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\ReturnType.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Statement.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\UsingStmt.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Variable.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\FileReader.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\IReader.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\KeyWords.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\Lexer.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\Token.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\TokenList.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\StringReader.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\TokenCollection.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Constant.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Constructor.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Destructor.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Event.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Field.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Indexer.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Method.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Operator.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Members\Property.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Types\Class.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Types\Delegate.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Types\Enumeration.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Types\Interface.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\ParserException.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Using.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Lexer\Comment.cs" subtype="Code" buildaction="Exclude" />
+    <File name=".\Resolver.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Resolver.cs.old" subtype="Code" buildaction="Exclude" />
+  </Contents>
+  <References>
+    <Reference type="Assembly" refto="..\..\AddIns\SharpDevelop.Base.dll" />
+  </References>
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configuration runwithwarnings="False" name="Debug">
+    <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+    <Execution commandlineparameters="" consolepause="True" />
+    <Output directory="..\..\AddIns" assembly="CSharpParser" />
+  </Configuration>
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\..\AddIns" assembly="CSharpParser" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon=".\" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\..\AddIns" assembly="CSharpParser" />
+    </Configuration>
+  </Configurations>
+</Project>

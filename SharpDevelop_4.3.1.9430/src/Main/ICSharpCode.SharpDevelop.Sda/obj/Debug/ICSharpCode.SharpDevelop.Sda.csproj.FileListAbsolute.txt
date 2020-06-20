@@ -1,0 +1,1 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\Main\ICSharpCode.SharpDevelop.Sda\obj\Debug\ICSharpCode.SharpDevelop.Sda.csprojResolveAssemblyReference.cache

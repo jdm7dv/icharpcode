@@ -1,0 +1,2 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\CSharpBinding\Project\obj\Debug\CSharpBinding.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\CSharpBinding\Project\obj\Debug\CSharpBinding_MarkupCompile.cache

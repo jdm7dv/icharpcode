@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+
+<project name="Tools" default="build" basedir="Tools">
+	
+	<target name="build">
+		<!-- compile resasm -->
+		<echo message="Building resasm"/>
+		<csc 
+			target="exe" 
+			output="../../bin/resasm.exe" 
+			debug="False">
+			
+			<sources basedir="ResAsm">
+				<includes name="**/*.cs"/>
+			</sources>
+		</csc>
+		
+		<!-- compile tbuilder -->
+		<echo message="Building tbuilder"/>
+		<csc 
+			target="exe" 
+			output="../../bin/tbuilder.exe" 
+			debug="False">
+			
+			<sources basedir="TranslationBuilder">
+				<includes name="**/*.cs"/>
+			</sources>
+		</csc>
+		
+		<echo message="Building nant"/>
+	        <copy todir="../../bin">
+            		<fileset basedir="nant/bin">
+            			<includes name="*.*"/>
+			</fileset>
+		</copy>
+
+
+		<echo message="Building ndoc"/>
+		<mkdir dir="../../bin/ndoc"/>
+		<copy todir="../../bin/ndoc">
+			<fileset basedir="ndoc/bin">
+				<includes name="*.*"/>
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="clean">
+	        <delete verbose="true" >
+			<fileset basedir="../..">
+				<includes name="bin/resasm.exe"/>
+				<includes name="bin/tbuilder.exe"/>
+            			<includes name="bin/NAnt.Core.dll"/>
+            			<includes name="bin/NAnt.exe"/>
+            			<includes name="bin/NAnt.Tests.dll"/>
+            			<includes name="bin/NDoc.Core.dll"/>
+            			<includes name="bin/NDoc.Documenter.Msdn.dll"/>
+            			<includes name="bin/NUnit.Core.dll"/>
+			</fileset>
+		</delete>
+ <!--               <nant buildfile="NAnt/NAnt.build" target="clean"/> -->
+	</target>	
+</project>
+

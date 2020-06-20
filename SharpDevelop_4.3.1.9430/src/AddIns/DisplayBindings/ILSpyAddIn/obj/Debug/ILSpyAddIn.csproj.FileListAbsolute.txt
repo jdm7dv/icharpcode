@@ -1,0 +1,2 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\ILSpyAddIn\obj\Debug\ICSharpCode.ILSpyAddIn.SetILSpyPathDialog.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\ILSpyAddIn\obj\Debug\ILSpyAddIn.csproj.GenerateResource.Cache

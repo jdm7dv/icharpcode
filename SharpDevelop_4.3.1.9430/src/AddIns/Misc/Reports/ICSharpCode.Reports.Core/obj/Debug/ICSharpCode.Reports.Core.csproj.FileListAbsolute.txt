@@ -1,0 +1,14 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\Misc\SharpDevelopReports\ICSharpCode.Reports.Core.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\AddIns\Misc\SharpDevelopReports\ICSharpCode.Reports.Core.pdb
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\Project\WpfReportViewer\WpfReportViewer.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\Project\WpfReportViewer\WpfReportViewer.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.g.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.Dialogs.TextEditorDialog.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.Dialogs.ParameterDialog.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.ReportViewer.PreviewControl.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.Project.Resources.CoreResource.resources
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.csproj.GenerateResource.Cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.dll
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\Reports\ICSharpCode.Reports.Core\obj\Debug\ICSharpCode.Reports.Core.pdb

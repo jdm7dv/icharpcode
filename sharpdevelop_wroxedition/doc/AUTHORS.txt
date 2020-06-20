@@ -1,0 +1,112 @@
+CODING :
+
+Mike Krueger (omni_brain@hotmail.com)
+ (Main SD coder)
+Andrea Paatz (paatz@inf.fu-berlin.de)
+ (C# Parser, code review)
+Markus Palme(MarkusPalme@gmx.de)
+ (VB.NET backend binding, ObjectBrowser, Regular Expression workbench)
+Georg Brandl(g.brandl@gmx.net)
+ (Start Page plugin, File type register plugin and bugfixes)
+Shinsaku Nakagawa (shinsaku@users.sourceforge.jp)
+ (IME support for the editor and Bugfixes)
+Jeffrey Huntsman (jhuntsman@oakwoodsys.com)
+ (Web References)
+
+
+HELP FILE:
+  Gavin McKay(gavin@dropbears.net)
+
+INCLUDED PROJECTS:
+  Magic Library (http://www.dotnetmagic.com)
+    (The GUI library)
+    
+  NAnt (http://nant.sourceforge.net)
+    (.NET building tool)
+  
+  NDoc (http://ndoc.sourceforge.net)
+    (C# documentation generator)
+  
+  NUnit (http://nunit.sourceforge.net)
+    (.NET test tool, soon to be integrated when
+     they have the feature of customizing dll locations)
+
+OLD CONTRIBUTORS:
+  Svante Lidman(svante_lidman@hotmail.com)
+   (overworked Highlighting engine, tons of good bugfixes and
+    some nice features)
+  Mark Heath (mark@wordandspirit.co.uk)
+   (Some edit actions and many editor improvements)
+  Gary Gray (gary@ceit.co.za)
+   (Java, JScript backend binding)
+  Donald Kackman (don@itsEngineering.com)
+   (New Class Wizard)
+
+BUGFIX CONTRIBUTIONS :  
+  Alexandre Semenov (salexru2000@sympatico.ca)
+  Jeppe Cramon (jeppe@cramon.dk)
+  Tyson S. Maxwell <tyson_maxwell@yahoo.com>
+  David Murray (david.murray@techie.com)
+  Shankara Narayanan (J.Shankar@commerzbank.com)
+  Kenrick Rawlings (krawling@bluemarble.net)
+  Roger Rubin (roger.rubin@syngenta.com)
+  Pierre S. de SACY (pdesacy@keeboo.com)
+  Patrick Steele (pj_steele@yahoo.com)  
+  
+OTHER CONTRIBUTIONS :
+  Christian Holm (office@holmcs.com)
+    (syntax highlighting)			
+  Jonathan Pierce (jpierce@nyc.rr.com)
+    (Java syntax definition)
+  Brent R. Matzelle (bmatzelle@yahoo.com)
+    (NSIS installer script)
+  Jaroslav Suchacek (jaroslav.suchacek@quick.cz)
+    (VB Syntax highlighting)
+  Marshall Elfstrand (elfstrand@technologist.com)
+    (cool application icon, about image and enhanced
+     splash screen)
+
+BETA TESTING:
+  Christian Holm (office@holmcs.com)
+  Christoph Wille (christophw@alphasierrapapa.com)
+    (sponsored SD, and suggested many
+     improvements and helped me a lot :))
+
+TRANSLATION: 
+  Bernhard Spuida (bspuida@yahoo.com)
+    (initial translation for Spanish, Portuguese and Italian
+  Lubos Bruha (lubos.bruha@centrum.cz)
+    (Czech)
+  Juan T. Llibre (j.llibre@codetel.net.do)
+    (Spanish)
+  Magnus Lindberg (magnus.lindberg@csharpsweden.com)
+  Fredric William-Olsson  
+    (Swedish)
+  Stefano Del Furia (delfo@tech-center.com)
+    (Italian)
+  Fabiano Santos (flsantos@iname.com)
+    (Portuguese)
+  Christophe Lauer (clauer@free.fr), JL Ardoin (jlardoin01@noos.fr)
+    (French)
+  Bernard Vander Beken (bvb@iname.com)
+    (Dutch)
+  Tomasz Krol (tkrol@intellinet.pl)
+    (Polish)
+  Shinsaku Nakagawa (shinsaku@users.sourceforge.jp)
+    (Japanese)
+  Sin Jeong-hun (museofwind@yahoo.co.jp)
+    (Korean)
+  
+
+SPECIAL THANX FLY OUT :
+  Miguel de Icaza (miguel@ximian.com)
+   (He works on the mono project (free .NET implementation)
+    visit http://www.go-mono.com for more information)
+  Phil Wright (phil.wright@dotnetmagic.com)
+    (For his Magic library, this is the user interface library
+     which is used in sharpdevelop and makes that sharpdevelop looks
+     cool check out http://www.dotnetmagic.com for more about Magic)
+  John Ky (newhoggy@yahoo.com)
+   (For his workings on Alexandria, an old .NET GUI library)
+  Lutz Roeder (roeder@aisto.com)
+   (UI suggestions, Reflector)

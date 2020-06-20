@@ -1,0 +1,221 @@
+<System.Windows.Forms.Form>
+  <MaximizeBox value="False" />
+  <Text value="${res:NewProject.SearchReplace.ReplaceInFilesDialogName}" />
+  <DockPadding value="" />
+  <MinimizeBox value="False" />
+  <Size value="{Width=536, Height=278}" />
+  <SnapToGrid value="True" />
+  <StartPosition value="CenterParent" />
+  <Name value="CreatedObject0" />
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <DrawGrid value="True" />
+  <FormBorderStyle value="FixedDialog" />
+  <GridSize value="{Width=8, Height=8}" />
+  <ShowInTaskbar value="False" />
+  <Controls>
+    <System.Windows.Forms.Button>
+      <Name value="replaceHelpButton" />
+      <TabIndex value="5" />
+      <Text value="&gt;" />
+      <Size value="{Width=24, Height=24}" />
+      <Location value="{X=384,Y=40}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.ComboBox>
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=276, Height=24}" />
+      <Name value="replacePatternComboBox" />
+      <Location value="{X=104,Y=40}" />
+      <TabIndex value="4" />
+      <Controls />
+    </System.Windows.Forms.ComboBox>
+    <System.Windows.Forms.Label>
+      <Location value="{X=0,Y=40}" />
+      <Size value="{Width=96, Height=23}" />
+      <TabIndex value="3" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <TextAlign value="MiddleRight" />
+      <Text value="${res:Dialog.NewProject.SearchReplace.ReplaceWith}" />
+      <Name value="label2" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.Button>
+      <Name value="browseButton" />
+      <TabIndex value="10" />
+      <Text value="..." />
+      <Size value="{Width=32, Height=24}" />
+      <Location value="{X=376,Y=104}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.TextBox>
+      <Text value="" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=264, Height=22}" />
+      <Location value="{X=104,Y=104}" />
+      <Name value="directoryTextBox" />
+      <TabIndex value="9" />
+      <Controls />
+    </System.Windows.Forms.TextBox>
+    <System.Windows.Forms.Label>
+      <Name value="label1" />
+      <Location value="{X=0,Y=104}" />
+      <Size value="{Width=96, Height=23}" />
+      <TabIndex value="8" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <TextAlign value="MiddleRight" />
+      <Text value="${res:NewProject.SearchReplace.Directory}" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.TextBox>
+      <Text value="" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=272, Height=22}" />
+      <Location value="{X=104,Y=72}" />
+      <Name value="fileMaskTextBox" />
+      <TabIndex value="7" />
+      <Controls />
+    </System.Windows.Forms.TextBox>
+    <System.Windows.Forms.Label>
+      <Name value="label" />
+      <Location value="{X=0,Y=72}" />
+      <Size value="{Width=96, Height=23}" />
+      <TabIndex value="6" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <TextAlign value="MiddleRight" />
+      <Text value="${res:NewProject.SearchReplace.FileMask}" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.CheckBox>
+      <TabIndex value="11" />
+      <Name value="includeSubdirectoriesCheckBox" />
+      <Text value="${res:NewProject.SearchReplace.IncludeSubdirectories}" />
+      <Size value="{Width=216, Height=24}" />
+      <Location value="{X=8,Y=136}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.CheckBox>
+    <System.Windows.Forms.Label>
+      <Name value="CreatedObject2" />
+      <Location value="{X=0,Y=8}" />
+      <Size value="{Width=96, Height=20}" />
+      <TabIndex value="0" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <TextAlign value="MiddleRight" />
+      <Text value="${res:Dialog.NewProject.SearchReplace.FindWhat}" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.ComboBox>
+      <Name value="searchPatternComboBox" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=276, Height=24}" />
+      <Location value="{X=104,Y=8}" />
+      <TabIndex value="1" />
+      <Controls />
+    </System.Windows.Forms.ComboBox>
+    <System.Windows.Forms.Button>
+      <TabIndex value="2" />
+      <Name value="findHelpButton" />
+      <Text value="&gt;" />
+      <Size value="{Width=24, Height=24}" />
+      <Location value="{X=384,Y=8}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.Button>
+      <Name value="findButton" />
+      <TabIndex value="18" />
+      <Text value="${res:NewProject.SearchReplace.FindInFilesButton}" />
+      <Size value="{Width=112, Height=24}" />
+      <Location value="{X=416,Y=8}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.Button>
+      <Name value="replaceAllButton" />
+      <TabIndex value="19" />
+      <Text value="${res:Dialog.NewProject.SearchReplace.ReplaceAllButton}" />
+      <Size value="{Width=112, Height=24}" />
+      <Location value="{X=416,Y=40}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.Button>
+      <DialogResult value="Cancel" />
+      <TabIndex value="20" />
+      <Name value="closeButton" />
+      <Text value="${res:Global.CloseButtonText}" />
+      <Size value="{Width=112, Height=24}" />
+      <Location value="{X=416,Y=184}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.Button>
+      <Name value="helpButton" />
+      <TabIndex value="21" />
+      <Text value="${res:Global.HelpButtonText}" />
+      <Size value="{Width=112, Height=24}" />
+      <Location value="{X=416,Y=216}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+    <System.Windows.Forms.CheckBox>
+      <Name value="ignoreCaseCheckBox" />
+      <TabIndex value="12" />
+      <Text value="${res:Dialog.NewProject.SearchReplace.CaseSensitive}" />
+      <Size value="{Width=216, Height=24}" />
+      <Location value="{X=8,Y=160}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.CheckBox>
+    <System.Windows.Forms.CheckBox>
+      <Name value="searchWholeWordOnlyCheckBox" />
+      <TabIndex value="13" />
+      <Text value="${res:Dialog.NewProject.SearchReplace.WholeWord}" />
+      <Size value="{Width=216, Height=24}" />
+      <Location value="{X=8,Y=192}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.CheckBox>
+    <System.Windows.Forms.CheckBox>
+      <Name value="useSpecialSearchStrategyCheckBox" />
+      <TabIndex value="14" />
+      <Text value="${res:Dialog.NewProject.SearchReplace.UseMethodLabel}" />
+      <Size value="{Width=140, Height=24}" />
+      <Location value="{X=8,Y=216}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.CheckBox>
+    <System.Windows.Forms.ComboBox>
+      <DropDownStyle value="DropDownList" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=260, Height=24}" />
+      <Location value="{X=152,Y=216}" />
+      <TabIndex value="15" />
+      <DropDownWidth value="128" />
+      <Name value="specialSearchStrategyComboBox" />
+      <Controls />
+    </System.Windows.Forms.ComboBox>
+    <System.Windows.Forms.Label>
+      <Location value="{X=224,Y=144}" />
+      <Name value="CreatedObject43" />
+      <Size value="{Width=188, Height=24}" />
+      <TabIndex value="16" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <TextAlign value="BottomLeft" />
+      <Text value="${res:Dialog.NewProject.SearchReplace.SearchIn}" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.ComboBox>
+      <DropDownStyle value="DropDownList" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=188, Height=24}" />
+      <Name value="searchLocationComboBox" />
+      <Location value="{X=224,Y=168}" />
+      <TabIndex value="17" />
+      <DropDownWidth value="128" />
+      <Controls />
+    </System.Windows.Forms.ComboBox>
+  </Controls>
+</System.Windows.Forms.Form>

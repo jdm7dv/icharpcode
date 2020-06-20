@@ -1,0 +1,4 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SearchAndReplace\Project\obj\Debug\Gui\ResultsTreeView.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SearchAndReplace\Project\obj\Debug\Gui\ResultsTreeView.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SearchAndReplace\Project\obj\Debug\SearchAndReplace_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SearchAndReplace\Project\obj\Debug\SearchAndReplace.g.resources

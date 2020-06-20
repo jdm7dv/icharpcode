@@ -1,0 +1,111 @@
+<System.Windows.Forms.UserControl>
+  <Name value="CreatedObject0" />
+  <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+  <SnapToGrid value="True" />
+  <Size value="{Width=368, Height=336}" />
+  <DrawGrid value="True" />
+  <DockPadding value="" />
+  <GridSize value="{Width=8, Height=8}" />
+  <Controls>
+    <System.Windows.Forms.GroupBox>
+      <Text value="${res:Dialog.Options.PrjOptions.DeployFile.DeployGroupBox}" />
+      <Size value="{Width=352, Height=288}" />
+      <Anchor value="Top, Bottom, Left, Right" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Location value="{X=8,Y=8}" />
+      <TabIndex value="0" />
+      <Name value="CreatedObject2" />
+      <Controls>
+        <System.Windows.Forms.RadioButton>
+          <TabIndex value="0" />
+          <Name value="projectFileRadioButton" />
+          <Text value="${res:Dialog.Options.PrjOptions.DeployFile.ProjectFilesRadioButton}" />
+          <Size value="{Width=336, Height=24}" />
+          <Location value="{X=8,Y=16}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.RadioButton>
+        <System.Windows.Forms.CheckedListBox>
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <TabIndex value="1" />
+          <Anchor value="Top, Bottom, Left, Right" />
+          <Size value="{Width=336, Height=154}" />
+          <Location value="{X=8,Y=48}" />
+          <Name value="projectFilesCheckedListBox" />
+          <Controls />
+        </System.Windows.Forms.CheckedListBox>
+        <System.Windows.Forms.RadioButton>
+          <TabIndex value="2" />
+          <Anchor value="Bottom, Left, Right" />
+          <Name value="compiledAssemblyRadioButton" />
+          <Text value="${res:Dialog.Options.PrjOptions.DeployFile.CompilationTargetRadioButton}" />
+          <Size value="{Width=336, Height=24}" />
+          <Location value="{X=8,Y=208}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.RadioButton>
+        <System.Windows.Forms.RadioButton>
+          <TabIndex value="3" />
+          <Anchor value="Bottom, Left, Right" />
+          <Name value="scriptFileRadioButton" />
+          <Text value="${res:Dialog.Options.PrjOptions.DeployFile.ScriptFileRadioButton}" />
+          <Size value="{Width=336, Height=24}" />
+          <Location value="{X=8,Y=232}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.RadioButton>
+        <System.Windows.Forms.TextBox>
+          <Text value="" />
+          <Name value="deployScriptTextBox" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Size value="{Width=272, Height=20}" />
+          <Location value="{X=24,Y=256}" />
+          <TabIndex value="4" />
+          <Anchor value="Bottom, Left, Right" />
+          <Controls />
+        </System.Windows.Forms.TextBox>
+        <System.Windows.Forms.Button>
+          <Name value="selectScriptFileButton" />
+          <TabIndex value="5" />
+          <Anchor value="Bottom, Right" />
+          <Text value="..." />
+          <Size value="{Width=32, Height=20}" />
+          <Location value="{X=304,Y=256}" />
+          <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+          <Controls />
+        </System.Windows.Forms.Button>
+      </Controls>
+    </System.Windows.Forms.GroupBox>
+    <System.Windows.Forms.Label>
+      <Location value="{X=8,Y=304}" />
+      <Name value="CreatedObject9" />
+      <Size value="{Width=88, Height=23}" />
+      <TabIndex value="1" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Anchor value="Bottom, Left" />
+      <TextAlign value="MiddleRight" />
+      <Text value="${res:Dialog.Options.PrjOptions.DeployFile.DeployTargetLabel}" />
+      <Controls />
+    </System.Windows.Forms.Label>
+    <System.Windows.Forms.TextBox>
+      <Text value="" />
+      <Name value="deployTargetTextBox" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Size value="{Width=216, Height=20}" />
+      <Location value="{X=96,Y=304}" />
+      <TabIndex value="2" />
+      <Anchor value="Bottom, Left, Right" />
+      <Controls />
+    </System.Windows.Forms.TextBox>
+    <System.Windows.Forms.Button>
+      <Name value="selectTargetButton" />
+      <TabIndex value="3" />
+      <Anchor value="Bottom, Right" />
+      <Text value="..." />
+      <Size value="{Width=32, Height=20}" />
+      <Location value="{X=320,Y=304}" />
+      <DataBindings value="System.Windows.Forms.ControlBindingsCollection" />
+      <Controls />
+    </System.Windows.Forms.Button>
+  </Controls>
+</System.Windows.Forms.UserControl>

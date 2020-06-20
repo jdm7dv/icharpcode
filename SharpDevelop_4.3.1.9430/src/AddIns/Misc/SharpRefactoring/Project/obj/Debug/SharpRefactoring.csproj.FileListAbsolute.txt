@@ -1,0 +1,8 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SharpRefactoring\Project\obj\Debug\Src\Gui\CreatePropertiesDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SharpRefactoring\Project\obj\Debug\Src\Gui\InsertCtorDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SharpRefactoring\Project\obj\Debug\Src\Gui\IntroduceMethodDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SharpRefactoring\Project\obj\Debug\Src\Gui\OverrideEqualsGetHashCodeMethodsDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SharpRefactoring\Project\obj\Debug\Src\Gui\OverrideToStringMethodDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SharpRefactoring\Project\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SharpRefactoring\Project\obj\Debug\SharpRefactoring_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\Misc\SharpRefactoring\Project\obj\Debug\SharpRefactoring_MarkupCompile.lref

@@ -1,0 +1,2 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core\obj\Debug\ICSharpCode.Data.EDMDesigner.Core.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\DisplayBindings\Data\ICSharpCode.Data.EDMDesigner.Core\obj\Debug\ICSharpCode.Data.EDMDesigner.Core_MarkupCompile.cache

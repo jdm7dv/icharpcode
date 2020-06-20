@@ -1,0 +1,90 @@
+<Project name="ICSharpCode.TextEditor" description="erzeugt ein C# Konsolenprojekt" newfilesearch="OnLoad" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\Document\DefaultDocumentAggregator.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\DocumentAggregatorEventArgs.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\DocumentAggregatorFactory.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\IDocumentAggregator.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\ISegment.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\TextUtilities.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\BookmarkManager\BookmarkManager.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\BookmarkManager\BookmarkManagerMemento.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\BookmarkManager\IBookMarkManager.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\Caret\CaretEventArgs.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\Caret\DefaultCaret.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\Caret\ICaret.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\FormattingStrategy\DefaultFormattingStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\FormattingStrategy\IFormattingStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\DefaultHighlightingStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\FontContainer.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\HighlightBackground.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\HighlightColor.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\HighlightInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\HighlightingColorNotFoundException.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\HighlightingDefinitionParser.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\HighlightingManager.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\HighlightingStrategyFactory.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\HighlightRuleSet.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\IHighlightingStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\NextMarker.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\PrevMarker.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\Span.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\HighlightingStrategy\TextWord.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\LineManager\DefaultLineManager.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\LineManager\ILineManager.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\LineManager\LineSegment.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\LineManager\LineSegmentCollection.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\LineManager\LineManagerEventArgs.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\TextModel\DefaultTextModel.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\TextModel\ITextModel.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\TextBufferStrategy\GapTextBufferStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\TextBufferStrategy\ITextBufferStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\TextBufferStrategy\StringTextBufferStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Util\LookupTable.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Util\TextUtility.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Undo\UndoableDelete.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Undo\UndoableInsert.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Undo\UndoableReplace.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\SharpDevelopDependencies\UndoDependencies.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\SharpDevelopDependencies\CoreDependencies.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Actions\ClipBoardKeys.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Actions\CursorKeys.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Actions\HomeEndKeys.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Actions\IEditAction.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Actions\IEditActionHandler.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Actions\MiscKeys.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Actions\SelectionKeys.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Gutter.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TextAreaControl.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TextAreaMouseHandler.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TextAreaPainter.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\TextAreaClipboardHandler.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\SharpDevelopDependencies\SharpdevelopBaseDependencies.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Ruler.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\Selection\ISelection.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\Selection\DefaultSelection.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\Selection\SelectionCollection.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\FoldingStrategy\IFoldingStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Document\FoldingStrategy\IndentFoldingStrategy.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name=".\Ime.cs" subtype="Code" buildaction="Compile" />
+  </Contents>
+  <References />
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configuration runwithwarnings="False" name="Debug">
+    <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="BuildAsStandalone" generatexmldocumentation="False" win32Icon="" />
+    <Execution commandlineparameters="" consolepause="True" />
+    <Output directory="..\..\..\AddIns" assembly="ICSharpCode.TextEditor" />
+  </Configuration>
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="BuildAsStandalone" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\..\..\AddIns" assembly="ICSharpCode.TextEditor" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="ICSharpCode.TextEditor" />
+    </Configuration>
+  </Configurations>
+</Project>

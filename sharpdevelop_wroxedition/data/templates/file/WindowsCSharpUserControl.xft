@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Template Originator="Mike Krueger" 
+          Language="CSharpForm" Created="6/13/2001" LastModified="6/13/2001">
+	
+	<TemplateConfiguration>
+		<Name>C# UserControl</Name>
+		<Icon>C#.File.CSFileIcon</Icon>
+		<Category>C#</Category>
+		<LanguageName>CSharpForm</LanguageName>
+		<Description>creates a designable C# user control</Description>
+	</TemplateConfiguration>
+	
+	<TemplateFiles>
+		<File DefaultExtension=".cs" DefaultName="CSharpUserControl">
+<![CDATA[// created on ${Date} at ${Time}
+using System;
+using System.Windows.Forms;
+
+namespace MyUserControl {
+	public class CreatedUserControl : System.Windows.Forms.UserControl
+	{
+		public CreatedUserControl()
+		{
+			InitializeComponents();
+		}
+		
+		void InitializeComponents()
+		{
+		}
+	}
+}
+]]></File>
+	</TemplateFiles>
+	
+	<FileOptions/>
+	
+</Template>

@@ -1,0 +1,15 @@
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\XamlBinding.csprojResolveAssemblyReference.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\EditGridColumnsAndRowsDialog.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\ExtractPropertiesAsStyleDialog.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\FieldEditor.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\XamlOutlineContentHost.baml
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\EditGridColumnsAndRowsDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\ExtractPropertiesAsStyleDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\FieldEditor.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\GridLengthEditor.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\SelectSourceClassDialog.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\PowerToys\Dialogs\SourceClassFormEditor.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\XamlOutlineContentHost.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\ICSharpCode.XamlBinding_MarkupCompile.cache
+G:\OSes\VERVE\develop\SharpDevelop_4.3.1.9430\src\AddIns\BackendBindings\XamlBinding\XamlBinding\obj\Debug\ICSharpCode.XamlBinding_MarkupCompile.lref

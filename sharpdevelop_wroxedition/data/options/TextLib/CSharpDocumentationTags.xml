@@ -1,0 +1,57 @@
+<TextLibrary Name="C# Documentation tags">
+	<Text Display="&lt;c&gt;" Value ="&lt;c&gt;&lt;/c&gt;"/>
+	<Text Display="&lt;code&gt;" Value ="&lt;code&gt;&lt;/code&gt;"/>
+	<Text Display="&lt;example&gt;" Value ="&lt;example&gt;&lt;/example&gt;"/>
+	<Text Display="&lt;exception&gt;" Value ="&lt;exception cref=&quot;@CReference Name@&quot;&gt;&lt;/exception&gt;"/>
+	
+	
+	<Text Display="list - bullet" Value ="/// &lt;list type=&quot;bullet&quot;&gt;
+///	&lt;listheader&gt;
+///		&lt;term&gt;&lt;/term&gt;
+///		&lt;description&gt;&lt;/description&gt;
+///	&lt;/listheader&gt;
+///	&lt;item&gt;
+///		&lt;term&gt;&lt;/term&gt;
+///		&lt;description&gt;&lt;/description&gt;
+///	&lt;/item&gt;
+/// &lt;/list&gt;
+"/>
+
+	<text Display="list - number" Value ="/// &lt;list type=&quot;number&quot;&gt;
+///	&lt;listheader&gt;
+///		&lt;term&gt;&lt;/term&gt;
+///		&lt;description&gt;&lt;/description&gt;
+///	&lt;/listheader&gt;
+///	&lt;item&gt;
+///		&lt;term&gt;&lt;/term&gt;
+///		&lt;description&gt;&lt;/description&gt;
+///	&lt;/item&gt;
+/// &lt;/list&gt;
+"/>
+
+	<Text Display="list - table" Value ="/// &lt;list type=&quot;table&quot;&gt;
+///	&lt;listheader&gt;
+///		&lt;term&gt;&lt;/term&gt;
+///		&lt;description&gt;&lt;/description&gt;
+///	&lt;/listheader&gt;
+///	&lt;item&gt;
+///		&lt;term&gt;&lt;/term&gt;
+///		&lt;description&gt;&lt;/description&gt;
+///	&lt;/item&gt;
+/// &lt;/list&gt;
+"/>
+
+	<Text Display="list - &lt;listheader&gt;" Value ="&lt;listheader&gt;&lt;/listheader&gt;"/>
+	<Text Display="list - &lt;item&gt;" Value ="&lt;item&gt;&lt;/item&gt;"/>
+	<Text Display="list - &lt;term&gt;" Value ="&lt;term&gt;&lt;/term&gt;"/>
+	<Text Display="list - &lt;description&gt;" Value ="&lt;description&gt;&lt;/description&gt;"/>
+	<Text Display="&lt;param&gt;" Value ="&lt;param&gt;&lt;/param&gt;"/>
+	<Text Display="&lt;paramref&gt;" Value ="&lt;paramref name=&quot;@Parameter Name@&quot;/&gt;"/>
+	<Text Display="&lt;permission&gt;" Value ="&lt;permission cref=&quot;@Reference@&quot;&gt;&lt;/permission&gt;"/>
+	<Text Display="&lt;remarks&gt;" Value ="&lt;remarks&gt;&lt;/remarks&gt;"/>
+	<Text Display="&lt;returns&gt;" Value ="&lt;returns&gt;&lt;/returns&gt;"/>
+	<Text Display="&lt;see&gt;" Value ="&lt;see cref=&quot;@Reference@&quot;&gt;&lt;/see&gt;"/>
+	<Text Display="&lt;seealso&gt;" Value ="&lt;seealso cref=&quot;@Reference@&quot;/&gt;"/>
+	<Text Display="&lt;summary&gt;" Value ="&lt;summary&gt;&lt;/summary&gt;"/>
+	<Text Display="&lt;value&gt;" Value ="&lt;value&gt;&lt;/value&gt;"/>
+</TextLibrary>

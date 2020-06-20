@@ -1,0 +1,30 @@
+<AddIn name        = "Message Box Builder Wizard"
+       author      = "Mike Krueger"
+       copyright   = "GPL"
+       url         = "unknown"
+       description = "Creates a messagebox call"
+       version     = "1.0.0">
+
+	<Runtime>
+		<Import assembly="MessageBoxBuilder.dll"/>
+	</Runtime>
+	
+	<Extension path = "Plugins/Wizards/MessageBoxBuilderWizard">
+		<DialogPanel id = "View"
+		             label = "Visible Properties"
+		             class = "Plugins.Wizards.MessageBoxBuilder.DialogPanels.ViewPropertyPanel"/>
+		<DialogPanel id = "CodeGeneration"
+		             label = "Code Generation"
+		             class = "Plugins.Wizards.MessageBoxBuilder.DialogPanels.CodeGenerationPanel"/>
+	</Extension>
+	
+	<Extension path = "/SharpDevelop/Workbench/MainMenu/Tools">
+                <Conditional activewindow="ICSharpCode.SharpDevelop.DefaultEditor.Gui.Editor.TextEditorDisplayBindingWrapper" action="Disable">
+		        <MenuItem id = "MessageBox Wizard" 
+		                  insertafter = "Separator1" insertbefore = "Options"
+			          label       = "Messagebox Wizard" 
+			          description = "Generates a messagebox call" 
+			          class       = "Plugins.Wizards.MessageBoxBuilder.Command.WizardCommand"/> 
+		</Conditional>
+	</Extension>
+</AddIn>
