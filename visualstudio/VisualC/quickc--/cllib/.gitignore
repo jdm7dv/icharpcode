@@ -1,0 +1,7 @@
+*.cm[xioa]
+*.ml[ly]
+*.ml
+*.o
+DEPEND*
+P=*
+/rc_parse.output

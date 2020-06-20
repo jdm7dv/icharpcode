@@ -1,0 +1,8 @@
+vim: set ts=8 et sw=4:
+
+    $Id$
+
+ o  semantic error: constructor `Store' is used inconsistently
+    Please give the 2 inconsistent uses...  -- NR
+ o  Make code more imperative; replace { foo with x = ..} 
+    with (foo.x <- ..; foo )
