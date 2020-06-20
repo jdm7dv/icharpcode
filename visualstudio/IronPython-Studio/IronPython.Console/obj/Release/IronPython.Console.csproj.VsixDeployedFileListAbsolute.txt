@@ -1,0 +1,11 @@
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\IronMath.dll
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\IronPython.dll
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\Microsoft.Samples.VisualStudio.IronPython.Console.pkgdef
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\extension.vsixmanifest
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Microsoft\IronPython\1.0\\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb

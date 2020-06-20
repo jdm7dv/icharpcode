@@ -1,0 +1,22 @@
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.VisualStudio.Settings.xml
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\obj\Debug\IronPython.EditorExtensions.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.EditorExtensions\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Debug\Microsoft.VisualStudio.Settings.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\obj\Debug\IronPython.EditorExtensions.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb

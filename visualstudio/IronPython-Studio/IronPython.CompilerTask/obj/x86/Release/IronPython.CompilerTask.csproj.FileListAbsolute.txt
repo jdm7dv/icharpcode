@@ -1,0 +1,21 @@
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Release\IronPython.targets
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Release\IronPython.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Release\IronMath.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.Properties.Resources.resources
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Release\IronPython.CompilerTask.csproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\bin\Release\IronPython.targets
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\bin\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\bin\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\bin\Release\IronPython.dll
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\bin\Release\IronMath.dll
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\obj\x86\Release\IronPython.CompilerTask.csprojAssemblyReference.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\obj\x86\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.Properties.Resources.resources
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\obj\x86\Release\IronPython.CompilerTask.csproj.GenerateResource.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\obj\x86\Release\IronPython.CompilerTask.csproj.CoreCompileInputs.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\obj\x86\Release\IronPython.CompilerTask.csproj.CopyComplete
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\obj\x86\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.CompilerTask\obj\x86\Release\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb

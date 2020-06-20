@@ -1,0 +1,17 @@
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll.CodeAnalysisLog.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll.lastcodeanalysissucceeded
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\IronMath.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\IronPython.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.VisualStudio.Settings.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\obj\Release\IronPython.EditorExtensions.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\obj\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\obj\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.EditorExtensions\obj\Release\IronPython.EditorExtensions.csprojAssemblyReference.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.EditorExtensions\obj\Release\IronPython.EditorExtensions.csproj.CoreCompileInputs.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.EditorExtensions\obj\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.EditorExtensions\obj\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb

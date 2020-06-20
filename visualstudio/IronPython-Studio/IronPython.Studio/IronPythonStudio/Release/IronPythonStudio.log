@@ -1,0 +1,44 @@
+﻿Build started 5/27/2013 7:26:27 PM.
+     1>Project "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\".
+       InitializeBuildStatus:
+         Creating "Release\IronPythonStudio.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I\VisualStudioIntegration\Common\Source\CPP\VSL\Include /I\VisualStudioIntegration\common\inc /IRelease\ /Zi /nologo /W3 /WX /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Yc"StdAfx.h" /Fp"Release\IronPythonStudio.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I\VisualStudioIntegration\Common\Source\CPP\VSL\Include /I\VisualStudioIntegration\common\inc /IRelease\ /Zi /nologo /W3 /WX /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Yu"StdAfx.h" /Fp"Release\IronPythonStudio.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt IronPythonStudio.cpp
+         IronPythonStudio.cpp
+       CreateMenuPkgDef:
+       Skipping target "CreateMenuPkgDef" because it has no outputs.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I\VisualStudioIntegration\common\inc /IRelease\ /I"C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\" /nologo /fo"Release\IronPythonStudio.res" IronPythonStudio.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\IronPythonStudio.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:\VisualStudioIntegration\common\lib\x86 /LIBPATH:Release\ shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\IronPythonStudio.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\IronPythonStudio.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\IronPythonStudio.lib" /MACHINE:X86 Release\IronPythonStudio.res
+         Release\stdafx.obj
+         Release\IronPythonStudio.obj
+         Generating code
+         Finished generating code
+         IronPythonStudio.vcxproj -> C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\IronPythonStudio.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\IronPythonStudio.exe;#1" /manifest Release\IronPythonStudio.exe.intermediate.manifest "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.exe.manifest"
+       IsolatedShellFiles:
+         Copying file from "IronPythonStudio.exe.config" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\IronPythonStudio.exe.config".
+         Copying file from "IronPythonStudio.winprf" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\IronPythonStudio.winprf".
+         Copying file from "IronPythonStudio.pkgundef" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\IronPythonStudio.pkgundef".
+         Copying file from "IronPythonStudio.pkgdef" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\IronPythonStudio.pkgdef".
+         Copying file from "ApplicationIcon.ico" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\ApplicationIcon.ico".
+         Copying file from "DebuggerProxy.dll" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\DebuggerProxy.dll".
+         Copying file from "DebuggerProxy.dll.manifest" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\DebuggerProxy.dll.manifest".
+         Creating directory "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\Profiles".
+         Copying file from "General.vssettings" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\Profiles\General.vssettings".
+         Creating directory "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\Extensions\Application".
+         Copying file from "IronPythonStudio.Application.pkgdef" to "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\Extensions\Application\IronPythonStudio.Application.pkgdef".
+       FinalizeBuildStatus:
+         Deleting file "Release\IronPythonStudio.unsuccessfulbuild".
+         Touching "Release\IronPythonStudio.lastbuildstate".
+     1>Done Building Project "C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.31

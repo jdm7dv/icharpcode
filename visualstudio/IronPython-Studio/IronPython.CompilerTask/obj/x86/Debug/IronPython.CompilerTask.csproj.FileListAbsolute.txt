@@ -1,0 +1,19 @@
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\bin\Debug\IronPython.targets
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.Properties.Resources.resources
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\IronPython.CompilerTask.csproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Debug\IronPython.targets
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.Properties.Resources.resources
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\IronPython.CompilerTask.csproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\obj\x86\Debug\IronPython.CompilerTask.csprojResolveAssemblyReference.cache

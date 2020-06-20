@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\bin\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll">
+   <Modules>
+    <Module Name="microsoft.samples.visualstudio.ironpython.editorextensions.dll">
+     <Namespaces>
+      <Namespace Name="IronPython.EditorExtensions">
+       <Types>
+        <Type Name="ErrorListPresenter" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2013-05-27 23:26:29Z" FixCategory="NonBreaking">
+           <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">Implement IDisposable on 'ErrorListPresenter' because it creates members of the following IDisposable types: 'ErrorListProvider'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PyCompletion" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(Microsoft.VisualStudio.IronPythonInference.Declaration,Microsoft.VisualStudio.Language.Intellisense.IGlyphService)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2013-05-27 23:26:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\Completion" File="PyCompletion.cs" Line="22">'PyCompletion.PyCompletion(Declaration, IGlyphService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;PyCompletion..ctor(Declaration, IGlyphService)&#xD;&#xA;Completion.set_InsertionText(String):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\Completion" File="PyCompletion.cs" Line="22">'PyCompletion.PyCompletion(Declaration, IGlyphService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;PyCompletion..ctor(Declaration, IGlyphService)&#xD;&#xA;Completion.set_InsertionText(String):Void&#xD;&#xA;Completion.set_Description(String):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\Completion" File="PyCompletion.cs" Line="22">'PyCompletion.PyCompletion(Declaration, IGlyphService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;PyCompletion..ctor(Declaration, IGlyphService)&#xD;&#xA;Completion.set_InsertionText(String):Void&#xD;&#xA;Completion.set_Description(String):Void&#xD;&#xA;Completion.set_IconSource(ImageSource):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(Microsoft.VisualStudio.TextManager.Interop.VsExpansion,Microsoft.VisualStudio.Language.Intellisense.IGlyphService)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2013-05-27 23:26:29Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\Completion" File="PyCompletion.cs" Line="33">'PyCompletion.PyCompletion(VsExpansion, IGlyphService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;PyCompletion..ctor(VsExpansion, IGlyphService)&#xD;&#xA;Completion.set_InsertionText(String):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\Completion" File="PyCompletion.cs" Line="33">'PyCompletion.PyCompletion(VsExpansion, IGlyphService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;PyCompletion..ctor(VsExpansion, IGlyphService)&#xD;&#xA;Completion.set_InsertionText(String):Void&#xD;&#xA;Completion.set_Description(String):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\Completion" File="PyCompletion.cs" Line="33">'PyCompletion.PyCompletion(VsExpansion, IGlyphService)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;PyCompletion..ctor(VsExpansion, IGlyphService)&#xD;&#xA;Completion.set_InsertionText(String):Void&#xD;&#xA;Completion.set_Description(String):Void&#xD;&#xA;Completion.set_IconSource(ImageSource):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>Do not call overridable methods in constructors</Name>
+   <Description>Virtual methods defined on the class should not be called from constructors. If a derived class has overridden the method, the derived class version will be called (before the derived class constructor is called).</Description>
+   <Resolution Name="Default">{0} contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Types that own disposable fields should be disposable</Name>
+   <Description>Types that declare disposable members should also implement IDisposable. If the type does not own any unmanaged resources, do not implement a finalizer on it.</Description>
+   <Resolution Name="NonBreaking">Implement IDisposable on {0} because it creates members of the following IDisposable types: {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

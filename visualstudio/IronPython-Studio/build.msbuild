@@ -1,0 +1,251 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects" DefaultTargets="Build">
+	<PropertyGroup>
+		<SDK35ToolsPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\</SDK35ToolsPath>
+		<MSBuildToolsPath32>C:\Windows\Microsoft.NET\Framework\v4.0.30319\</MSBuildToolsPath32>
+		<MSBuildToolsRoot>C:\Windows\Microsoft.NET\Framework64\</MSBuildToolsRoot>
+		<FrameworkSDKRoot>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\</FrameworkSDKRoot>
+		<MSBuildRuntimeVersion>4.0.30319</MSBuildRuntimeVersion>
+		<SDK40ToolsPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\NETFX 4.0 Tools\</SDK40ToolsPath>
+		<VCTargetsPath>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\</VCTargetsPath>
+		<SharpSetupTargetsPath>C:\Program Files (x86)\MsBuild\SharpSetup\</SharpSetupTargetsPath>
+		<VisualStudioVersion>10.0</VisualStudioVersion>
+		<Configuration>Debug</Configuration>
+		<Platform>Mixed Platforms</Platform>
+		<AspNetConfiguration>Debug</AspNetConfiguration>
+		<SolutionDir>C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\</SolutionDir>
+		<SolutionExt>.sln</SolutionExt>
+		<SolutionFileName>IronPythonStudio-Isolated.sln</SolutionFileName>
+		<SolutionName>IronPythonStudio-Isolated</SolutionName>
+		<SolutionPath>C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPythonStudio-Isolated.sln</SolutionPath>
+		<TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+		<CurrentSolutionConfigurationContents>
+			<SolutionConfiguration>
+				<ProjectConfiguration Project="{64796904-EF67-433F-81BB-B6864473236C}" AbsolutePath="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\IronPython.CompilerTask.csproj" BuildProjectInSolution="True">Debug|x86</ProjectConfiguration>
+				<ProjectConfiguration Project="{2AEA2177-08B0-4492-B911-CCEA5B4C33A0}" AbsolutePath="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\IronPython.Console.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+				<ProjectConfiguration Project="{6004EB71-76F9-41EA-9355-A273B61FBF3E}" AbsolutePath="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\IronPython.EditorExtensions.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+				<ProjectConfiguration Project="{5453C71D-F7AA-482D-994B-0E5656F3F3C6}" AbsolutePath="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\IronPython.Interfaces.csproj" BuildProjectInSolution="True">Debug|x86</ProjectConfiguration>
+				<ProjectConfiguration Project="{AE1B99B4-9E64-4124-B139-9B5DC5E3695B}" AbsolutePath="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\IronPython.Project.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+				<ProjectConfiguration Project="{0044F782-2376-4F1B-AF93-53F8B3C2C55D}" AbsolutePath="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.vcxproj" BuildProjectInSolution="True">Debug|Win32</ProjectConfiguration>
+				<ProjectConfiguration Project="{02C20B52-A28E-4226-9B43-32F1930716FB}" AbsolutePath="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudioUI\IronPythonStudioUI.vcxproj" BuildProjectInSolution="True">Debug|Win32</ProjectConfiguration>
+			</SolutionConfiguration>
+		</CurrentSolutionConfigurationContents>
+	</PropertyGroup>
+	<ItemDefinitionGroup />
+	<ItemGroup>
+		<ProjectReference Include="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\IronPython.CompilerTask.csproj">
+			<ToolsVersion></ToolsVersion>
+			<SkipNonexistentProjects>False</SkipNonexistentProjects>
+			<AdditionalProperties>Configuration=Debug; Platform=x86; VisualStudioVersion=10.0</AdditionalProperties>
+			<Configuration>Debug</Configuration>
+			<Platform>x86</Platform>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\IronPython.Console.csproj">
+			<ToolsVersion></ToolsVersion>
+			<SkipNonexistentProjects>False</SkipNonexistentProjects>
+			<AdditionalProperties>Configuration=Debug; Platform=AnyCPU; VisualStudioVersion=10.0</AdditionalProperties>
+			<Configuration>Debug</Configuration>
+			<Platform>AnyCPU</Platform>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\IronPython.EditorExtensions.csproj">
+			<ToolsVersion></ToolsVersion>
+			<SkipNonexistentProjects>False</SkipNonexistentProjects>
+			<AdditionalProperties>Configuration=Debug; Platform=AnyCPU; VisualStudioVersion=10.0</AdditionalProperties>
+			<Configuration>Debug</Configuration>
+			<Platform>AnyCPU</Platform>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\IronPython.Interfaces.csproj">
+			<ToolsVersion></ToolsVersion>
+			<SkipNonexistentProjects>False</SkipNonexistentProjects>
+			<AdditionalProperties>Configuration=Debug; Platform=x86; VisualStudioVersion=10.0</AdditionalProperties>
+			<Configuration>Debug</Configuration>
+			<Platform>x86</Platform>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\IronPython.Project.csproj">
+			<ToolsVersion></ToolsVersion>
+			<SkipNonexistentProjects>False</SkipNonexistentProjects>
+			<AdditionalProperties>Configuration=Debug; Platform=AnyCPU; VisualStudioVersion=10.0</AdditionalProperties>
+			<Configuration>Debug</Configuration>
+			<Platform>AnyCPU</Platform>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.vcxproj">
+			<ToolsVersion></ToolsVersion>
+			<SkipNonexistentProjects>False</SkipNonexistentProjects>
+			<AdditionalProperties>Configuration=Debug; Platform=Win32; VisualStudioVersion=10.0</AdditionalProperties>
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectReference>
+		<ProjectReference Include="C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudioUI\IronPythonStudioUI.vcxproj">
+			<ToolsVersion></ToolsVersion>
+			<SkipNonexistentProjects>False</SkipNonexistentProjects>
+			<AdditionalProperties>Configuration=Debug; Platform=Win32; VisualStudioVersion=10.0</AdditionalProperties>
+			<Configuration>Debug</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectReference>
+	</ItemGroup>
+	<Target Name="ValidateSolutionConfiguration">
+		<Error Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+		<Warning Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+		<Message Condition="'$(CurrentSolutionConfigurationContents)' != ''" Text="Building solution configuration &quot;$(Configuration)|$(Platform)&quot;." />
+	</Target>
+	<Target Name="ValidateToolsVersions">
+		<Error Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" Text="The tools version &quot;$(MSBuildToolsVersion)&quot; of the solution does not support building projects with a different tools version." Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" />
+	</Target>
+	<Target Name="ValidateProjects">
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " Text="The project &quot;IronPython.CompilerTask&quot; is not selected for building in solution configuration &quot;Debug|Any CPU&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.CompilerTask&quot; is not selected for building in solution configuration &quot;Debug|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " Text="The project &quot;IronPython.CompilerTask&quot; is not selected for building in solution configuration &quot;Release|Any CPU&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.CompilerTask&quot; is not selected for building in solution configuration &quot;Release|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.Console&quot; is not selected for building in solution configuration &quot;Debug|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPython.Console&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.Console&quot; is not selected for building in solution configuration &quot;Release|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPython.Console&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.EditorExtensions&quot; is not selected for building in solution configuration &quot;Debug|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPython.EditorExtensions&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.EditorExtensions&quot; is not selected for building in solution configuration &quot;Release|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPython.EditorExtensions&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " Text="The project &quot;IronPython.Interfaces&quot; is not selected for building in solution configuration &quot;Debug|Any CPU&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.Interfaces&quot; is not selected for building in solution configuration &quot;Debug|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " Text="The project &quot;IronPython.Interfaces&quot; is not selected for building in solution configuration &quot;Release|Any CPU&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.Interfaces&quot; is not selected for building in solution configuration &quot;Release|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.Project&quot; is not selected for building in solution configuration &quot;Debug|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPython.Project&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Win32') " Text="The project &quot;IronPython.Project&quot; is not selected for building in solution configuration &quot;Release|Win32&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPython.Project&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " Text="The project &quot;IronPythonStudio&quot; is not selected for building in solution configuration &quot;Debug|Any CPU&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPythonStudio&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " Text="The project &quot;IronPythonStudio&quot; is not selected for building in solution configuration &quot;Release|Any CPU&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPythonStudio&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " Text="The project &quot;IronPythonStudioUI&quot; is not selected for building in solution configuration &quot;Debug|Any CPU&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPythonStudioUI&quot; is not selected for building in solution configuration &quot;Debug|x86&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " Text="The project &quot;IronPythonStudioUI&quot; is not selected for building in solution configuration &quot;Release|Any CPU&quot;." />
+		<Message Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'x86') " Text="The project &quot;IronPythonStudioUI&quot; is not selected for building in solution configuration &quot;Release|x86&quot;." />
+	</Target>
+	<Target Name="Build" Outputs="@(CollectedBuildOutput)">
+		<MSBuild Projects="@(ProjectReference)" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+			<Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="Clean">
+		<MSBuild Projects="@(ProjectReference-&gt;Reverse())" Targets="Clean" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+	</Target>
+	<Target Name="Rebuild" Outputs="@(CollectedBuildOutput)">
+		<MSBuild Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+			<Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="Publish">
+		<MSBuild Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+	</Target>
+	<Target Name="IronPython\IronPython_CompilerTask" Outputs="@(IronPython_IronPython_CompilerTaskBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\IronPython.CompilerTask.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=x86;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_CompilerTaskBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_CompilerTask:Clean">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\IronPython.CompilerTask.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=x86;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_CompilerTask:Rebuild" Outputs="@(IronPython_IronPython_CompilerTaskBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\IronPython.CompilerTask.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=x86;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_CompilerTaskBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_CompilerTask:Publish">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.CompilerTask\IronPython.CompilerTask.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=x86;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_Console" Outputs="@(IronPython_IronPython_ConsoleBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\IronPython.Console.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_ConsoleBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_Console:Clean">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\IronPython.Console.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_Console:Rebuild" Outputs="@(IronPython_IronPython_ConsoleBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\IronPython.Console.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_ConsoleBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_Console:Publish">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\IronPython.Console.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_EditorExtensions" Outputs="@(IronPython_IronPython_EditorExtensionsBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\IronPython.EditorExtensions.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_EditorExtensionsBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_EditorExtensions:Clean">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\IronPython.EditorExtensions.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_EditorExtensions:Rebuild" Outputs="@(IronPython_IronPython_EditorExtensionsBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\IronPython.EditorExtensions.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_EditorExtensionsBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_EditorExtensions:Publish">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.EditorExtensions\IronPython.EditorExtensions.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_Interfaces" Outputs="@(IronPython_IronPython_InterfacesBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\IronPython.Interfaces.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=x86;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_InterfacesBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_Interfaces:Clean">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\IronPython.Interfaces.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=x86;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_Interfaces:Rebuild" Outputs="@(IronPython_IronPython_InterfacesBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\IronPython.Interfaces.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=x86;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_InterfacesBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_Interfaces:Publish">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\IronPython.Interfaces.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=x86;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_Project" Outputs="@(IronPython_IronPython_ProjectBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\IronPython.Project.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_ProjectBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_Project:Clean">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\IronPython.Project.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPython\IronPython_Project:Rebuild" Outputs="@(IronPython_IronPython_ProjectBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\IronPython.Project.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPython_IronPython_ProjectBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPython\IronPython_Project:Publish">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\IronPython.Project.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPythonStudio" Outputs="@(IronPythonStudioBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.vcxproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=Win32;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPythonStudioBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPythonStudio:Clean">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.vcxproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=Win32;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPythonStudio:Rebuild" Outputs="@(IronPythonStudioBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.vcxproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=Win32;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPythonStudioBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPythonStudio:Publish">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudio\IronPythonStudio.vcxproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=Win32;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPythonStudioUI" Outputs="@(IronPythonStudioUIBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudioUI\IronPythonStudioUI.vcxproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=Win32;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPythonStudioUIBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPythonStudioUI:Clean">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudioUI\IronPythonStudioUI.vcxproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=Win32;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+	<Target Name="IronPythonStudioUI:Rebuild" Outputs="@(IronPythonStudioUIBuildOutput)">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudioUI\IronPythonStudioUI.vcxproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=Win32;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+			<Output TaskParameter="TargetOutputs" ItemName="IronPythonStudioUIBuildOutput" />
+		</MSBuild>
+	</Target>
+	<Target Name="IronPythonStudioUI:Publish">
+		<MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Studio\IronPythonStudioUI\IronPythonStudioUI.vcxproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Debug; Platform=Win32;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+	</Target>
+</Project>

@@ -1,0 +1,43 @@
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Console.dll.CodeAnalysisLog.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Console.dll.lastcodeanalysissucceeded
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Console.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Console.vsix
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\extension.vsixmanifest
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\IronMath.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\IronPython.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Release\Microsoft.VisualStudio.Settings.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\IronPython.Console.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.Resources.resources
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.VSPackage.resources
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\IronPython.Console.csproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\PythonConsole.cto
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\VSCT.read.1.tlog
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\VSCT.write.1.tlog
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.VSPackage.resources.original
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\CtoResourceMerger.cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.latest.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Release\extension.vsixmanifest
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\IronPython.Console.csprojAssemblyReference.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.Resources.resources
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.VSPackage.resources
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\IronPython.Console.csproj.GenerateResource.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\PythonConsole.cto
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\VSCT.read.1.tlog
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\VSCT.write.1.tlog
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\resources.json
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\ctoFiles.json
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.VSPackage.resources.original
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\mergeCto.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\IronPython.Console.csproj.CoreCompileInputs.cache
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+E:\ntroot\Program Files\Engineering System\Visual Studio\Common7\IDE\src\IronPython.Console\obj\Release\Microsoft.Samples.VisualStudio.IronPython.Console.pdb

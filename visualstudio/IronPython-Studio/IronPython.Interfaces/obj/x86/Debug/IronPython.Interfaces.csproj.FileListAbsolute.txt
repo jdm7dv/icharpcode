@@ -1,0 +1,14 @@
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Interfaces\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Interfaces\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Interfaces\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Interfaces\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Interfaces\obj\x86\Debug\IronPython.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Interfaces\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Interfaces\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\obj\x86\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Interfaces\obj\x86\Debug\IronPython.Interfaces.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\IronPythonStudio.exe.config
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\IronPythonStudio.winprf
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\IronPythonStudio.pkgundef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\IronPythonStudio.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\ApplicationIcon.ico
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\DebuggerProxy.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\DebuggerProxy.dll.manifest
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\Profiles\General.vssettings
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\Release\\Extensions\Application\IronPythonStudio.Application.pkgdef

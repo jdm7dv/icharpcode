@@ -1,0 +1,50 @@
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pkgdef
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.vsix
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\extension.vsixmanifest
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\bin\Debug\Microsoft.VisualStudio.Settings.xml
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\IronPython.Console.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.Resources.resources
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.VSPackage.resources
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\IronPython.Console.csproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\PythonConsole.cto
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\VSCT.read.1.tlog
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\VSCT.write.1.tlog
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.VSPackage.resources.original
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\CtoResourceMerger.cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pkgdef
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.latest.pkgdef
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Console\obj\Debug\extension.vsixmanifest
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.vsix
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\extension.vsixmanifest
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\bin\Debug\Microsoft.VisualStudio.Settings.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\IronPython.Console.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.Resources.resources
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.VSPackage.resources
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\IronPython.Console.csproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\PythonConsole.cto
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.latest.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Console\obj\Debug\extension.vsixmanifest

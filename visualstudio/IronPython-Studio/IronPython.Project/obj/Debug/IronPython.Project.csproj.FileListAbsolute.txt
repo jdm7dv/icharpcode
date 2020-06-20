@@ -1,0 +1,170 @@
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\pyWPFApplication.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\IPWinformApp.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\WebService.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\WebApplication.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\IPConsoleApp.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\IPClassLib.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\pyWPFWindow.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebuserControl.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebService.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebHtmlPage.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebForm.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebConfig.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebClass.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\StyleSheet.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\SkinFile.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\SiteMap.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\NestedWebConfig.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\MasterPage.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\JScript.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\Handler.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\GlobalAsax.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\ContentPage.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\BrowserFile.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\TextFile.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\Resource.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WindowsForm.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\Class.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\IronPython.targets
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\VSIXProject_large.png
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\VSIXProject_small.png
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.pkgdef
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.vsix
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\extension.vsixmanifest
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\bin\Debug\Microsoft.VisualStudio.Settings.xml
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython.Project.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.VisualStudio.Package.Project.resources
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.Resources.resources
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython.Project.csproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\PkgCmd.cto
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\VSCT.read.1.tlog
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\VSCT.write.1.tlog
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.Resources.resources.original
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\CtoResourceMerger.cache
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\pyWPFApplication.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\IPWinformApp.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebService.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebApplication.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\IPConsoleApp.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\IPClassLib.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\pyWPFWindow.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebuserControl.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebHtmlPage.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebForm.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebConfig.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebClass.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\StyleSheet.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\SkinFile.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\SiteMap.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\NestedWebConfig.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\MasterPage.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\JScript.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\Handler.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\GlobalAsax.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\ContentPage.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\BrowserFile.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\TextFile.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\Resource.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WindowsForm.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\Class.zip
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.dll
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.pdb
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.pkgdef
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.latest.pkgdef
+C:\Users\Jonathan_Moore\Desktop\IronPython Studio VS Shell Isolated\C#,C++\studioisolated\IronPython\src\IronPython.Project\obj\Debug\extension.vsixmanifest
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\pyWPFApplication.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\IPWinformApp.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\WebService.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\WebApplication.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\IPConsoleApp.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ProjectTemplates\IronPython\1033\IPClassLib.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\pyWPFWindow.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebuserControl.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebService.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebHtmlPage.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebForm.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebConfig.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WebClass.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\StyleSheet.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\SkinFile.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\SiteMap.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\NestedWebConfig.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\MasterPage.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\JScript.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\Handler.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\GlobalAsax.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\ContentPage.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\BrowserFile.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\TextFile.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\Resource.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\WindowsForm.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\ItemTemplates\IronPython\1033\Class.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\IronPython.targets
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\VSIXProject_large.png
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\VSIXProject_small.png
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.vsix
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\extension.vsixmanifest
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\IronMath.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\IronPython.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.VisualStudio.Settings.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.CompilerTasks.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Interfaces.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.Console.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.Samples.VisualStudio.IronPython.EditorExtensions.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\bin\Debug\Microsoft.VisualStudio.Settings.xml
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython.Project.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.VisualStudio.Package.Project.resources
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython.Project.csproj.GenerateResource.Cache
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\PkgCmd.cto
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\pyWPFApplication.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\IPWinformApp.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebService.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebApplication.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\IPConsoleApp.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\IPClassLib.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\pyWPFWindow.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebuserControl.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebHtmlPage.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebForm.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebConfig.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WebClass.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\StyleSheet.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\SkinFile.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\SiteMap.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\NestedWebConfig.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\MasterPage.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\JScript.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\Handler.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\GlobalAsax.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\ContentPage.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\BrowserFile.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\TextFile.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\Resource.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\WindowsForm.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\IronPython\1033\Class.zip
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.dll
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.pdb
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.latest.pkgdef
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\extension.vsixmanifest
+C:\Users\Jonathan_Moore\Documents\Visual Studio 2016\IronPython\src\IronPython.Project\obj\Debug\Microsoft.Samples.VisualStudio.IronPython.Project.Resources.Resources.resources
